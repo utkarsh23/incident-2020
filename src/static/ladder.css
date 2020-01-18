@@ -1,0 +1,650 @@
+.lights-1, .lights-2, .lights-3 {
+  transition: opacity 0.25s;
+}
+
+.ladder {
+  position: absolute;
+  top: 0px;
+  left: 8vw;
+  width: 17vw;
+}
+
+.lad-links {
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  transition: font-size 0.25s;
+}
+
+.lad-links:hover {
+  font-size: 2.05em;
+}
+
+.lad-about-text {
+  fill: #c8e6c9;
+}
+
+.lad-events-text {
+  fill: #ffccbc;
+}
+
+.lad-icare-text {
+  fill: #b2dfdb;
+}
+
+.lad-cls-1 {
+  fill: #d89f38;
+}
+
+.lad-cls-10, .lad-cls-100, .lad-cls-101, .lad-cls-102, .lad-cls-103, .lad-cls-11, .lad-cls-117, .lad-cls-118, .lad-cls-119, .lad-cls-12, .lad-cls-121, .lad-cls-122, .lad-cls-123, .lad-cls-125, .lad-cls-126, .lad-cls-127, .lad-cls-129, .lad-cls-13, .lad-cls-130, .lad-cls-131, .lad-cls-133, .lad-cls-134, .lad-cls-135, .lad-cls-137, .lad-cls-138, .lad-cls-14, .lad-cls-15, .lad-cls-16, .lad-cls-17, .lad-cls-18, .lad-cls-19, .lad-cls-2, .lad-cls-20, .lad-cls-21, .lad-cls-22, .lad-cls-23, .lad-cls-24, .lad-cls-25, .lad-cls-26, .lad-cls-27, .lad-cls-28, .lad-cls-29, .lad-cls-3, .lad-cls-30, .lad-cls-31, .lad-cls-32, .lad-cls-33, .lad-cls-34, .lad-cls-35, .lad-cls-36, .lad-cls-37, .lad-cls-38, .lad-cls-39, .lad-cls-4, .lad-cls-40, .lad-cls-41, .lad-cls-42, .lad-cls-43, .lad-cls-44, .lad-cls-45, .lad-cls-46, .lad-cls-47, .lad-cls-48, .lad-cls-49, .lad-cls-5, .lad-cls-50, .lad-cls-51, .lad-cls-52, .lad-cls-53, .lad-cls-54, .lad-cls-55, .lad-cls-56, .lad-cls-57, .lad-cls-58, .lad-cls-59, .lad-cls-6, .lad-cls-60, .lad-cls-61, .lad-cls-62, .lad-cls-63, .lad-cls-64, .lad-cls-65, .lad-cls-66, .lad-cls-67, .lad-cls-68, .lad-cls-69, .lad-cls-7, .lad-cls-70, .lad-cls-71, .lad-cls-72, .lad-cls-73, .lad-cls-74, .lad-cls-75, .lad-cls-76, .lad-cls-77, .lad-cls-78, .lad-cls-79, .lad-cls-8, .lad-cls-80, .lad-cls-81, .lad-cls-82, .lad-cls-83, .lad-cls-84, .lad-cls-85, .lad-cls-86, .lad-cls-87, .lad-cls-88, .lad-cls-89, .lad-cls-9, .lad-cls-90, .lad-cls-91, .lad-cls-92, .lad-cls-93, .lad-cls-94, .lad-cls-95, .lad-cls-96, .lad-cls-97, .lad-cls-98, .lad-cls-99 {
+  stroke: #8c5c25;
+}
+
+.lad-cls-10, .lad-cls-100, .lad-cls-101, .lad-cls-102, .lad-cls-103, .lad-cls-104, .lad-cls-11, .lad-cls-117, .lad-cls-118, .lad-cls-119, .lad-cls-12, .lad-cls-121, .lad-cls-122, .lad-cls-123, .lad-cls-125, .lad-cls-126, .lad-cls-127, .lad-cls-129, .lad-cls-13, .lad-cls-130, .lad-cls-131, .lad-cls-133, .lad-cls-134, .lad-cls-135, .lad-cls-137, .lad-cls-138, .lad-cls-14, .lad-cls-148, .lad-cls-15, .lad-cls-16, .lad-cls-17, .lad-cls-18, .lad-cls-19, .lad-cls-2, .lad-cls-20, .lad-cls-21, .lad-cls-22, .lad-cls-23, .lad-cls-24, .lad-cls-25, .lad-cls-26, .lad-cls-27, .lad-cls-28, .lad-cls-29, .lad-cls-3, .lad-cls-30, .lad-cls-31, .lad-cls-32, .lad-cls-33, .lad-cls-34, .lad-cls-35, .lad-cls-36, .lad-cls-37, .lad-cls-38, .lad-cls-39, .lad-cls-4, .lad-cls-40, .lad-cls-41, .lad-cls-42, .lad-cls-43, .lad-cls-44, .lad-cls-45, .lad-cls-46, .lad-cls-47, .lad-cls-48, .lad-cls-49, .lad-cls-5, .lad-cls-50, .lad-cls-51, .lad-cls-52, .lad-cls-53, .lad-cls-54, .lad-cls-55, .lad-cls-56, .lad-cls-57, .lad-cls-58, .lad-cls-59, .lad-cls-6, .lad-cls-60, .lad-cls-61, .lad-cls-62, .lad-cls-63, .lad-cls-64, .lad-cls-65, .lad-cls-66, .lad-cls-67, .lad-cls-68, .lad-cls-69, .lad-cls-7, .lad-cls-70, .lad-cls-71, .lad-cls-72, .lad-cls-73, .lad-cls-74, .lad-cls-75, .lad-cls-76, .lad-cls-77, .lad-cls-78, .lad-cls-79, .lad-cls-8, .lad-cls-80, .lad-cls-81, .lad-cls-82, .lad-cls-83, .lad-cls-84, .lad-cls-85, .lad-cls-86, .lad-cls-87, .lad-cls-88, .lad-cls-89, .lad-cls-9, .lad-cls-90, .lad-cls-91, .lad-cls-92, .lad-cls-93, .lad-cls-94, .lad-cls-95, .lad-cls-96, .lad-cls-97, .lad-cls-98, .lad-cls-99 {
+  stroke-miterlimit: 10;
+}
+
+.lad-cls-10, .lad-cls-100, .lad-cls-101, .lad-cls-102, .lad-cls-103, .lad-cls-11, .lad-cls-12, .lad-cls-121, .lad-cls-122, .lad-cls-123, .lad-cls-125, .lad-cls-126, .lad-cls-127, .lad-cls-129, .lad-cls-13, .lad-cls-130, .lad-cls-131, .lad-cls-133, .lad-cls-134, .lad-cls-135, .lad-cls-137, .lad-cls-138, .lad-cls-14, .lad-cls-15, .lad-cls-16, .lad-cls-17, .lad-cls-18, .lad-cls-19, .lad-cls-2, .lad-cls-20, .lad-cls-21, .lad-cls-22, .lad-cls-23, .lad-cls-24, .lad-cls-25, .lad-cls-26, .lad-cls-27, .lad-cls-28, .lad-cls-29, .lad-cls-3, .lad-cls-30, .lad-cls-31, .lad-cls-32, .lad-cls-33, .lad-cls-34, .lad-cls-35, .lad-cls-36, .lad-cls-37, .lad-cls-38, .lad-cls-39, .lad-cls-4, .lad-cls-40, .lad-cls-41, .lad-cls-42, .lad-cls-43, .lad-cls-44, .lad-cls-45, .lad-cls-46, .lad-cls-47, .lad-cls-48, .lad-cls-49, .lad-cls-5, .lad-cls-50, .lad-cls-51, .lad-cls-52, .lad-cls-53, .lad-cls-54, .lad-cls-55, .lad-cls-56, .lad-cls-57, .lad-cls-58, .lad-cls-59, .lad-cls-6, .lad-cls-60, .lad-cls-61, .lad-cls-62, .lad-cls-63, .lad-cls-64, .lad-cls-65, .lad-cls-66, .lad-cls-67, .lad-cls-68, .lad-cls-69, .lad-cls-7, .lad-cls-70, .lad-cls-71, .lad-cls-72, .lad-cls-73, .lad-cls-74, .lad-cls-75, .lad-cls-76, .lad-cls-77, .lad-cls-78, .lad-cls-79, .lad-cls-8, .lad-cls-80, .lad-cls-81, .lad-cls-82, .lad-cls-83, .lad-cls-84, .lad-cls-85, .lad-cls-86, .lad-cls-87, .lad-cls-88, .lad-cls-89, .lad-cls-9, .lad-cls-90, .lad-cls-91, .lad-cls-92, .lad-cls-93, .lad-cls-94, .lad-cls-95, .lad-cls-96, .lad-cls-97, .lad-cls-98, .lad-cls-99 {
+  stroke-width: 0.08px;
+}
+
+.lad-cls-2 {
+  fill: url(#linear-gradient);
+}
+
+.lad-cls-3 {
+  fill: url(#linear-gradient-2);
+}
+
+.lad-cls-4 {
+  fill: url(#linear-gradient-3);
+}
+
+.lad-cls-5 {
+  fill: url(#linear-gradient-4);
+}
+
+.lad-cls-6 {
+  fill: url(#linear-gradient-5);
+}
+
+.lad-cls-7 {
+  fill: url(#linear-gradient-6);
+}
+
+.lad-cls-8 {
+  fill: url(#linear-gradient-7);
+}
+
+.lad-cls-9 {
+  fill: url(#linear-gradient-8);
+}
+
+.lad-cls-10 {
+  fill: url(#lad-linear-gradient);
+}
+
+.lad-cls-11 {
+  fill: url(#linear-gradient-10);
+}
+
+.lad-cls-12 {
+  fill: url(#linear-gradient-11);
+}
+
+.lad-cls-13 {
+  fill: url(#linear-gradient-12);
+}
+
+.lad-cls-14 {
+  fill: url(#linear-gradient-13);
+}
+
+.lad-cls-15 {
+  fill: url(#linear-gradient-14);
+}
+
+.lad-cls-16 {
+  fill: url(#linear-gradient-15);
+}
+
+.lad-cls-17 {
+  fill: url(#linear-gradient-16);
+}
+
+.lad-cls-18 {
+  fill: url(#linear-gradient-17);
+}
+
+.lad-cls-19 {
+  fill: url(#linear-gradient-18);
+}
+
+.lad-cls-20 {
+  fill: url(#linear-gradient-19);
+}
+
+.lad-cls-21 {
+  fill: url(#linear-gradient-20);
+}
+
+.lad-cls-22 {
+  fill: url(#linear-gradient-21);
+}
+
+.lad-cls-23 {
+  fill: url(#linear-gradient-22);
+}
+
+.lad-cls-24 {
+  fill: url(#linear-gradient-23);
+}
+
+.lad-cls-25 {
+  fill: url(#linear-gradient-24);
+}
+
+.lad-cls-26 {
+  fill: url(#linear-gradient-25);
+}
+
+.lad-cls-27 {
+  fill: url(#linear-gradient-26);
+}
+
+.lad-cls-28 {
+  fill: url(#linear-gradient-27);
+}
+
+.lad-cls-29 {
+  fill: url(#linear-gradient-28);
+}
+
+.lad-cls-30 {
+  fill: url(#linear-gradient-29);
+}
+
+.lad-cls-31 {
+  fill: url(#linear-gradient-30);
+}
+
+.lad-cls-32 {
+  fill: url(#linear-gradient-31);
+}
+
+.lad-cls-33 {
+  fill: url(#linear-gradient-32);
+}
+
+.lad-cls-34 {
+  fill: url(#linear-gradient-33);
+}
+
+.lad-cls-35 {
+  fill: url(#linear-gradient-34);
+}
+
+.lad-cls-36 {
+  fill: url(#linear-gradient-35);
+}
+
+.lad-cls-37 {
+  fill: url(#linear-gradient-36);
+}
+
+.lad-cls-38 {
+  fill: url(#linear-gradient-37);
+}
+
+.lad-cls-39 {
+  fill: url(#linear-gradient-38);
+}
+
+.lad-cls-40 {
+  fill: url(#linear-gradient-39);
+}
+
+.lad-cls-41 {
+  fill: url(#linear-gradient-40);
+}
+
+.lad-cls-42 {
+  fill: url(#linear-gradient-41);
+}
+
+.lad-cls-43 {
+  fill: url(#linear-gradient-42);
+}
+
+.lad-cls-44 {
+  fill: url(#linear-gradient-43);
+}
+
+.lad-cls-45 {
+  fill: url(#linear-gradient-44);
+}
+
+.lad-cls-46 {
+  fill: url(#linear-gradient-45);
+}
+
+.lad-cls-47 {
+  fill: url(#linear-gradient-46);
+}
+
+.lad-cls-48 {
+  fill: url(#linear-gradient-47);
+}
+
+.lad-cls-49 {
+  fill: url(#linear-gradient-48);
+}
+
+.lad-cls-50 {
+  fill: url(#linear-gradient-49);
+}
+
+.lad-cls-51 {
+  fill: url(#linear-gradient-50);
+}
+
+.lad-cls-52 {
+  fill: url(#linear-gradient-51);
+}
+
+.lad-cls-53 {
+  fill: url(#linear-gradient-52);
+}
+
+.lad-cls-54 {
+  fill: url(#linear-gradient-53);
+}
+
+.lad-cls-55 {
+  fill: url(#linear-gradient-54);
+}
+
+.lad-cls-56 {
+  fill: url(#linear-gradient-55);
+}
+
+.lad-cls-57 {
+  fill: url(#linear-gradient-56);
+}
+
+.lad-cls-58 {
+  fill: url(#linear-gradient-57);
+}
+
+.lad-cls-59 {
+  fill: url(#linear-gradient-58);
+}
+
+.lad-cls-60 {
+  fill: url(#linear-gradient-59);
+}
+
+.lad-cls-61 {
+  fill: url(#linear-gradient-60);
+}
+
+.lad-cls-62 {
+  fill: url(#linear-gradient-61);
+}
+
+.lad-cls-63 {
+  fill: url(#linear-gradient-62);
+}
+
+.lad-cls-64 {
+  fill: url(#linear-gradient-63);
+}
+
+.lad-cls-65 {
+  fill: url(#linear-gradient-64);
+}
+
+.lad-cls-66 {
+  fill: url(#linear-gradient-65);
+}
+
+.lad-cls-67 {
+  fill: url(#linear-gradient-66);
+}
+
+.lad-cls-68 {
+  fill: url(#linear-gradient-67);
+}
+
+.lad-cls-69 {
+  fill: url(#linear-gradient-68);
+}
+
+.lad-cls-70 {
+  fill: url(#linear-gradient-69);
+}
+
+.lad-cls-71 {
+  fill: url(#linear-gradient-70);
+}
+
+.lad-cls-72 {
+  fill: url(#linear-gradient-71);
+}
+
+.lad-cls-73 {
+  fill: url(#linear-gradient-72);
+}
+
+.lad-cls-74 {
+  fill: url(#linear-gradient-73);
+}
+
+.lad-cls-75 {
+  fill: url(#linear-gradient-74);
+}
+
+.lad-cls-76 {
+  fill: url(#linear-gradient-75);
+}
+
+.lad-cls-77 {
+  fill: url(#linear-gradient-76);
+}
+
+.lad-cls-78 {
+  fill: url(#linear-gradient-77);
+}
+
+.lad-cls-79 {
+  fill: url(#linear-gradient-78);
+}
+
+.lad-cls-80 {
+  fill: url(#linear-gradient-79);
+}
+
+.lad-cls-81 {
+  fill: url(#linear-gradient-80);
+}
+
+.lad-cls-82 {
+  fill: url(#linear-gradient-81);
+}
+
+.lad-cls-83 {
+  fill: url(#linear-gradient-82);
+}
+
+.lad-cls-84 {
+  fill: url(#linear-gradient-83);
+}
+
+.lad-cls-85 {
+  fill: url(#linear-gradient-84);
+}
+
+.lad-cls-86 {
+  fill: url(#linear-gradient-85);
+}
+
+.lad-cls-87 {
+  fill: url(#linear-gradient-86);
+}
+
+.lad-cls-88 {
+  fill: url(#linear-gradient-87);
+}
+
+.lad-cls-89 {
+  fill: url(#linear-gradient-88);
+}
+
+.lad-cls-90 {
+  fill: url(#linear-gradient-89);
+}
+
+.lad-cls-91 {
+  fill: url(#linear-gradient-90);
+}
+
+.lad-cls-92 {
+  fill: url(#linear-gradient-91);
+}
+
+.lad-cls-93 {
+  fill: url(#linear-gradient-92);
+}
+
+.lad-cls-94 {
+  fill: url(#linear-gradient-93);
+}
+
+.lad-cls-95 {
+  fill: url(#linear-gradient-94);
+}
+
+.lad-cls-96 {
+  fill: url(#linear-gradient-95);
+}
+
+.lad-cls-97 {
+  fill: url(#linear-gradient-96);
+}
+
+.lad-cls-98 {
+  fill: url(#linear-gradient-97);
+}
+
+.lad-cls-99 {
+  fill: url(#linear-gradient-98);
+}
+
+.lad-cls-100 {
+  fill: url(#linear-gradient-99);
+}
+
+.lad-cls-101 {
+  fill: url(#linear-gradient-100);
+}
+
+.lad-cls-102 {
+  fill: url(#linear-gradient-101);
+}
+
+.lad-cls-103 {
+  fill: url(#linear-gradient-102);
+}
+
+.lad-cls-104, .lad-cls-148 {
+  fill: none;
+}
+
+.lad-cls-104 {
+  stroke: #7f6c0a;
+  stroke-width: 0.5px;
+}
+
+.lad-cls-105 {
+  fill: #c3982d;
+}
+
+.lad-cls-106 {
+  fill: #fbf7c6;
+}
+
+.lad-cls-107 {
+  fill: #dabf3d;
+}
+
+.lad-cls-108 {
+  fill: url(#linear-gradient-103);
+}
+
+.lad-cls-109 {
+  fill: url(#linear-gradient-104);
+}
+
+.lad-cls-110 {
+  fill: url(#linear-gradient-105);
+}
+
+.lad-cls-111 {
+  fill: url(#linear-gradient-106);
+}
+
+.lad-cls-112 {
+  fill: url(#linear-gradient-107);
+}
+
+.lad-cls-113 {
+  fill: url(#linear-gradient-108);
+}
+
+.lad-cls-114 {
+  fill: #3d3d3d;
+}
+
+.lad-cls-115 {
+  fill: #494a49;
+}
+
+.lad-cls-116 {
+  fill: url(#linear-gradient-109);
+}
+
+.lad-cls-117, .lad-cls-118, .lad-cls-119 {
+  stroke-width: 0.15px;
+}
+
+.lad-cls-117 {
+  fill: url(#linear-gradient-110);
+}
+
+.lad-cls-118 {
+  fill: url(#linear-gradient-111);
+}
+
+.lad-cls-119 {
+  fill: url(#linear-gradient-112);
+}
+
+.lad-cls-120 {
+  fill: url(#linear-gradient-113);
+}
+
+.lad-cls-121 {
+  fill: url(#linear-gradient-114);
+}
+
+.lad-cls-122 {
+  fill: url(#linear-gradient-115);
+}
+
+.lad-cls-123 {
+  fill: url(#linear-gradient-116);
+}
+
+.lad-cls-124 {
+  fill: url(#linear-gradient-117);
+}
+
+.lad-cls-125 {
+  fill: url(#linear-gradient-118);
+}
+
+.lad-cls-126 {
+  fill: url(#linear-gradient-119);
+}
+
+.lad-cls-127 {
+  fill: url(#linear-gradient-120);
+}
+
+.lad-cls-128 {
+  fill: url(#linear-gradient-121);
+}
+
+.lad-cls-129 {
+  fill: url(#linear-gradient-122);
+}
+
+.lad-cls-130 {
+  fill: url(#linear-gradient-123);
+}
+
+.lad-cls-131 {
+  fill: url(#linear-gradient-124);
+}
+
+.lad-cls-132 {
+  fill: #31200f;
+}
+
+.lad-cls-133 {
+  fill: url(#linear-gradient-125);
+}
+
+.lad-cls-134 {
+  fill: url(#linear-gradient-126);
+}
+
+.lad-cls-135 {
+  fill: url(#linear-gradient-127);
+}
+
+.lad-cls-136 {
+  fill: url(#linear-gradient-128);
+}
+
+.lad-cls-137 {
+  fill: url(#linear-gradient-129);
+}
+
+.lad-cls-138 {
+  fill: url(#linear-gradient-130);
+}
+
+.lad-cls-139 {
+  fill: #472d12;
+}
+
+.lad-cls-140 {
+  fill: #7b7b7b;
+}
+
+.lad-cls-141 {
+  fill: #aaa7a7;
+}
+
+.lad-cls-142 {
+  fill: #3050b7;
+}
+
+.lad-cls-142, .lad-cls-143, .lad-cls-144, .lad-cls-145, .lad-cls-146, .lad-cls-147 {
+  opacity: 0.91;
+}
+
+.lad-cls-143 {
+  fill: #29d34d;
+}
+
+.lad-cls-144 {
+  fill: #e0e21a;
+}
+
+.lad-cls-145 {
+  fill: #f16722;
+}
+
+.lad-cls-146 {
+  fill: #ed3224;
+}
+
+.lad-cls-147 {
+  fill: #741012;
+}
+
+.lad-cls-148 {
+  stroke: #b4b4b5;
+  stroke-width: 2px;
+}
