@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+*{
+  box-sizing: border-box;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #D4DAD9;
+  color: #252525;
+  overflow: hidden;
+  background: url("http://localhost:3000//static/media/bg.defc3ef8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sliders{
+  height: 100%;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh ;
+}
+
+.card {
+  width: 90vmin;
+  height: 55vmin;
+  display: flex;
+  box-shadow: 0 30px 40px -15px rgba(0, 0, 0, 0.35);
+  background-color: #fff;
+}
+
+.card__img {
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#img2018 {
+  background-image: url("http://incident.nitk.ac.in/assets/images/about/inci-18.jpg");
+}
+
+#img2017 {
+  background-image: url("http://incident.nitk.ac.in/assets/images/about/inci-17.jpg");
+}
+
+#img2016 {
+  background-image: url("http://incident.nitk.ac.in/assets/images/about/inci-16.jpg");
+}
+
+#img2015 {
+  background-image: url("http://incident.nitk.ac.in/assets/images/about/inci-15.jpg");
+}
+
+.card__content {
+  padding: 10% 5%;
+  box-sizing: border-box;
+  width: 50%;
+  overflow-y:scroll;
+}
+
+.card__content-theme {
+  font-weight: 900;
+  font-size: 1.7vmin;
+}
+
+.card__content-header {
+  font-weight: 900;
+  font-size: 54px;
+  font-size: 7vmin;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+  line-height: 0.91;
+  margin: 3vmin 0 3.5vmin;
+}
+
+.card__content-paragraph {
+  font-size: 1.6vmin;
+  line-height: 1.7;
+  font-weight: 300;
+  margin-bottom: 2.5vmin;
+}
+
+.card__content-link {
+  color: #BA3428;
+  font-size: 1.8vmin;
+  display: block;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+.card__content-link:hover {
+  opacity: 1;
+}
+.card__content-link:after {
+  content: " →";
+}
+
+.prevnext {
+  position: absolute;
+  width: 4vmin;
+  height: 8vmin;
+  right: 2%;
+  bottom: 0;
+  top: 0;
+  margin: auto 0;
+}
+
+.prevnext-button {
+  width: 100%;
+  height: 50%;
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+}
+
+#prev, #next {
+  position: relative;
+  cursor: pointer;
+}
+#prev:hover:after, #prev:hover:after, #next:hover:after, #next:hover:after {
+  opacity: 1;
+}
+
+#prev:after, #next:after {
+/*   position: absolute; */
+  font-size: 2em;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+#prev:after {
+  content: '↑';
+}
+
+#next:after {
+  content: '↓';
+}
+
+@media screen and (max-width: 500px){
+  .card{
+    flex-flow: column;
+    height: 70vh;
+  }
+  .card__img{
+    width: 100%;
+    height: 50%;
+  }
+  .card__content{
+    width: 100%;
+    height: 100%;
+  }
+  .card__content-paragraph, .card__content-header, .card__content-theme {
+    font-size: initial;
+  }
+}
+
+
+#title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background: white;
+  z-index: 10;
+  margin: 0;
+  padding: 10px;
+}
