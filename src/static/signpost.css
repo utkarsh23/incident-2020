@@ -1,0 +1,178 @@
+.sign-post {
+  position: absolute;
+  width: 35vw;
+  right: 3vw;
+  bottom: 0px;
+}
+
+@font-face {
+  font-family: 'YouthTouchDEMO-Regular';
+  src: url(youthtouch.ttf);
+}
+
+.cls-1, .cls-2, .cls-21, .cls-25, .cls-9 {
+  fill: none;
+}
+
+.cls-1 {
+  stroke: #d79829;
+  stroke-width: 1.5px;
+}
+
+.cls-1, .cls-15, .cls-2, .cls-21, .cls-24, .cls-25, .cls-6, .cls-7, .cls-8, .cls-9 {
+  stroke-miterlimit: 10;
+}
+
+.cls-2 {
+  stroke: #f7e577;
+}
+
+.cls-3 {
+  fill: #f69fa1;
+}
+
+.cls-4 {
+  fill: #6d6d6d;
+}
+
+.cls-5 {
+  fill: #40403f;
+}
+
+.cls-6, .cls-7, .cls-8 {
+  stroke: #fff;
+}
+
+.cls-25, .cls-6, .cls-7, .cls-8 {
+  stroke-width: 2px;
+}
+
+.cls-6 {
+  fill: url(#linear-gradient);
+}
+
+.cls-7 {
+  fill: url(#linear-gradient-2);
+}
+
+.cls-8 {
+  fill: url(#linear-gradient-3);
+}
+
+.cls-9 {
+  stroke: #1f1f1f;
+}
+
+.cls-10 {
+  fill: url(#linear-gradient-4);
+}
+
+.cls-11 {
+  fill: url(#linear-gradient-5);
+}
+
+.cls-12 {
+  fill: url(#linear-gradient-6);
+}
+
+.cls-13, .cls-24, .cls-32, .cls-36, .cls-37 {
+  fill: #fff;
+}
+
+.cls-14 {
+  fill: url(#linear-gradient-7);
+}
+
+.cls-15 {
+  fill: #171717;
+  stroke: #171717;
+}
+
+.cls-16 {
+  fill: #121212;
+}
+
+.cls-17 {
+  fill: url(#linear-gradient-8);
+}
+
+.cls-18 {
+  fill: #1e1e1e;
+}
+
+.cls-19 {
+  fill: url(#linear-gradient-9);
+}
+
+.cls-20 {
+  fill: #fdfefe;
+}
+
+.cls-21, .cls-24 {
+  stroke: #f5b01b;
+}
+
+.cls-21 {
+  stroke-width: 3px;
+}
+
+.cls-22 {
+  fill: #fec20f;
+}
+
+.cls-23 {
+  fill: #d79f29;
+}
+
+.cls-24 {
+  stroke-width: 4px;
+}
+
+.cls-25 {
+  stroke: #c0822b;
+}
+
+.cls-26 {
+  fill: #e5e5e5;
+}
+
+.cls-27 {
+  fill: #533f16;
+}
+
+.cls-28 {
+  fill: #f4b01c;
+}
+
+.cls-29 {
+  fill: #fcf6b1;
+}
+
+.cls-30 {
+  fill: #a8d7f4;
+}
+
+.cls-31 {
+  fill: #bbdda9;
+}
+
+.cls-32, .cls-36, .cls-37 {
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+  font-size: 52px;
+  transition: font-size 0.25s;
+}
+
+.cls-33 {
+  letter-spacing: 0.08em;
+}
+
+.cls-34 {
+  letter-spacing: 0.02em;
+}
+
+.cls-35 {
+  letter-spacing: 0em;
+}
+.cls-32:hover, .cls-36:hover, .cls-37:hover {
+  font-size: 55px;
+}

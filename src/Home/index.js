@@ -1,23 +1,30 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../static/i.png';
 import '../static/home.css';
+// import Logo from './Logo';
+import Logo from '../static/inci_logo.png';
+import '../static/logo.css';
+import Signpost from './Signpost';
+import Ladder from './Ladder';
+import SocialTab from './SocialTab';
+import InciText from '../static/inci_name.png';
+import Tv from '../static/tv.gif';
+import CloudM from '../static/cloud_m.png';
+import CloudF from '../static/cloud_f.png';
 
 function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <Logo /> */}
+        <img src={Logo} className="App-logo" alt="inci-logo" />
+        <img src={InciText} className="inci-text" alt="inci-logo-text" />
+        <Signpost />
+        <img src={CloudM} className="cloudm-gif" alt="middle-cloud" />
+        <img src={Tv} className="tv-gif" alt="tv-40-years" />
+        <img src={CloudF} className="cloudf-gif" alt="front-cloud" />
+        <Ladder />
+        <SocialTab />
       </header>
-      <div className="nav-links">
-        <Link to="/events">Events</Link><br />
-        <Link to="/timeline">Timeline</Link><br />
-        <Link to="/contact">Contact Us</Link><br />
-        <Link to="/sponsors">Sponsors</Link><br />
-        <Link to="/about">About Us</Link><br />
-        <Link to="/icare">i-Care</Link><br />
-        <Link to="/team">Team</Link><br />
-      </div>
     </div>
   );
 }
