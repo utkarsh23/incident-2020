@@ -23,8 +23,6 @@ html, body{
 	background-size: cover;
 	margin-left: -200px;
 	margin-top: -45px;
-	/* -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
-	mask-image: linear-gradient(to bottom, transparent 25%, black 75%); */
   }
 
   .coconut{
