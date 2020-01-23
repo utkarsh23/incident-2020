@@ -1,0 +1,84 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.iContainer {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.iPara {
+  width: 50%;
+}
+
+.iCard-left {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.iCard-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.I-care1 {
+  display: flex;
+  width: 90%;
+  border-radius: 75px;
+  padding: 1% 2% 2% 1.5%;
+}
+.I-care2 {
+  display: flex;
+  width: 100%;
+  border-radius: 30px;
+  padding: 1% 2% 2% 1.5%;
+}
+
+.App {
+  /* background-image: url("https://previews.123rf.com/images/marinaxxs/marinaxxs1608/marinaxxs160800070/61078533-vintage-background-in-retro-style-retro-background-grunge-background-.jpg"); */
+  /* background-color:red; */
+  background: url("https://st2.depositphotos.com/1260672/12098/i/950/depositphotos_120984098-stock-photo-light-room-or-space-with.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-blend-mode: lighten;
+  margin: 0px;
+
+  padding: 0px;
+  top: 0;
+  /* background-size: cover; */
+  /* z-index: -1; */
+  /* opacity: 0.4; */
+}
+@media only screen and (max-width: 800px) {
+  .iCard-left {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iCard-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .App::before {
+    height: 400%;
+  }
+  .I-care1 {
+    width: 100%;
+  }
+  .iPara {
+    width: 100%;
+  }
+}
