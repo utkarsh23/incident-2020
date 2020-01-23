@@ -8,6 +8,7 @@ import Sponsors from './Sponsors';
 import About from './About';
 import Icare from './Icare';
 import Team from './Team';
+import TrystWithTime from './TrystWithTime';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" component={About}/>
           <Route path="/icare" component={Icare}/>
           <Route path="/team" component={Team}/>
+          <Route path="/tryst" component={TrystWithTime} />
         </Switch>
     </BrowserRouter>
   )
