@@ -8,26 +8,24 @@ html {
   padding: 0;
 }
 
-html {
-  background: linear-gradient(red, yellow);
-}
-
-body {
+.AboutBackground{
   font-family: helvetica, arial, sans-serif;
   background: linear-gradient(red, yellow);
   height: 100vh;
   overflow: hidden;
 }
 
-img {
+.lighthouse{
   width: 15%;
   position: absolute;
   bottom: 10vw;
   right: 10vw;
   transform-style: preserve-3d;
   animation: animate 4s 0.1s infinite alternate
-    cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
 }
+
 
 @keyframes animate {
   0% {

@@ -13,8 +13,8 @@ class About extends React.Component {
     }
     render(){
       return (
-        <div>
-          <img src={Lighthouse}></img>
+        <div class="AboutBackground">
+          <img class="lighthouse" src={Lighthouse}></img>
           <div class="background"></div>
           <div class="hero">
             <h1>
