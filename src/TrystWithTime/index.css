@@ -14,15 +14,12 @@ html, body{
   .tilt-root{
 	height: 200px;
 	background-image: url('../static/neon-bg.png');
-	width: 1700px;
 	transform-style: preserve-3d;
 	will-change: transform;
 	justify-content: center;
 	align-items: center;
-	height: 1000px;
+	height: 100vh;
 	background-size: cover;
-	margin-left: -200px;
-	margin-top: -45px;
   }
 
   .coconut{

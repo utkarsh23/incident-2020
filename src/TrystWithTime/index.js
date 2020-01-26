@@ -13,14 +13,7 @@ export default class Tilt extends React.Component {
       'max-glare': 0.5,
       easing: "cubic-bezier(.17,.67,.83,.67)",
       gyroscope: true,
-    })
-
-    VanillaTilt.init(this.treeNode,{
-      max: 2,
-      speed :100,
-      glare:false,
-      easing: "cubic-bezier(.17,.67,.83,.67)",
-      gyroscope: true,
+      scale:1.2
     })
   }
   render() {
