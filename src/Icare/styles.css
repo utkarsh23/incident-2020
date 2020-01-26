@@ -10,8 +10,12 @@
   overflow: hidden;
 }
 
+.ihead {
+  font-family: "Arial Black", Gadget, sans-serif;
+}
 .iPara {
   width: 50%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .iCard-left {
@@ -44,7 +48,7 @@
 .Icare {
   /* background-image: url("https://previews.123rf.com/images/marinaxxs/marinaxxs1608/marinaxxs160800070/61078533-vintage-background-in-retro-style-retro-background-grunge-background-.jpg"); */
   /* background-color:red; */
-  background: url("https://st2.depositphotos.com/1260672/12098/i/950/depositphotos_120984098-stock-photo-light-room-or-space-with.jpg")
+  background: url("https://image.freepik.com/free-vector/white-textured-paper_53876-86282.jpg")
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
