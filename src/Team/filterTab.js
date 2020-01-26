@@ -16,10 +16,10 @@ class FilterNav extends React.Component {
    
             <div class="skew-menu">
                 <ul>
-                    <li><a href="#" data-filter="all">All</a></li>
-                    <li><a href="#" data-filter=".a">Technical</a></li>
-                    <li><a href="#" data-filter=".b">Organising</a></li>
-                    <li><a href="#" data-filter=".c">Faculty</a></li>
+                    <li><p data-filter="all">All</p></li>
+                    <li><p data-filter=".a">Technical</p></li>
+                    <li><p data-filter=".b">Organising</p></li>
+                    <li><p data-filter=".c">Faculty</p></li>
                 </ul>
             </div>
 
