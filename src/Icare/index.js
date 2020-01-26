@@ -8,7 +8,7 @@ function Icare() {
       <div className="iContainer">
         <div class="abc" />
 
-        <h1>
+        <h1 className="ihead">
           <i>i-CARE</i>
         </h1>
 
