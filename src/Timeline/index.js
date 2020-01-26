@@ -1,40 +1,41 @@
 import React, { useEffect } from "react";
-import "./timeline.css";
 import $ from "jquery";
+import "./timeline.css";
+import data from "./details.json";
 
 function Timeline() {
-  const data = [
-    {
-      img: "http://i.cdn.ensonhaber.com/resimler/diger/ataturk_3473.jpg",
-      year: "1881",
-      content:
-        "He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now in Greece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafa was still a boy. His mother Zubeyde, a devout and strong-willed woman, raised him and his sister.",
-      dataText: "FATHER OF THE TURKS"
-    },
-    {
-      img:
-        "http://gazetemanifesto.com/wp-content/uploads/2015/11/mustafa-kemal.jpg",
-      year: "1893",
-      content:
-        "First enrolled in a traditional religious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.",
-      dataText: "FATHER OF THE TURKS"
-    },
-    {
-      img: "http://i.cdn.ensonhaber.com/resimler/diger/ataturk_3473.jpg",
-      year: "1881",
-      content:
-        "He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now in Greece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafa was still a boy. His mother Zubeyde, a devout and strong-willed woman, raised him and his sister.",
-      dataText: "FATHER OF THE TURKS"
-    },
-    {
-      img:
-        "http://gazetemanifesto.com/wp-content/uploads/2015/11/mustafa-kemal.jpg",
-      year: "1893",
-      content:
-        "First enrolled in a traditional religious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.",
-      dataText: "FATHER OF THE TURKS"
-    }
-  ];
+  // const data = [
+  //   {
+  //     img: "http://i.cdn.ensonhaber.com/resimler/diger/ataturk_3473.jpg",
+  //     year: "1881",
+  //     content:
+  //       "He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now in Greece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafa was still a boy. His mother Zubeyde, a devout and strong-willed woman, raised him and his sister.",
+  //     dataText: "FATHER OF THE TURKS"
+  //   },
+  //   {
+  //     img:
+  //       "http://gazetemanifesto.com/wp-content/uploads/2015/11/mustafa-kemal.jpg",
+  //     year: "1893",
+  //     content:
+  //       "First enrolled in a traditional religious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.",
+  //     dataText: "FATHER OF THE TURKS"
+  //   },
+  //   {
+  //     img: "http://i.cdn.ensonhaber.com/resimler/diger/ataturk_3473.jpg",
+  //     year: "1881",
+  //     content:
+  //       "He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now in Greece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafa was still a boy. His mother Zubeyde, a devout and strong-willed woman, raised him and his sister.",
+  //     dataText: "FATHER OF THE TURKS"
+  //   },
+  //   {
+  //     img:
+  //       "http://gazetemanifesto.com/wp-content/uploads/2015/11/mustafa-kemal.jpg",
+  //     year: "1893",
+  //     content:
+  //       "First enrolled in a traditional religious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.",
+  //     dataText: "FATHER OF THE TURKS"
+  //   }
+  // ];
 
   useEffect(() => {
     (function($) {
@@ -104,7 +105,10 @@ function Timeline() {
         <div className="timeline">
           {data.map(d => {
             return (
-              <div className="timeline-item" data-text={d.dataText}>
+              <div
+                className="timeline-item timeline-item--active"
+                data-text={d.dataText}
+              >
                 <div className="timeline__content">
                   <img className="timeline__img" src={d.img} />
                   <h2 className="timeline__content-title">{d.year}</h2>
