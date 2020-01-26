@@ -5,17 +5,60 @@ import FilterTab from './filterTab.js';
 import './style.css'
 import './main.js'
 import teamData from './teamData.json'
+import TeamSectionImage from '../static/TeamSectionImage.png'
 
 
 function Team() {
   return (
-    <div>
+    <div style={{background: "#ffd747"}}>
+
+    <div class = "hero">
+      <div class="heroText">
+        Meet our <span style={{color: "white"}}>Amazing</span> Team which made this possible
+      </div>
+      <div class="heroText">
+        <img id="heroImg" src={TeamSectionImage}></img>
+      </div>
+      
+    </div>
+
+
+    <div class="teamSection">
     <FilterTab></FilterTab>
     <div class = "con">
     {
       teamData.technical.map(value => {
         return (
           <TeamCard
+          category = {"a"}
+          name = {value.name}
+          role = {value.role}
+          website = {value.website}
+          instagram = {value.instagram}
+          linkedin = {value.linkedin}
+          />
+        )
+      })
+    }
+    {
+      teamData.organising.map(value => {
+        return (
+          <TeamCard
+          category = {"b"}
+          name = {value.name}
+          role = {value.role}
+          website = {value.website}
+          instagram = {value.instagram}
+          linkedin = {value.linkedin}
+          />
+        )
+      })
+    }
+    {
+      teamData.faculty.map(value => {
+        return (
+          <TeamCard
+          category = {"c"}
           name = {value.name}
           role = {value.role}
           website = {value.website}
@@ -27,6 +70,7 @@ function Team() {
     }
     </div>
     </div> 
+    </div>
   );
 }
 

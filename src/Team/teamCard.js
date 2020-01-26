@@ -13,42 +13,42 @@ class TeamCard extends React.Component {
             
 
 
-    <div class="our-team mix a">
+    <div class={"our-team mix "+this.props.category}>
         <div class="picture">
         <img
             class="img-fluid"
-            src="https://picsum.photos/130/130?image=836"
+            src="https://cdn.glitch.com/21943bea-5c73-4cf3-81b5-1b7fd62627ba%2Fpro.jpg?v=1576657391203"
         />
         </div>
         <div class="team-content">
-        <h3 class="name">Mary Huntley</h3>
-        <h4 class="title">Web Developer</h4>
+        <h3 class="name">{this.props.name}</h3>
+        <h4 class="title">{this.props.role}</h4>
         </div>
         <ul class="social">
           <li>
             <a
-              href="https://codepen.io/collection/XdWJOQ/"
+              href=""
               class="fa fa-facebook"
               aria-hidden="true"
             ></a>
           </li>
           <li>
             <a
-              href="https://codepen.io/collection/XdWJOQ/"
+              href=""
               class="fa fa-twitter"
               aria-hidden="true"
             ></a>
           </li>
           <li>
             <a
-              href="https://codepen.io/collection/XdWJOQ/"
+              href=""
               class="fa fa-google-plus"
               aria-hidden="true"
             ></a>
           </li>
           <li>
             <a
-              href="https://codepen.io/collection/XdWJOQ/"
+              href=""
               class="fa fa-linkedin"
               aria-hidden="true"
             ></a>
