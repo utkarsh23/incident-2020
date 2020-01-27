@@ -64,7 +64,6 @@ function Contact() {
           </g>
         </g>
       </svg>
-
       <h3 style={{ fontWeight: "bold" }}>Contact Us</h3>
       <div className="grid-container">
         <div className="card1">

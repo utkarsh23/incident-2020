@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+#root {
   margin: 0;
   padding: 0;
 }
@@ -56,7 +55,7 @@ html {
   pointer-events: none;
 }
 
-h1 {
+.hero h1 {
   font-weight: bolder;
   font-style: italic;
   color: yellow;
