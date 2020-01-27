@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import iCareIntro from '../static/icare_intro.jpg';
+import iCareIntro1 from '../static/icare_intro_1.jpg';
+// import { Link } from 'react-router-dom';
 import "./styles.css";
 
 function Icare() {
@@ -7,19 +9,17 @@ function Icare() {
     <div className="Icare">
       <div className="iContainer">
         <div class="abc" />
-
         <h1 className="ihead">
           <i>i-CARE</i>
         </h1>
-
         <center>
           <img
             className="I-care2"
-            src="http://incident.nitk.ac.in/assets/images/icare/icare_intro_1.jpg"
+            src={iCareIntro1}
+            alt="iCareIntro1"
             width="100%"
           />
         </center>
-
         <div className="iCard-left">
           <div className="iPara">
             {" "}
@@ -27,7 +27,7 @@ function Icare() {
             dropout of school to help their parents in their daily chores.
             <br />
             Beach school tries to reduce this student drop out by instilling in
-            them, an interest towards practical science, mathematics &
+            them, an interest towards practical science, mathematics &amp;
             astronomy.
             <br />
             <br />
@@ -36,11 +36,11 @@ function Icare() {
           <div>
             <img
               className="I-care1"
-              src=" http://incident.nitk.ac.in/assets/images/icare/icare_intro.jpg"
+              src={iCareIntro}
+              alt="iCareIntro"
             />
           </div>
         </div>
-
         <div className="iCard-right">
           <div className="iPara">
             A lot of children belonging to the fishing community in Mangalore
@@ -54,7 +54,8 @@ function Icare() {
             {" "}
             <img
               className="I-care1"
-              src=" http://incident.nitk.ac.in/assets/images/icare/icare_intro.jpg"
+              src={iCareIntro}
+              alt="iCareIntro"
             />
           </div>
         </div>

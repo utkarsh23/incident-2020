@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import TeamCard from './teamCard.js';
 import FilterTab from './filterTab.js';
 import './style.css'
@@ -10,91 +10,74 @@ import mixitup from 'mixitup'
 
 
 class Team extends React.Component {
-  constructor(props) {
-      super(props);
-
-      this.state = {
-      };
-  }
-
-  componentDidMount(){
+  componentDidMount() {
     const mixer = mixitup('.con');
   }
 
   render() {
-      return (
-
-
-        <div style={{background: "#ffd747"}}>
-
-    <div class = "hero">
-      <div class="heroText">
-        Meet our <span style={{color: "white"}}>Amazing</span> Team which made this possible
+    return (
+      <div style={{ background: "#ffd747" }}>
+        <div class="hero">
+          <div class="heroText">
+            Meet our <span style={{ color: "white" }}>Amazing</span> Team which made this possible
+          </div>
+          <div class="heroText">
+            <img alt="animated gimmick" id="heroImg" src={TeamSectionImage}></img>
+          </div>
+        </div>
+        <div class="teamSection">
+          <FilterTab></FilterTab>
+          <div class="con">
+            {
+              teamData.technical.map(value => {
+                return (
+                  <TeamCard
+                    category={"a"}
+                    name={value.name}
+                    role={value.role}
+                    website={value.website}
+                    instagram={value.instagram}
+                    linkedin={value.linkedin}
+                  />
+                )
+              })
+            }
+            {
+              teamData.organising.map(value => {
+                return (
+                  <TeamCard
+                    category={"b"}
+                    name={value.name}
+                    role={value.role}
+                    website={value.website}
+                    instagram={value.instagram}
+                    linkedin={value.linkedin}
+                  />
+                )
+              })
+            }
+            {
+              teamData.faculty.map(value => {
+                return (
+                  <TeamCard
+                    category={"c"}
+                    name={value.name}
+                    role={value.role}
+                    website={value.website}
+                    instagram={value.instagram}
+                    linkedin={value.linkedin}
+                  />
+                )
+              })
+            }
+          </div>
+        </div>
       </div>
-      <div class="heroText">
-        <img id="heroImg" src={TeamSectionImage}></img>
-      </div>
-      
-    </div>
-
-
-    <div class="teamSection">
-    <FilterTab></FilterTab>
-    <div class = "con">
-    {
-      teamData.technical.map(value => {
-        return (
-          <TeamCard
-          category = {"a"}
-          name = {value.name}
-          role = {value.role}
-          website = {value.website}
-          instagram = {value.instagram}
-          linkedin = {value.linkedin}
-          />
-        )
-      })
-    }
-    {
-      teamData.organising.map(value => {
-        return (
-          <TeamCard
-          category = {"b"}
-          name = {value.name}
-          role = {value.role}
-          website = {value.website}
-          instagram = {value.instagram}
-          linkedin = {value.linkedin}
-          />
-        )
-      })
-    }
-    {
-      teamData.faculty.map(value => {
-        return (
-          <TeamCard
-          category = {"c"}
-          name = {value.name}
-          role = {value.role}
-          website = {value.website}
-          instagram = {value.instagram}
-          linkedin = {value.linkedin}
-          />
-        )
-      })
-    }
-    </div>
-    </div> 
-    </div>
-
-        );
-    }
+    );
+  }
 }
 
-
 export default Team;
-
-
 
 // <div>
 //       <h1>Team Page</h1>
