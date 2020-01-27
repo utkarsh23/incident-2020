@@ -6,11 +6,26 @@ import './style.css'
 import './main.js'
 import teamData from './teamData.json'
 import TeamSectionImage from '../static/TeamSectionImage.png'
+import mixitup from 'mixitup'
 
 
-function Team() {
-  return (
-    <div style={{background: "#ffd747"}}>
+class Team extends React.Component {
+  constructor(props) {
+      super(props);
+
+      this.state = {
+      };
+  }
+
+  componentDidMount(){
+    const mixer = mixitup('.con');
+  }
+
+  render() {
+      return (
+
+
+        <div style={{background: "#ffd747"}}>
 
     <div class = "hero">
       <div class="heroText">
@@ -71,7 +86,9 @@ function Team() {
     </div>
     </div> 
     </div>
-  );
+
+        );
+    }
 }
 
 
