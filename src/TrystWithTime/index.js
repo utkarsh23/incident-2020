@@ -13,7 +13,6 @@ export default class Tilt extends React.Component {
       'max-glare': 0.5,
       easing: "cubic-bezier(.17,.67,.83,.67)",
       gyroscope: true,
-      scale:1.2
     })
   }
   render() {
@@ -27,10 +26,10 @@ export default class Tilt extends React.Component {
           {/* <img src={require('../static/beach1.png')}  className="stage" alt="stage"/> */}
           {/* <a href="https://www.freepik.com/free-photos-vectors/flower">Flower photo created by kjpargeter - www.freepik.com</a> */}
           {/* <img src={require('../static/10207.jpg')}  className="coconut" alt="coconut"/> */}
-          <img src={require('../static/coconut.png')}  className="coconut2" alt="coconut2"/>
+          {/* <img src={require('../static/coconut.png')}  className="coconut2" alt="coconut2"/>
           <img src={require('../static/retro-tree.png')}  className="coconut3" alt="coconut3"/>
           <img src={require('../static/retro-tree.png')}  className="coconut4" alt="coconut4"/>
-          
+           */}
         </div>
 
     )
