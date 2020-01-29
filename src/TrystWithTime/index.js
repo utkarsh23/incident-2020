@@ -14,7 +14,14 @@ export default class Tilt extends React.Component {
       easing: "cubic-bezier(.17,.67,.83,.67)",
       gyroscope: true,
     })
+
+    document.body.style.overflow = 'hidden';
   }
+
+  componentDidUnmount(){
+    document.body.style.overflow = 'scroll';
+  }
+
   render() {
     return (
         <div
