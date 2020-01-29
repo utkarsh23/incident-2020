@@ -8,7 +8,8 @@ import Sponsors from "./Sponsors";
 import About from "./About";
 import Icare from "./Icare";
 import Team from "./Team";
-import Campus from "./Campus/index";
+import TrystWithTime from "./TrystWithTime";
+
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +22,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/icare" component={Icare} />
         <Route path="/team" component={Team} />
-        <Route path="/campus" component={Campus} />
+        <Route path="/tryst-with-time" component={TrystWithTime} />
       </Switch>
     </BrowserRouter>
   );
