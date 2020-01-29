@@ -1,15 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SponsorsContent from './sponsors'
 
 function Sponsors() {
   return (
     <div>
-      <h1>Sponsors Page</h1>
-      <Link to="/">
-        <button>Home</button>
-      </Link>
+    <SponsorsContent />
+
+     
+      
     </div>
   );
 }
 
 export default Sponsors;
+// <Link to="/">
+ //       <button>Home</button>
+   //   </Link>
