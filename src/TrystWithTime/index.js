@@ -21,7 +21,6 @@ export default class Tilt extends React.Component {
           ref={node => (this.rootNode = node)}
           className="tilt-root"
         >
-
           <VideoPlayer />
           {/* <img src={require('../static/beach1.png')}  className="stage" alt="stage"/> */}
           {/* <a href="https://www.freepik.com/free-photos-vectors/flower">Flower photo created by kjpargeter - www.freepik.com</a> */}
