@@ -1,0 +1,69 @@
+body {
+    background-color: #e1e1e1;
+    overflow-y: auto;
+    font-family: 'Lobster', cursive;
+    ;
+}
+
+.appContainer {
+    text-align: center;
+    font-size: small;
+}
+
+.card {
+    margin: auto;
+    width: auto;
+}
+
+.cardContainer {
+    padding: 2%;
+}
+
+.cardContent {
+    text-align: center;
+    font-size: small;
+}
+
+.styles_modal__gNwvD {
+    max-width: 70%;
+}
+
+.card img {
+    width: 100%;
+}
+
+#root {
+    overflow: auto;
+}
+
+@media only screen and (max-width:500px) {
+    .appContainer {
+        overflow: auto;
+        position: relative;
+    }
+    body {
+        overflow-y: auto !important;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    .card {
+        width: 100%;
+    }
+    .cardContainer {
+        width: 82%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:880px) {
+    .card {
+        width: 80%;
+        clear: none;
+    }
+    .cardContainer {
+        display: flex;
+        width: 70%;
+        margin: auto;
+    }
+}
