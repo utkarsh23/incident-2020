@@ -1,8 +1,5 @@
 import React from "react";
 import Modal from "react-responsive-modal";
-import {
-    Link
-} from "react-router-dom";
 import "./card_style.css";
 
 
@@ -40,7 +37,8 @@ class Card extends React.Component {
     }
 }
 
-class Events extends React.Component {
+
+class LitEvents extends React.Component {
     state = {
         open: false,
         title: "TITLE",
@@ -73,7 +71,7 @@ class Events extends React.Component {
         return ( <
             div className = "appContainer" >
             <
-            h2 > Events < /h2>{" "} <
+            h2 > Literary Events < /h2>{" "} <
             div className = "cardContainer"
             onClick = {
                 () => this.onOpenModal("Event 1", "https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png", "Some Decription")
@@ -94,10 +92,10 @@ class Events extends React.Component {
             /div>{" "} <
             div className = "cardContainer"
             onClick = {
-                () => window.open("/litevents", "_self")
+                () => this.onOpenModal("Event 3", "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
             } >
             <
-            Card title = "Lit Events"
+            Card title = "Title 2"
             cover = "https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png" / >
             <
             /div>{" "}  <
@@ -137,4 +135,4 @@ class Events extends React.Component {
     }
 }
 
-export default Events;
+export default LitEvents;
