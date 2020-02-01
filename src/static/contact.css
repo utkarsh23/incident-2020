@@ -1,6 +1,9 @@
 .contact {
   text-align: center;
   font-family: "Lato", sans-serif;
+  height: 100vh;
+  background-image: url(./aboutbg1.png);
+  background-size: contain;
 }
 
 .contact-logo {
@@ -12,12 +15,11 @@
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  color: #616161;
-  letter-spacing: 0.1vw;
+  color: #424242;
   font-size: calc(1rem + 0.1vw);
-  font-family: "Lato", sans-serif;
-  border: 1px solid #000000;
-  border-radius: 5px;
+  border: 5px solid #424242;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9)
 }
 .card1,
 .card2 {
@@ -25,15 +27,20 @@
   margin-bottom: 20px;
 }
 
-.fa {
+.social-contact {
   padding: 20px;
-  font-size: 2.2em;
+  font-size: 2.4em !important;
   text-align: center;
   text-decoration: none;
-  color: #616161;
+  color: #424242;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 2.4em;
+  height: 2.2em;
+  margin-right: 5px;
 }
 
-.fa:hover {
+.social-contact:hover {
   color: #000;
 }
 
@@ -60,9 +67,9 @@
 }
 
 .mail-link {
-  color: #616161;
+  color: #424242;
 }
 
 .mail-link:hover {
-  color: #000;
+  color: #424242;
 }

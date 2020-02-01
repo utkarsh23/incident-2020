@@ -1,8 +1,38 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+@font-face {
+  font-family: 'TheGodfather';
+  src: url(../static/TheGodfather.ttf);
+}
+
 .teamSection{
   padding: 0 150px;
   text-align: center;
+  padding-top: 80vh;
+  top: 5vh;
+}
+
+.team-wrapper {
+  background-image: url('../static/teamstock.jpg');
+  background-size: contain;
+}
+
+.team-banner {
+  height: 95vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.team-heading {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: 'TheGodfather';
+  top: 5vh;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 9em;
 }
 
 .hero{
@@ -31,7 +61,7 @@
   width: 300px;
   margin: 20px;
   padding: 30px 0 40px;
-  background-color: #A8807E;
+  background-color: #00695c;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -53,7 +83,7 @@
   width: 100%;
   height: 0;
   border-radius: 50%;
-  background-color: #701415;
+  background-color: #004d40;
   position: absolute;
   bottom: 135%;
   right: 0;
@@ -72,7 +102,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #1369ce;
+  background-color: #004d40;
   position: absolute;
   top: 0;
   left: 0;
@@ -109,7 +139,7 @@ h3.name{
   width: 100%;
   padding: 0;
   margin: 0;
-  background-color: #701415;
+  background-color: #004d40;
   position: absolute;
   bottom: -100px;
   left: 0;
@@ -134,7 +164,7 @@ h3.name{
 }
 
 .our-team .social li a:hover {
-  color: #1369ce;
+  color: #00695c;
   background-color: #f7f5ec;
 }
 
@@ -159,7 +189,7 @@ p{
 }
 
 .skew-menu ul li {
-  background: tomato;
+  background: #1E6956;
   float: left;
   border-right: 1px solid #eee;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);

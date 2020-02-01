@@ -9,12 +9,28 @@
 
 .AboutBackground{
   font-family: helvetica, arial, sans-serif;
-  background: linear-gradient(red, yellow);
+  background-image: url(../static/aboutbg.jpg);
   height: 100vh;
   overflow: hidden;
 }
 
-.lighthouse{
+.projector-about {
+  height: 95vh;
+  position: absolute;
+  right: 5vw;
+  bottom: 0;
+}
+
+.about-heading {
+  color: white;
+  font-size: 7.5em;
+  font-family: 'Lobster', cursive;
+  padding-left: 3vw;
+  margin-top: 13vh;
+  line-height: 1.2;
+}
+
+/* .lighthouse{
   width: 15%;
   position: absolute;
   bottom: 10vw;
@@ -81,4 +97,4 @@
     font-size: 1.3em;
     padding: 20px;
   }
-}
+} */

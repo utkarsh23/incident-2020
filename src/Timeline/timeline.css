@@ -9,6 +9,12 @@
   position: relative;
 }
 
+.timeline-wrapper {
+  background-attachment: fixed;
+  transition: background-image 0.35s;
+  background-size: cover;
+}
+
 .timeline__content-title {
   font-weight: normal;
   font-size: 66px;
@@ -164,6 +170,7 @@
   font-family: Cardo;
   font-weight: normal;
   margin: 0;
+  padding-top: 10vh;
 }
 
 .timeline-header__subtitle {

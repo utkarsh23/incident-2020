@@ -1,88 +1,39 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url(../static/CenturyGothic.ttf);
+}
+
 .Icare {
   font-family: sans-serif;
+  background-color: #263238;
+  height: 100vh;
   /* text-align: center; */
 }
-.iContainer {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
 
-  overflow: hidden;
+.icare-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
 }
 
-.ihead {
-  font-family: "Arial Black", Gadget, sans-serif;
-}
-.iPara {
-  width: 50%;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+.icarecls-1{fill:#6d6d6d;}.icarecls-2{fill:#fff;}.icarecls-3{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:15px;}.icarecls-4{font-family:'Century Gothic';transition:font-size,0.35s;font-size:43.57px;font-weight:700;}
+
+.icarecls-4:hover {
+  font-size: 46px;
+  cursor: pointer;
 }
 
-.iCard-left {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
+.hamburger {
+  position: fixed;
+  width: 7vw;
+  right: 2vw;
+  top: 2vh;
+  cursor: pointer;
+  transition: width 0.15s, right 0.15s, top 0.15s;
 }
 
-.iCard-right {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.I-care1 {
-  display: flex;
-  width: 90%;
-  border-radius: 75px;
-  padding: 1% 2% 2% 1.5%;
-}
-.I-care2 {
-  display: flex;
-  width: 100%;
-  border-radius: 30px;
-  padding: 1% 2% 2% 1.5%;
-}
-
-.Icare {
-  /* background-image: url("https://previews.123rf.com/images/marinaxxs/marinaxxs1608/marinaxxs160800070/61078533-vintage-background-in-retro-style-retro-background-grunge-background-.jpg"); */
-  /* background-color:red; */
-  background: url("https://image.freepik.com/free-vector/white-textured-paper_53876-86282.jpg")
-    no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-blend-mode: lighten;
-  margin: 0px;
-
-  padding: 0px;
-  top: 0;
-  /* background-size: cover; */
-  /* z-index: -1; */
-  /* opacity: 0.4; */
-}
-@media only screen and (max-width: 800px) {
-  .iCard-left {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .iCard-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-/*   .Icare::before {
-    height: 400%;
-  } */
-  .I-care1 {
-    width: 100%;
-  }
-  .iPara {
-    width: 100%;
-  }
+.hamburger:hover {
+  width: 7.2vw;
+  right: 1.9vw;
+  top: 1.9vh;
 }

@@ -1,65 +1,14 @@
 import React from 'react';
-import iCareIntro from '../static/icare_intro.jpg';
-import iCareIntro1 from '../static/icare_intro_1.jpg';
 // import { Link } from 'react-router-dom';
+import ICareBottom from './ICareBottom';
+import hamburger from '../static/hamburger.png';
 import "./styles.css";
 
 function Icare() {
   return (
     <div className="Icare">
-      <div className="iContainer">
-        <div class="abc" />
-        <h1 className="ihead">
-          <i>i-CARE</i>
-        </h1>
-        <center>
-          <img
-            className="I-care2"
-            src={iCareIntro1}
-            alt="iCareIntro1"
-            width="100%"
-          />
-        </center>
-        <div className="iCard-left">
-          <div className="iPara">
-            {" "}
-            A lot of children belonging to the fishing community in Mangalore
-            dropout of school to help their parents in their daily chores.
-            <br />
-            Beach school tries to reduce this student drop out by instilling in
-            them, an interest towards practical science, mathematics &amp;
-            astronomy.
-            <br />
-            <br />
-            <br />
-          </div>
-          <div>
-            <img
-              className="I-care1"
-              src={iCareIntro}
-              alt="iCareIntro"
-            />
-          </div>
-        </div>
-        <div className="iCard-right">
-          <div className="iPara">
-            A lot of children belonging to the fishing community in Mangalore
-            dropout of school to help their parents in their daily chores.
-            <br />
-            Beach school tries to reduce this student drop out by instilling in
-            them, an interest towards practical science, mathematics &
-            astronomy.
-          </div>
-          <div>
-            {" "}
-            <img
-              className="I-care1"
-              src={iCareIntro}
-              alt="iCareIntro"
-            />
-          </div>
-        </div>
-      </div>
+      <img src={hamburger} alt="ham-menu" className="hamburger" />
+      <ICareBottom />
     </div>
   );
 }
