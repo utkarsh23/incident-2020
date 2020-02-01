@@ -1,0 +1,138 @@
+body{
+    background-image: url('../static/sponsors.png');
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow: scroll; */
+  }
+
+.outer-grid{
+    margin-bottom: 40px;
+    background: transparent;
+}
+
+.inner-grid{
+    background: transparent;
+}
+
+.img-container{
+    width: 250px;
+    height: 250px;
+    /* border: dashed 2px rgb(0, 183, 255); */
+    border-radius: 50% !important;
+    margin: 0 auto;
+    background: white;
+}
+
+.img-container img{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 15%;
+    left: -15%;
+}   
+
+.img-container img:hover{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 15%;
+    left: -15%;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
+}
+/* 
+.svg{
+    background-color:transparent;
+    fill:#fff;
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    box-sizing: border-box;
+} */
+
+/* .svg circle{
+    transform-origin:center;
+    animation: 158s linear infinite rotate;
+    box-sizing: border-box;
+} */
+
+.simg{
+    vertical-align: middle;
+    width: 30%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.simg2{
+    vertical-align: middle;
+    width: 30%;
+    height: 60%;
+    margin-left: 30%;
+    margin-top: 5%;
+    /* margin: 0 auto; */
+}
+
+.simg3{
+    vertical-align: middle;
+    width: 30%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+
+@media only screen and (max-width: 500px){
+    .simg{
+        vertical-align: middle;
+        width: 50%;
+        height: 65%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .simg2{
+        vertical-align: middle;
+        width: 50%;
+        height: 65%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .simg3{
+        vertical-align: middle;
+        width: 50%;
+        height: 65%;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    .img-container{
+        width: 250px;
+        height: 250px;
+        /* border: dashed 2px rgb(0, 183, 255); */
+        border-radius: 50% !important;
+        margin: 0 auto;
+        background: white;
+    }
+    
+    .img-container img{
+        position: relative;
+        width: 78%;
+        height: 59%;
+        top: 15%;
+        left: -15%;
+    }   
+    
+    .img-container img:hover{
+        position: relative;
+        width: 78%;
+        height: 59%;
+        top: 15%;
+        left: -15%;
+        transform: rotateY(360deg);
+        transition-duration: 2s;
+    }
+    
+}
