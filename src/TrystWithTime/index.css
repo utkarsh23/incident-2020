@@ -1,14 +1,72 @@
 .tilt-root{
-  background-image: url('../static/neon-bg.png');
+  background-image: url('../static/back-img/perspective.png');
   transform-style: preserve-3d;
   will-change: transform;
   justify-content: center;
   align-items: center;
   height: 100vh;
-	background-size: cover;
+  background-size: cover;
+  overflow:visible;
+  /* width: 1700px;
+  height: 1000px;
+  margin-left: -200px;
+	margin-top: -40px; */
 }
 
-.coconut{
+.backgroundNeon{
+  z-index:10;
+  position: absolute;
+  top: 0%;
+  left:0%;
+  background-size:cover;
+  width:7000px;
+}
+
+.mb{
+  /* width: 2000px; */
+  z-index:20;
+  position: absolute;
+  top: -90%;
+  left:0%;
+  margin-left: -10%;
+}
+
+.mm{
+  z-index:30;
+  position: absolute;
+  top: -70%;
+  left:0%;
+}
+
+.mf{
+  z-index:40;
+  position: absolute;
+  top: -60%;
+  left:0%;
+}
+
+.to{
+  z-index:50;
+  position: absolute;
+  top: -50%;
+  left:0%;
+}
+
+.tt{
+  z-index:60;
+  position: absolute;
+  top: -40%;
+  left:0%;
+}
+
+.stars{
+  z-index:70;
+  position: absolute;
+  top: 0%;
+  left:0%;
+}
+
+/* .coconut{  
   z-index: 50;
   position: absolute;
   height: 300px;
@@ -48,4 +106,4 @@
   margin-top: -8%;
   width: 1900px;
   height: 800px;
-}
+} */

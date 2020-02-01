@@ -29,13 +29,14 @@ export default class Tilt extends React.Component {
           className="tilt-root"
         >
           <VideoPlayer />
-          {/* <img src={require('../static/beach1.png')}  className="stage" alt="stage"/> */}
-          {/* <a href="https://www.freepik.com/free-photos-vectors/flower">Flower photo created by kjpargeter - www.freepik.com</a> */}
-          {/* <img src={require('../static/10207.jpg')}  className="coconut" alt="coconut"/> */}
-          {/* <img src={require('../static/coconut.png')}  className="coconut2" alt="coconut2"/>
-          <img src={require('../static/retro-tree.png')}  className="coconut3" alt="coconut3"/>
-          <img src={require('../static/retro-tree.png')}  className="coconut4" alt="coconut4"/>
-           */}
+          {/* <img src={require('../static/back-img/1.background.svg')}  className="backgroundNeon" alt="back"/>
+          <img src={require('../static/back-img/2.mountainBack.svg')}  className="mb" alt="mb"/>
+          <img src={require('../static/back-img/3.mountainMiddle.svg')}  className="mm" alt="mm"/>
+          <img src={require('../static/back-img/4.mountainFront.svg')}  className="mf" alt="mf"/>
+          <img src={require('../static/back-img/5.treesOne.svg')}  className="to" alt="t1"/>
+          <img src={require('../static/back-img/6.treesTwo.svg')}  className="tt" alt="t2"/>
+          <img src={require('../static/back-img/7.stars.svg')}  className="stars" alt="stars"/> */}
+
         </div>
 
     )
