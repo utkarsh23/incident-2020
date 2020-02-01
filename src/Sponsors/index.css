@@ -29,6 +29,7 @@ body{
     height: 60%;
     top: 15%;
     left: -15%;
+    /* box-shadow: 10px 10px 10px;      */
 }   
 
 .img-container img:hover{
@@ -40,22 +41,53 @@ body{
     transform: rotateY(360deg);
     transition-duration: 2s;
 }
-/* 
-.svg{
+
+.sponsors{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sponsor-svg{
     background-color:transparent;
     fill:#fff;
-    position: absolute;
+    position: relative;
     top:0;
     left:0;
-    overflow: hidden;
+    /* overflow: visible; */
     box-sizing: border-box;
-} */
+    z-index: 10
+}
 
-/* .svg circle{
+.sponsor-svg circle{
+    overflow: visible;
     transform-origin:center;
-    animation: 158s linear infinite rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.77,0,.18,1);
+    animation-name: spin;
     box-sizing: border-box;
-} */
+}
+
+.img-container2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50% !important;
+    margin: 0 auto;
+    background: white;
+    z-index: 20;
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 .simg{
     vertical-align: middle;

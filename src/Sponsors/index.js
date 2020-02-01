@@ -103,9 +103,9 @@ function createTable2() { // three in a row
                 <Grid className="inner-grid" style={grid} item xs={12} sm={6} md={4} lg={4}>
                     {/* <Paper style={paper} > */}
                     <div className="img-container">
-                    {/* <svg height="250" width="250">
-                        <circle cx="50%" cy="50%" fill="transparent" r="50%" stroke="#9fe2f3" stroke-dasharray="2 9" stroke-width="8"></circle>
-                    </svg> */}
+                        {/* <svg height="250" width="250">
+                            <circle cx="50%" cy="50%" fill="transparent" r="50%" stroke="#9fe2f3" stroke-dasharray="2 9" stroke-width="8"></circle>
+                        </svg> */}
                         <img className="simg3" src={imgDetails[i * 3 + j].src} />
                     </div>
                     {/* </Paper> */}
@@ -133,7 +133,9 @@ function createTable3() { // three in a row
             columns.push(
                 <Grid className="inner-grid" item xs={12} sm={6} md={4} lg={4}>
                     <div className="img-container">
-                        {/* <svg _ngcontent-uys-c3="" height="250" width="250"><circle _ngcontent-uys-c3="" cx="50%" cy="50%" fill="transparent" r="50%" stroke="#9fe2f3" stroke-dasharray="2 9" stroke-width="8"></circle></svg> */}
+                        <svg height="250" width="250">
+                            <circle cx="50%" cy="50%" fill="transparent" r="50%" stroke="#9fe2f3" stroke-dasharray="2 9" stroke-width="8"></circle>
+                        </svg>
                         <img className="simg3" src={imgDetails[i * 3 + j].src} />
                     </div>
                 </Grid>
@@ -154,9 +156,9 @@ function AutoGrid() {
 
     return (
         <div style={parent}>
-            <h1> Sponsors </h1>
+            <h1 className="sponsors"> Sponsors </h1>
             <div id="root">
-                
+
                 {/* TITLE SPONSORS */}
                 {/* <Grid container spacing={0}>
                     <Grid style={grid} item xs={12} sm={12} md={12} lg={12}>
@@ -171,25 +173,35 @@ function AutoGrid() {
                 {createTable2()}
                 {createTable2()}
 
+                {/* <svg className="sponsor-svg" height="250" width="250">
+                    <circle cx="50%" cy="50%" fill="transparent" r="50%" stroke="#9fe2f3" stroke-dasharray="2 11" stroke-width="8"></circle>
+                    <Grid className="inner-grid2" item xs={12} sm={6} md={4} lg={4}>
+                        <div className="img-container2">
+                            <img className="simg3" src={imgDetails[1].src} />
+                        </div>
+                    </Grid>
+                </svg> */}
+
             </div>
         </div>
 
     );
 }
 
-export default class AutoGridClass extends React.Component{
+export default class AutoGridClass extends React.Component {
 
-    componentDidMount(){
+    componentDidMount() {
         // document.body.style.background = "url('../static/sponsor.jpg')";
-        document.body.style.overflow = "scroll";
+        document.body.style.overflowY = "scroll";
+        document.body.style.overflowX = "hidden";
     }
-    componentDidUnmount(){
+    componentDidUnmount() {
         document.body.style.background = "none";
         document.body.style.overflow = "hidden";
     }
 
-    render(){
-        return(
+    render() {
+        return (
             AutoGrid()
         )
     }
