@@ -28,7 +28,7 @@
 }
 
 .events-modal-content {
-  height: 82vh;
+  max-height: 82vh;
   background-size: cover;
   width: 70vw;
   padding: 2vh;

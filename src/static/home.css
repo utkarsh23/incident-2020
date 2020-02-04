@@ -112,4 +112,8 @@
     font-size: 1.7em;
     padding-top: 1.1vh;
   }
+
+  .home-campus-btn {
+    width: 55vw;
+  }
 }
