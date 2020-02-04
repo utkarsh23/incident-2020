@@ -1,0 +1,15 @@
+.sponsors-heading {
+  font-family: 'Lato', cursive;
+  font-size: 6em;
+}
+
+.sponsors-coming-soon {
+  color: white;
+  font-size: 3em;
+}
+
+.sponsors-wrapper {
+  background-color: #b74a40;
+  height: 100vh;
+  color: white;
+}

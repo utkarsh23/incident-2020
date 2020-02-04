@@ -3,6 +3,11 @@
   src: url(../static/CenturyGothic.ttf);
 }
 
+@font-face {
+  font-family: 'YouthTouchDEMO-Regular';
+  src: url(../static/youthtouch.ttf);
+}
+
 .Icare {
   font-family: sans-serif;
   background-color: #263238;
@@ -16,10 +21,30 @@
   width: 100vw;
 }
 
-.icarecls-1{fill:#6d6d6d;}.icarecls-2{fill:#fff;}.icarecls-3{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:15px;}.icarecls-4{font-family:'Century Gothic';transition:font-size,0.35s;font-size:43.57px;font-weight:700;}
+.icarecls-1 {
+  fill: #6d6d6d;
+}
+
+.icarecls-2 {
+  fill: #fff;
+}
+
+.icarecls-3 {
+  fill: none;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 15px;
+}
+
+.icarecls-4 {
+  font-size: 37.73px;
+  font-family: CenturyGothic-Bold, Century Gothic;
+  font-weight: 700;
+  transition: font-size 0.25s;
+}
 
 .icarecls-4:hover {
-  font-size: 46px;
+  font-size: 39px;
   cursor: pointer;
 }
 
@@ -36,4 +61,49 @@
   width: 7.2vw;
   right: 1.9vw;
   top: 1.9vh;
+}
+
+.w3-modal-content {
+  width: 70vw !important;
+  padding: 2vh;
+  padding-bottom: 4vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icare-modal-content {
+  background-color: #263238;
+}
+
+.w3-modal-content h2 {
+  padding-top: 1.8vh;
+  margin-top: 0px;
+}
+
+.w3-display-topright {
+  padding-right: 2vw;
+  padding-top: 4vh;
+  cursor: pointer;
+}
+
+.icare-modal-para {
+  font-family: CenturyGothic-Bold, Century Gothic;
+  font-size: 1.5em;
+  color: white;
+}
+
+.icare-modal-heading {
+  font-size: 6em;
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    width: 20vw;
+  }
+
+  .w3-button {
+    color: black;
+  }
 }

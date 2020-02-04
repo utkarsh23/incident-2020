@@ -5,7 +5,7 @@ import WatchBg from '../static/watchbg.png';
 
 function Signpost() {
   return (
-    <svg className="sign-post" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 620.31 668.36">
+    <svg className="sign-post hide-on-small-only" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 620.31 668.36">
       <defs>
         <linearGradient id="linear-gradient" x1="508.14" y1="128.87" x2="511.39" y2="222.08" gradientUnits="userSpaceOnUse">
           <stop offset="0" stopColor="#0c0c0c" />

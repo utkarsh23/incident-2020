@@ -4,7 +4,7 @@ import '../static/socialtab.css';
 
 function SocialTab() {
   return (
-    <svg className="social-tab" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 590.22 269.04">
+    <svg className="social-tab hide-on-small-only" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 590.22 269.04">
       <defs>
         <linearGradient id="linear-gradient" x1="1505.91" y1="121.92" x2="1548.01" y2="216.49" gradientUnits="userSpaceOnUse">
           <stop offset="0" stop-color="#fff" />

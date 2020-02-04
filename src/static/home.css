@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'YouthTouchDEMO-Regular';
+  src: url(../static/youthtouch.ttf);
+}
+
 .App {
   text-align: center;
+}
+
+.App-logo {
+  width: 20vw;
 }
 
 .App-header {
@@ -45,11 +54,50 @@
   width: 17vw;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.home-register-btn {
+  font-size: 1.2em;
+  background-color: #8C2C2E;
+  text-transform: initial;
+  font-family: 'Zilla Slab', serif;
+  padding-top: 1.5vh;
+  width: 12vw;
+  height: 7.5vh;
+  font-weight: 500;
+  margin-top: 2vh;
+}
+
+.home-register-btn:hover {
+  color: #8C2C2E;
+  background-color: white;
+}
+
+.tryst-button {
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+  transition: transform 0.25s;
+}
+
+.tryst-button:hover {
+  transform: scale(1.01);
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header {
+    background-image: url('./bg-m.png');
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-logo {
+    width: 80vw;
   }
-} */
+
+  .inci-text {
+    width: 65vw;
+  }
+
+  .home-register-btn {
+    width: 50vw;
+    font-size: 1.7em;
+    padding-top: 1.1vh;
+  }
+}

@@ -3,14 +3,19 @@ import "./timeline.css";
 import data from "./details.json";
 import Observer from '@researchgate/react-intersection-observer';
 import hamburger from '../static/hamburger.png';
-import timeline1980 from '../static/1980timeline.jpeg';
-import timeline1990 from '../static/1990timeline.jpeg';
+import timeline1990 from '../static/1980timeline.jpeg';
+import timeline1980 from '../static/1990timeline.jpeg';
 import timeline1992 from '../static/1992timeline.jpeg';
 import timeline2005 from '../static/2005timeline.jpeg';
 import timeline2006 from '../static/2006timeline.jpeg';
 import timeline2012 from '../static/2012timeline.jpeg';
 import timeline2014 from '../static/2014timeline.jpg';
 import timeline2015 from '../static/2015timeline.jpg';
+import Sidenav from '../Sidenav';
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
 
 const images_list = [
   timeline1980,
@@ -23,6 +28,7 @@ const images_list = [
   timeline2015
 ];
 
+
 class Timeline extends Component {
 
   constructor(props) {
@@ -32,6 +38,9 @@ class Timeline extends Component {
 
   handleVisible(event, index) {
     if (event.isIntersecting === true) {
+      if (index === 0) {
+        index = 1;
+      }
       document.getElementsByClassName("timeline-wrapper")[0].style.backgroundImage = "url('" + images_list[index] + "')";
     }
   }
@@ -39,6 +48,7 @@ class Timeline extends Component {
   render() {
     return (
       <div>
+        <Sidenav />
         <div className="timeline-wrapper">
           <div className="timeline-container" id="timeline-1">
             <div className="timeline-header">
@@ -47,9 +57,8 @@ class Timeline extends Component {
             </div>
             <div className="timeline">
               {data.map((d, index) => {
-                console.log(index);
                 return (
-                  <Observer key={index} threshold={1} onChange={e => this.handleVisible(e, index) }>
+                  <Observer key={index} threshold={0.75} onChange={e => this.handleVisible(e, index) }>
                     <div
                       className="timeline-item timeline-item--active"
                       data-text={d.dataText}
@@ -66,7 +75,7 @@ class Timeline extends Component {
             </div>
           </div>
         </div>
-        <img src={hamburger} alt="ham-menu" className="hamburger" />
+        <img src={hamburger} alt="ham-menu" className="hamburger" onClick={openRightMenu} />
       </div>
     );
   }

@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import VanillaTilt from 'vanilla-tilt';
 import VideoPlayer from './VideoPlayer';
+import NeonLogo from '../static/neon-logo.png';
 import './index.css'
 
 
-export default class Tilt extends React.Component {
+class Tilt extends React.Component {
   componentDidMount() {
     VanillaTilt.init(this.rootNode, {
       max: 10,
@@ -29,15 +31,11 @@ export default class Tilt extends React.Component {
           className="tilt-root"
         >
           <VideoPlayer />
-          {/* <img src={require('../static/beach1.png')}  className="stage" alt="stage"/> */}
-          {/* <a href="https://www.freepik.com/free-photos-vectors/flower">Flower photo created by kjpargeter - www.freepik.com</a> */}
-          {/* <img src={require('../static/10207.jpg')}  className="coconut" alt="coconut"/> */}
-          {/* <img src={require('../static/coconut.png')}  className="coconut2" alt="coconut2"/>
-          <img src={require('../static/retro-tree.png')}  className="coconut3" alt="coconut3"/>
-          <img src={require('../static/retro-tree.png')}  className="coconut4" alt="coconut4"/>
-           */}
+          <Link to="/"><img src={NeonLogo} className="neon-logo-tryst" alt="neon logo" /></Link>
         </div>
 
     )
   }
 }
+
+export default Tilt;

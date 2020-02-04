@@ -87,7 +87,7 @@ class Ladder extends Component {
 
   render() {
     return (
-      <svg className="ladder" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 414.79714 809.55813">
+      <svg className="ladder hide-on-small-only" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 0 414.79714 809.55813">
         <defs>
           <linearGradient id="lad-linear-gradient" x1="170.48597" y1="480.70662" x2="186.93391" y2="480.57406" gradientUnits="userSpaceOnUse">
             <stop offset="0" stopColor="#ffe5af" />

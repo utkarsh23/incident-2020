@@ -5,6 +5,7 @@ import Events from "./Events";
 import Timeline from "./Timeline";
 import Contact from "./Contact";
 import Sponsors from "./Sponsors";
+import Campus from './Campus';
 import About from "./About";
 import Icare from "./Icare";
 import Team from "./Team";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/events" component={Events} />
         <Route path="/timeline" component={Timeline} />
         <Route path="/contact" component={Contact} />
+        <Route path="/campus" component={Campus} />
         <Route path="/sponsors" component={Sponsors} />
         <Route path="/about" component={About} />
         <Route path="/icare" component={Icare} />

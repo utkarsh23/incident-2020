@@ -1,7 +1,7 @@
 .contact {
   text-align: center;
   font-family: "Lato", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(./aboutbg1.png);
   background-size: contain;
 }
@@ -40,6 +40,10 @@
   margin-right: 5px;
 }
 
+.phone-contact-svg {
+  width: 30vw;
+}
+
 .social-contact:hover {
   color: #000;
 }
@@ -72,4 +76,39 @@
 
 .mail-link:hover {
   color: #424242;
+}
+
+.contact-heading {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 5em;
+}
+
+.social-contact-wrapper {
+  margin: 40px 0px 40px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .phone-contact-svg {
+    width: 80vw;
+  }
+
+  .contact-heading {
+    font-size: 3em;
+  }
+
+  .social-contact {
+    width: 1.8em;
+    height: 1.8em;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 2.2em !important;
+  }
+
+  .social-contact-wrapper {
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  }
 }

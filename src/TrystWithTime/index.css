@@ -49,3 +49,21 @@
   width: 1900px;
   height: 800px;
 }
+
+.neon-logo-tryst {
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+  width: 10vw;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .tilt-root {
+    padding-top: 20vh;
+  }
+
+  .neon-logo-tryst {
+    width: 25vw;
+  }
+}
