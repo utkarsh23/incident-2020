@@ -2,17 +2,36 @@ import React from "react";
 import "./index.css";
 import Incident from "../static/incident.jpg";
 import Symbol from "../static/i-symbol.png";
-import Festival from "../static/festival.png";
-import Leadership from "../static/leadership.png";
-import Travel from "../static/travel.png";
-import Certificate from "../static/certificate.png";
+import Festival from "../static/campus/festival.png";
+import Leadership from "../static/campus/leadership.png";
+import Travel from "../static/campus/travel.png";
+import Certificate from "../static/campus/certificate.png";
+import $ from "jquery";
+
 export default function index() {
+
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      $('.fadeup-div').each(function (i) {
+        var object_height = $(this).outerHeight();
+        var position_of_object = $(this).position().top;
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        var desired_position = position_of_object + (object_height/4);
+        if(bottom_of_window > desired_position){
+          $(this).animate({'opacity':'1','padding-top':'0px'},800);
+        }
+      });
+    });
+  });
+
   return (
     <div className="wrapper">
       <div className="all">
         <div className="row">
           <div className="backimg col l12">
             <img className="img1 " src={Incident} alt="Incident" />
+            <div className="campus-mask"></div>
             <div className="welcome"> Welcome to </div>
             <div className="cap">
               {" "}
@@ -29,7 +48,7 @@ export default function index() {
           </div>
         </div>
 
-        <div className="about-cap">
+        <div className="about-cap fadeup-div">
           <div className="row">
             <div className="col l4 m12 s12">
               <img src={Symbol} className="about-cap-img" alt="Inci-Symbol" />
@@ -72,7 +91,7 @@ export default function index() {
           </div>
         </div>
 
-        <div className="why-cap">
+        <div className="why-cap fadeup-div">
           <h3> Why CAP ?</h3>
           <div className="row">
             <div className="col l6 m12 s12">
@@ -121,27 +140,6 @@ export default function index() {
             <div className="col l6 m12 s12">
               <div className="project">
                 <div className="col l4 m4 s12">
-                  <img className="why-cap-img" src={Travel} alt="Festival" />
-                </div>
-                <div className="col l8 m8 s12">
-                  <div
-                    className="why-cap-content"
-                    style={{ color: "rgb(100, 98, 98)" }}
-                  >
-                    Other perks include that of free travel, accommodation and
-                    passes for all pro-shows and pro-nites that take place
-                    during Incident, which has previously hosted various
-                    big-name artists, including Vishal-Shekhar, Benny Dayal,
-                    Amaal Mallik, Sunidhi Chauhan and KK along with bands like
-                    Masala Coffee and the Spain based Itaca Band.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col l6 m12 s12">
-              <div className="project">
-                <div className="col l4 m4 s12">
                   <img
                     className="why-cap-img"
                     src={Certificate}
@@ -162,16 +160,39 @@ export default function index() {
                 </div>
               </div>
             </div>
+            
+            <div className="col l6 m12 s12">
+              <div className="project">
+                <div className="col l4 m4 s12">
+                  <img className="why-cap-img" src={Travel} alt="Festival" />
+                </div>
+                <div className="col l8 m8 s12">
+                  <div
+                    className="why-cap-content"
+                    style={{ color: "rgb(100, 98, 98)" }}
+                  >
+                    Other perks include that of free travel, accommodation and
+                    passes for all pro-shows and pro-nites that take place
+                    during Incident, which has previously hosted various
+                    big-name artists, including Vishal-Shekhar, Benny Dayal,
+                    Amaal Mallik, Sunidhi Chauhan and KK along with bands like
+                    Masala Coffee and the Spain based Itaca Band.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
           </div>
         </div>
       </div>
 
-      <div className="faq">
+      <div className="faq fadeup-div">
         <div className="faq2">
           <h4> FAQ </h4>
           <div className="row">
             <div className="col l1"></div>
-            <div className="col l11 s12 m12">
+            <div className="col l11 s12 m12 faq-qa">
               <span className="question"> What happens after I apply? </span>
               <p>
                 {" "}
@@ -180,7 +201,7 @@ export default function index() {
               </p>
             </div>
             <div className="col l1"></div>
-            <div className="col l11 s12 m12">
+            <div className="col l11 s12 m12 faq-qa">
               <span className="question">
                 {" "}
                 What is my responsibility being a part of the program?{" "}
@@ -194,7 +215,7 @@ export default function index() {
               </p>
             </div>
             <div className="col l1"></div>
-            <div className="col l11 s12 m12">
+            <div className="col l11 s12 m12 faq-qa">
               <span className="question"> Who can apply? </span>
               <p>
                 {" "}
@@ -203,7 +224,7 @@ export default function index() {
               </p>
             </div>
             <div className="col l1"></div>
-            <div className="col l11 s12 m12">
+            <div className="col l11 s12 m12 faq-qa">
               <span className="question">
                 {" "}
                 What are the incentives for being a part of this program?{" "}
@@ -234,7 +255,7 @@ export default function index() {
         </div>
       </div>
 
-      <div className="row monserrat center-align sponsor-contact">
+      <div className="row monserrat center-align campus-contact fadeup-div">
         <div className="col l12 m12 s12">
           <div className="col l12 m12 s12"></div>
           <p className="monserrat contact-title">For any queries :</p>

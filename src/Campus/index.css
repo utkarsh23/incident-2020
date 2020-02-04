@@ -38,9 +38,22 @@
 }
 
 .img1 {
-  height: 650px;
+  height: 100vh;
   width: 100%;
-  opacity: 0.6;
+  margin-bottom: 40px;
+  /* opacity: 0.6; */
+  z-index: 0;
+}
+
+.campus-mask{
+  position: absolute;
+  top:0;
+  left:10;
+  height: 100vh;
+  width: 98%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 10;
 }
 
 .backimg {
@@ -54,6 +67,7 @@
   top: 24%;
   left: 5%;
   font-size: larger;
+  z-index: 30;
 }
 
 .cap {
@@ -63,6 +77,7 @@
   top: 35%;
   left: 5%;
   font-size: 45px;
+  z-index: 30;
 }
 
 .apply {
@@ -74,6 +89,7 @@
   text-transform: none;
   height: 55px;
   padding-top: 10px;
+  z-index: 30;
 }
 
 .apply-p :hover {
@@ -88,6 +104,11 @@
   padding-top: 10px;
   font-weight: bold;
   transition-duration: 1.5s;
+}
+
+.fadeup-div{
+  opacity:0;
+  padding-top: 150px;
 }
 
 .about-inci {
@@ -117,6 +138,10 @@ p {
 .about-cap {
   margin-top: 40px;
   background-color: white;
+  margin-bottom: 80px;
+  /* animation-name: fadeup;
+    -moz-animation-duration: .8s;
+    -webkit-animation-duration: .8s; */
 }
 
 .about-cap span {
@@ -126,7 +151,10 @@ p {
 @media only screen and (max-width: 2000px) {
   .about-cap-img {
     max-width: 120%;
-    max-height: 100%;
+    max-height: 120%;
+    /* animation-name: fadeup;
+    -moz-animation-duration: .8s;
+    -webkit-animation-duration: .8s; */
   }
 }
 
@@ -136,6 +164,7 @@ p {
     max-height: 100%;
     height: 307px;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -151,6 +180,7 @@ p {
     max-height: 100%;
   }
 }
+
 
 strong.number {
   font-weight: 400;
@@ -173,7 +203,6 @@ strong.number {
   .project {
     background-color: white;
     border-radius: 10px;
-    margin-left: 30px;
     margin-bottom: 20px;
     height: 250px;
     font-size: 14px;
@@ -224,8 +253,6 @@ strong.number {
     max-width: 100%;
     height: 150px;
     padding-top: 30px;
-    padding-left: 30px;
-    margin-left: 26%;
   }
 }
 
@@ -244,12 +271,12 @@ strong.number {
     height: 150px;
     padding-top: 30px;
     padding-left: 30px;
-    margin-left: 20%;
+    margin-left: 10%;
   }
 }
 
 .why-cap h3 {
-  color: white;
+  color: rgb(27, 26, 26);
   font-weight: bold;
   text-align: center;
   font-family: inherit !important;
@@ -270,8 +297,6 @@ strong.number {
   color: gray;
   font-weight: 600;
   line-height: 1.8;
-  padding-left: 10px;
-  padding-right: 20px;
   margin-top: 30px !important;
   margin-bottom: 30px !important;
   text-align: left !important;
@@ -283,16 +308,15 @@ strong.number {
   height: 150px;
   padding-top: 30px;
   padding-left: 30px;
-  /* border: solid 2px blue */
 }
 
-/* .why-cap-img:hover{
+.why-cap-img:hover{
     max-width: 109%;
     height: 170px;
     padding-top: 30px;
     padding-left: 30px;
     transition-duration: 1s;
-} */
+}
 
 .why-cap {
   padding-bottom: 50px;
@@ -300,12 +324,17 @@ strong.number {
 
 .faq {
   background-color: white;
-  font-family: "Poppins", Arial, sans-serif !important;
+  font-family: inherit !important;
+  margin-bottom: 30px;
 }
 
 .faq h4 {
   padding-top: 30px;
   padding-left: 30px;
+}
+
+.faq-qa{
+  margin-bottom: 10px;
 }
 
 .question {
@@ -314,11 +343,11 @@ strong.number {
   font-size: 20px;
 }
 
-.sponsor-contact {
+.campus-contact {
   border: solid 1px black;
   border-radius: 16px;
   background-color: white;
-  margin-top: 30px !important;
+  margin-top: 90px !important;
 }
 
 .sponsor-col {
@@ -331,7 +360,6 @@ strong.number {
 }
 
 .contact-title {
-  /* margin-top: 15px !important; */
   font-size: 25px;
   color: rgb(67, 67, 168);
   font-weight: bold;
@@ -339,4 +367,16 @@ strong.number {
 
 .all {
   font-family: "Poppins", Arial, sans-serif !important;
+}
+
+@keyframes fadeup{
+  from{
+    opacity: 0;
+    padding-top: 240px;
+  }
+
+  to{
+    opacity: 1;
+    padding-top: 0px;
+  }
 }
