@@ -17,8 +17,9 @@
 
 .icare-bottom {
   position: absolute;
-  bottom: 0;
-  width: 100vw;
+  bottom: 10vh;
+  width: 76vw;
+  left: 12vw;
 }
 
 .icarecls-1 {
@@ -40,12 +41,23 @@
   font-size: 37.73px;
   font-family: CenturyGothic-Bold, Century Gothic;
   font-weight: 700;
-  transition: font-size 0.25s;
 }
 
 .icarecls-4:hover {
   font-size: 39px;
   cursor: pointer;
+}
+
+.icaremcls-1{fill:#545454;}
+.icaremcls-2{fill:#fff;}
+.icaremcls-3{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:20px;}
+.icaremcls-4{font-size:46.37px;font-family:CenturyGothic-Bold, Century Gothic;font-weight:700;}
+
+.icare-bottom-m {
+  position: absolute;
+  width: 80vw;
+  bottom: 0;
+  left: 10vw;
 }
 
 .hamburger {
@@ -73,6 +85,18 @@
 
 .icare-modal-content {
   background-color: #263238;
+  max-height: 82vh;
+  background-size: cover;
+  width: 70vw;
+  padding: 2vh;
+  padding-bottom: 4vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 15vw;
+}
+
+.icare-modal-content {
+  overflow-x: auto;
 }
 
 .w3-modal-content h2 {
@@ -105,5 +129,11 @@
 
   .w3-button {
     color: black;
+  }
+
+  .icare-modal-content {
+    margin-left: 5vw;
+    width: 90vw;
+    height: 90vh;
   }
 }

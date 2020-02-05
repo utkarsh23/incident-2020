@@ -28,7 +28,7 @@
 }
 
 .events-modal-content {
-  height: 82vh;
+  max-height: 82vh;
   background-size: cover;
   width: 70vw;
   padding: 2vh;
@@ -45,7 +45,7 @@
 
 .events-modal-heading {
   font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
-  font-size: 3.5em;
+  font-size: 6.5em;
   color: white;
 }
 
@@ -143,5 +143,9 @@
 
   .events-list-wrapper {
     height: 75vh;
+  }
+
+  .events-modal-heading {
+    font-size: 3.5em;
   }
 }
