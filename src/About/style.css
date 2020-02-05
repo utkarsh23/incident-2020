@@ -37,9 +37,17 @@
   bottom: 2vh;
 }
 
+.show-on-small{
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .about-heading {
     font-size: 4em;
     margin-top: 9vh;
+  }
+
+  .show-on-small{
+    display: block;
   }
 }

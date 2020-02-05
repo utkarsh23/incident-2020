@@ -289,34 +289,11 @@ function Events() {
         </div>
       </div>
 
-      {/* Photography */}
+      {/* Beach Eve */}
       <div id="events-7" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
             <span onClick={events => onLeftiClose(events, 7)}
-              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
-            <h2 className="center events-modal-heading">Potpourri Events</h2>
-          </header>
-          <div className="events-list-wrapper">
-            <ol>
-              <li>
-                <h1>Frames</h1>
-                <p>The biggest annual cultural festival of NIT Karnataka, Surathkal Incident '20, is back again and FRAMES, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident ‘20. Through this you can also compete with the other college photographers and show the people how creative you are to this world.</p>
-              </li>
-              <li>
-                <h1>Expose</h1>
-                <p>A picture is Prizes Worth a thousand words, said a great, wise man. Be wired to experience breathtaking images, thought-provoking scenarios and some magnificent editing wonders. Treat your eyes to some iconic photography at Incident 2020’s very own Expose, the world through the lens.</p>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      {/* Beach Eve */}
-      <div id="events-8" className="w3-modal">
-        <div className="w3-animate-bottom events-modal-content">
-          <header className="">
-            <span onClick={events => onLeftiClose(events, 8)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Beach Events</h2>
           </header>
@@ -334,6 +311,31 @@ function Events() {
           </div>
         </div>
       </div>
+
+      {/* Photography */}
+      {/* <div id="events-8" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 8)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Potpourri Events</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Frames</h1>
+                <p>The biggest annual cultural festival of NIT Karnataka, Surathkal Incident '20, is back again and FRAMES, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident ‘20. Through this you can also compete with the other college photographers and show the people how creative you are to this world.</p>
+              </li>
+              <li>
+                <h1>Expose</h1>
+                <p>A picture is Prizes Worth a thousand words, said a great, wise man. Be wired to experience breathtaking images, thought-provoking scenarios and some magnificent editing wonders. Treat your eyes to some iconic photography at Incident 2020’s very own Expose, the world through the lens.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div> */}
+
+      
     </div>
   );
 }

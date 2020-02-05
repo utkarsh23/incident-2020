@@ -8,7 +8,7 @@ import EventGaming from '../static/eventgaming.png';
 import EventHaute from '../static/eventhaute.png';
 import EventSports from '../static/eventsports.png';
 import EventBeach from '../static/eventbeach.png';
-import EventPhoto from '../static/eventphoto.png';
+// import EventPhoto from '../static/eventphoto.png';
 
 const event_images = [
   ["Dance Events", EventDance],
@@ -18,8 +18,7 @@ const event_images = [
   ["Gaming & Fine Arts", EventGaming],
   ["Haute Couture", EventHaute],
   ["Sports Events", EventSports],
-  ["Beach Events", EventBeach],
-  ["Photo Events", EventPhoto]
+  ["Beach Events", EventBeach]
 ];
 
 function onViewClick(event, index) {
@@ -48,7 +47,7 @@ function Carousel() {
           rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
           leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
         >
-          {Array.from(new Array(9)).map((_, i) =>
+          {Array.from(new Array(8)).map((_, i) =>
             <div
               className="event-card-wrapper"
               key={i}
@@ -82,7 +81,7 @@ function Carousel() {
         rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
         leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
       >
-        {Array.from(new Array(9)).map((_, i) =>
+        {Array.from(new Array(8)).map((_, i) =>
           <div
             className="event-card-wrapper"
             key={i}
