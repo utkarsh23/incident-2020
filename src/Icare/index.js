@@ -3,6 +3,8 @@ import ICareBottom from './ICareBottom';
 import hamburger from '../static/hamburger.png';
 import Sidenav from '../Sidenav';
 import "./styles.css";
+import Homeicon from '../homeicon';
+
 
 function onLeftiClose() {
   document.getElementById('icare-left').style.display='none';
@@ -25,6 +27,7 @@ function Icare() {
     <div className="Icare">
       <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       <ICareBottom />
+      <Homeicon />
       <Sidenav />
       <div id="icare-left" className="w3-modal">
         <div className="w3-modal-content w3-animate-bottom icare-modal-content">

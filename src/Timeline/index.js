@@ -12,6 +12,8 @@ import timeline2012 from '../static/2012timeline.jpeg';
 import timeline2014 from '../static/2014timeline.jpg';
 import timeline2015 from '../static/2015timeline.jpg';
 import Sidenav from '../Sidenav';
+import Homeicon from '../homeicon';
+
 
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
@@ -48,6 +50,7 @@ class Timeline extends Component {
   render() {
     return (
       <div>
+        <Homeicon />
         <Sidenav />
         <div className="timeline-wrapper">
           <div className="timeline-container" id="timeline-1">

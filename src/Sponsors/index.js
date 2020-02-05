@@ -2,6 +2,7 @@ import React from 'react';
 import '../static/sponsors.css';
 import hamburger from '../static/hamburger.png';
 import Sidenav from '../Sidenav';
+import Homeicon from '../homeicon';
 
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
@@ -10,6 +11,7 @@ function openRightMenu() {
 function Sponsors() {
   return (
     <div>
+      <Homeicon />
       <Sidenav />
       <div className="sponsors-wrapper">
         <img src={hamburger} alt="ham-menu" className="hamburger" onClick={openRightMenu} />

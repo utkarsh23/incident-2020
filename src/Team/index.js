@@ -9,6 +9,8 @@ import teamBanner from '../static/teambanner.png';
 import teamBannerM from '../static/teambanner-m.png';
 import Sidenav from '../Sidenav';
 import hamburger from '../static/hamburger.png';
+import Homeicon from '../homeicon';
+
 
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
@@ -23,6 +25,7 @@ class Team extends React.Component {
   render() {
     return (
       <div className="team-wrapper">
+        <Homeicon />
         <Sidenav />
         <img src={teamBanner} alt="team-banner" className="team-banner hide-on-small-only" />
         <img src={teamBannerM} alt="team-banner" className="team-banner show-on-small" />
