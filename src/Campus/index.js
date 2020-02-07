@@ -1,12 +1,23 @@
 import React from "react";
 import "./index.css";
-import Incident from "../static/incident.jpg";
+import Incident from "../static/campus/back2.jpg";
 import Symbol from "../static/i-symbol.png";
 import Festival from "../static/campus/festival.png";
 import Leadership from "../static/campus/leadership.png";
 import Travel from "../static/campus/travel.png";
 import Certificate from "../static/campus/certificate.png";
 import $ from "jquery";
+import Sidenav from '../Sidenav';
+import hamburger from '../static/hamburger.png';
+import Homeicon from '../homeicon';
+
+function onLeftiClose(events, index) {
+  document.getElementById('events-' + index).style.display='none';
+}
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
 
 export default function index() {
 
@@ -27,11 +38,14 @@ export default function index() {
 
   return (
     <div className="wrapper">
+       <Homeicon />
+      <Sidenav />
+      <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       <div className="all">
         <div className="row">
           <div className="backimg col l12">
             <img className="img1 " src={Incident} alt="Incident" />
-            <div className="campus-mask"></div>
+            {/* <div className="campus-mask"></div> */}
             <div className="welcome"> Welcome to </div>
             <div className="cap">
               {" "}

@@ -4,6 +4,7 @@ import hamburger from '../static/hamburger.png';
 import Sidenav from '../Sidenav';
 import PhoneSVG from './PhoneSVG';
 import "../static/contact.css";
+import Homeicon from '../homeicon';
 
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
@@ -12,6 +13,7 @@ function openRightMenu() {
 function Contact() {
   return (
     <div className="contact">
+      <Homeicon />
       <Sidenav />
       <PhoneSVG />
       <img src={hamburger} alt="ham-menu" className="hamburger" onClick={openRightMenu} />

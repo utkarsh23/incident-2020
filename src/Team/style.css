@@ -17,6 +17,12 @@
   background-size: contain;
 }
 
+.team-wrapper-two{
+  background-color: #b74a40;
+  height: 100vh;
+  color: white;
+}
+
 .team-banner {
   height: 95vh;
   position: absolute;
