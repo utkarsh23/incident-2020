@@ -35,29 +35,23 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
-                <h1>Tandav</h1>
+                <h1>Tandav</h1> 
                 <p><b>Semi-professional Eastern and Contemporary Group Dance Competition</b><br />Diversity defines India. So get ready to define it with your dancing talent as we present to you the Indian classical dance competition, Tandav. Come, unite the East, West, North and the South on one stage with stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness.</p>
               </li>
-              <li>
-                <h1>Promenade</h1>
-                <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.</p>
+	      <li>
+                <h1>Step Up Solo</h1>
+                <p>Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then.</p>
               </li>
               <li>
                 <h1>Step Up Duet</h1>
                 <p>What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across!</p>
               </li>
-              <li>
-                <h1>Step Up Solo</h1>
-                <p>Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then.</p>
+	      <li>
+                <h1>Promenade</h1>
+                <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.</p>
               </li>
-              {/* <li>
-                <h1>PUBG</h1>
-                <p></p>
-              </li>
-              <li>
-                <h1>Counter Strike Global Offensive (CS: GO)</h1>
-                <p></p>
-              </li> */}
+              
+                <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
             </ol>
           </div>
         </div>
@@ -75,26 +69,25 @@ function Events() {
             <ol>
               <li>
                 <h1>Unplugged: </h1>
-                <p><b>Western Acoustic and A-cappella Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an Acapella wonder, unplug your heart and let the music take over!</p>
+                <p><b>Western Acoustic and A-cappella Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
                 <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more.</p>
               </li>
               <li>
                 <h1>Pulse</h1>
-                <p><b>Semi-Professional Western Rock Band Competition</b>Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today!</p>
+                <p><b>Semi-Professional Western Rock Band Competition</b> <br />Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today!</p>
               </li>
               <li>
                 <h1>Bandish</h1>
                 <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br/> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?</p>
               </li>
-              {/* <li>
-                <h1></h1>
-                <p></p>
-              </li>
+
               <li>
-                <h1>Counter Strike Global Offensive (CS: GO)</h1>
-                <p></p>
-              </li> */}
-            </ol>
+                <h1>Raaga-Rhapsody (Voice Of Inci)</h1>
+                <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"</p>
+              </li>
+
+	<a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+             </ol>
           </div>
         </div>
       </div>
@@ -150,6 +143,8 @@ function Events() {
                 <h1>Online Events:</h1>
                 <p>The Online 'Lit'fest preceding Incident aims to provide a platform for literary enthusiasts to display their prowess in writing and creativity. Check the various categories out wherein there's something for every style you'd want to explore. Submit the most peculiar of poems and quirkiest of tales to win these battles of words. May the odds be ever in your favour!</p>
               </li>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+
             </ol>
           </div>
         </div>
@@ -183,6 +178,8 @@ function Events() {
                   <b> Team Size:2 Cash Prize: 20k </b><br />
                 </p>
               </li>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+
             </ol>
           </div>
         </div>
@@ -220,12 +217,14 @@ function Events() {
               </li>
               <li>
                 <h1>Newspaper Costume Design</h1>
-                <p>Do you think you have a knack for fashion designing? Then take this challenge of styling your partner by remodeling everyday newspaper into iconic party wear and watch the newspaper clad mannequins walk the ram.</p>
+                <p>Do you think you have a knack for fashion designing? Then take this challenge of styling your partner by remodeling everyday newspaper into iconic party wear and watch the newspaper clad mannequins walk the ramp.</p>
               </li>
               <li>
                 <h1>Body Painting</h1>
                 <p>Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme!</p>
               </li>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+
             </ol>
           </div>
         </div>
@@ -245,6 +244,8 @@ function Events() {
                 <h1>Haute Couture</h1>
                 <p>A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it!</p>
               </li>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+
             </ol>
           </div>
         </div>
@@ -261,29 +262,13 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
-                <h1>PUBG</h1>
-                <p></p>
+                <h1>Slam Dunk</h1>
+                <p>Gear up as top basketball teams from across India compete for the coveted Slam Dunk Trophy! <br />
+                    Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
+                    Stay tuned for more updates.</p>
               </li>
-              <li>
-                <h1>Counter Strike Global Offensive (CS: GO)</h1>
-                <p></p>
-              </li>
-              <li>
-                <h1>PUBG</h1>
-                <p></p>
-              </li>
-              <li>
-                <h1>Counter Strike Global Offensive (CS: GO)</h1>
-                <p></p>
-              </li>
-              <li>
-                <h1>PUBG</h1>
-                <p></p>
-              </li>
-              <li>
-                <h1>Counter Strike Global Offensive (CS: GO)</h1>
-                <p>Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner.</p>
-              </li>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+
             </ol>
           </div>
         </div>
@@ -307,34 +292,71 @@ function Events() {
                 <h1>Beach Informalz</h1>
                 <p>Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse!</p>
               </li>
+              {/* <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a> */}
+
             </ol>
           </div>
         </div>
       </div>
 
-      {/* Photography */}
-      {/* <div id="events-8" className="w3-modal">
+      {/* Multicity */}
+      <div id="events-8" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
             <span onClick={events => onLeftiClose(events, 8)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
-            <h2 className="center events-modal-heading">Potpourri Events</h2>
+            <h2 className="center events-modal-heading">Inci Spotlight Events</h2>
           </header>
           <div className="events-list-wrapper">
             <ol>
               <li>
-                <h1>Frames</h1>
-                <p>The biggest annual cultural festival of NIT Karnataka, Surathkal Incident '20, is back again and FRAMES, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident ‘20. Through this you can also compete with the other college photographers and show the people how creative you are to this world.</p>
-              </li>
-              <li>
-                <h1>Expose</h1>
-                <p>A picture is Prizes Worth a thousand words, said a great, wise man. Be wired to experience breathtaking images, thought-provoking scenarios and some magnificent editing wonders. Treat your eyes to some iconic photography at Incident 2020’s very own Expose, the world through the lens.</p>
+                <h1>Multicity</h1>
+                <p>For the first time ever, Incident at your door step. A multicity Audition not only giving you an opportunity to showcase your talent but also win exciting prizes worth INR 1.2 lakhs.<br /> Come grab the spotlight when we come to your city and avail free travel and accommodation to Incident.</p>
+                <p>Hyderabad - Feb 1st and 2nd</p>
+                <p>Bengaluru - Feb 15th</p>
+                <p>Manipal - Feb 16th</p>
+                <p>Kochi - Feb 21st</p>
               </li>
             </ol>
           </div>
         </div>
-      </div> */}
+      </div>
 
+      {/* TechoBytes */}
+	<div id="events-9" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 9)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Techobyte Workshop</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Ethical Hacking</h1>
+                <p> Technical workshop events from nitk surathkal</p>
+		<p> Date: 15-16 Feb 2020 </p>
+              </li>
+              <li>
+                <h1>Android App Development</h1>
+                <p>Technical workshop events from nitk surathkal</p>
+		<p> Date: 15-16 Feb 2020 </p>
+              </li>
+		<li>
+			<h1> Machine Learning With AI </h1>
+			<p>Technical workshop events from nitk surathkal</p>
+			<p> Date: 15-16 Feb 2020 </p>
+		</li>
+		<li>
+			<h1> Humanoid Robotics With IOT  </h1>
+			<p>Technical workshop events from nitk surathkal</p>
+			<p> Date: 15-16 Feb 2020 </p>
+		</li>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
+            </ol>
+          </div>
+        </div>
+      </div>
       
     </div>
   );

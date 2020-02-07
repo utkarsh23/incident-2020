@@ -23,7 +23,7 @@
 
 .about-heading {
   color: white;
-  font-size: 7.5em;
+  font-size: 5.5em;
   font-family: 'Lobster', cursive;
   padding-left: 3vw;
   margin-top: 13vh;
@@ -48,6 +48,14 @@
   }
 
   .show-on-small{
+    margin-top:50px !important;
     display: block;
+  }
+
+  .about-m{
+    top: 25vh;
+    position: absolute;
+    left: 5vw;
+    bottom: 2vh;
   }
 }

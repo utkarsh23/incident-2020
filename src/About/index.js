@@ -18,7 +18,7 @@ class About extends React.Component {
         <Sidenav />
         <img src={Projector} className="projector-about hide-on-small-only" alt="projector" />
         <img src={Scroll} className="about-m show-on-small" alt="scroll-about" />
-        <div className="about-heading">About<br />&nbsp;&nbsp;&nbsp;&nbsp;Incident</div>
+        <div className="about-heading">About Us<br /></div>
         <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       </div>
     );

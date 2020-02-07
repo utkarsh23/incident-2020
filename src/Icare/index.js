@@ -29,7 +29,9 @@ function Icare() {
       <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       <ICareBottom />
       <Homeicon />
-      {/* <ICareBottomM /> */}
+      <div className="mobile-icare">
+        <ICareBottomM />
+      </div>
       <Sidenav />
       <div id="icare-left" className="w3-modal">
         <div className="w3-animate-bottom icare-modal-content">

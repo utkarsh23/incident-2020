@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Incident from "../static/incident.jpg";
+import Incident from "../static/campus/back2.jpg";
 import Symbol from "../static/i-symbol.png";
 import Festival from "../static/campus/festival.png";
 import Leadership from "../static/campus/leadership.png";
@@ -38,7 +38,7 @@ export default function index() {
 
   return (
     <div className="wrapper">
-      <Homeicon />
+       <Homeicon />
       <Sidenav />
       <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       <div className="all">

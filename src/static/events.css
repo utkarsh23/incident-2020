@@ -79,6 +79,11 @@
   margin-top: 0px;
 }
 
+.register-link{
+  margin-top: 10px;
+  margin-left: 28vw;
+}
+
 #events-0 .events-modal-content {
   background-image: url('dancebg.png');
 }
@@ -105,6 +110,18 @@
 
 #events-6 .events-modal-content {
   background-image: url('sportsbg.png');
+}
+
+#events-7 .events-modal-content {
+  background-image: url('beachbg.jpg');
+}
+
+#events-8 .events-modal-content {
+  background-image: url('multicitybg.png');
+}
+
+#events-9 .events-modal-content {
+  background-image: url('techobytebg.jpg');
 }
 
 @media only screen and (max-width: 600px) {
@@ -147,5 +164,10 @@
 
   .events-modal-heading {
     font-size: 3.5em;
+  }
+
+  .register-link{
+    margin-top: 10px;
+    margin-left: 27vw;
   }
 }
