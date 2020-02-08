@@ -6,7 +6,7 @@ import hamburger from '../static/hamburger.png';
 import Homeicon from '../homeicon';
 
 function onLeftiClose(events, index) {
-  document.getElementById('events-' + index).style.display='none';
+  document.getElementById('events-' + index).style.display = 'none';
 }
 
 function openRightMenu() {
@@ -35,10 +35,14 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
-                <h1>Tandav</h1> 
+                <h1>Classical Solo</h1>
+                <p>Dancing in a group is a treat to audience but solo dancing is magic at play. The beautiful Indian classical forms only make it better. Spread your magic of grace, expressions and elegance with your dance at Incident's solo classical dance competition!</p>
+              </li>
+              <li>
+                <h1>Tandav</h1>
                 <p><b>Semi-professional Eastern and Contemporary Group Dance Competition</b><br />Diversity defines India. So get ready to define it with your dancing talent as we present to you the Indian classical dance competition, Tandav. Come, unite the East, West, North and the South on one stage with stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness.</p>
               </li>
-	      <li>
+              <li>
                 <h1>Step Up Solo</h1>
                 <p>Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then.</p>
               </li>
@@ -46,17 +50,17 @@ function Events() {
                 <h1>Step Up Duet</h1>
                 <p>What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across!</p>
               </li>
-	      <li>
+              <li>
                 <h1>Promenade</h1>
                 <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.</p>
               </li>
-              
-                <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
             </ol>
           </div>
         </div>
       </div>
-      
+
       {/* Music Events */}
       <div id="events-1" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
@@ -69,8 +73,9 @@ function Events() {
             <ol>
               <li>
                 <h1>Unplugged: </h1>
-                <p><b>Western Acoustic and A-cappella Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
-                <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more.</p>
+                <p>This Incident, experience the sensation of acoustic music, western and eastern, in the same event.</p><br />
+                <p><b>Western Acoustic Band Competition</b> <br />Let the strum of a guitar and the harmonies produce a peaceful ambience. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged.</p>
+                <p><b>Eastern Acoustic Band Competition</b> <br />Allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Unplug your heart and let the music take over!</p>
               </li>
               <li>
                 <h1>Pulse</h1>
@@ -78,20 +83,21 @@ function Events() {
               </li>
               <li>
                 <h1>Bandish</h1>
-                <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br/> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?</p>
+                <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br /> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?</p>
               </li>
 
               <li>
                 <h1>Raaga-Rhapsody (Voice Of Inci)</h1>
+                <b>Solo vocals(western+eastern) competition</b>
                 <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"</p>
               </li>
 
-	<a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
-             </ol>
+              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+            </ol>
           </div>
         </div>
       </div>
-      
+
       {/* Lit Events */}
       <div id="events-2" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
@@ -111,13 +117,13 @@ function Events() {
               <li>
                 <h1>General Quiz:</h1>
                 <p>Get ready for the biggest quiz of Incident 2020 with the General quiz by none other than Major Chandrakant Nair <br />
-                    A quizmaster who needs no introduction, the General Quiz is the best opportunity to put your brains against the best in the business. Come in teams of three or less and attempt to take home the trophy in one of the best quizzes in a South India that is sure to leave you astounded yet entertained throughout!
+                  A quizmaster who needs no introduction, the General Quiz is the best opportunity to put your brains against the best in the business. Come in teams of three or less and attempt to take home the trophy in one of the best quizzes in a South India that is sure to leave you astounded yet entertained throughout!
                 </p>
               </li>
               <li>
                 <h1>Theme Quiz:</h1>
                 <p>Another quiz by Major Chandrakant Nair, the theme quiz is based on the overall theme of Incident 2020- ‘A Tryst With Time’ <br />
-                    The quiz is an enigmatic journey through time itself, as one flows through the chronology of the universe hoping to uncover it in the form of trivia and unknown tidbits of information that will be a pleasant surprise for us all
+                  The quiz is an enigmatic journey through time itself, as one flows through the chronology of the universe hoping to uncover it in the form of trivia and unknown tidbits of information that will be a pleasant surprise for us all
                 </p>
               </li>
               <li>
@@ -149,7 +155,7 @@ function Events() {
           </div>
         </div>
       </div>
-      
+
       {/* Biz Events */}
       <div id="events-3" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
@@ -163,8 +169,8 @@ function Events() {
               <li>
                 <h1>B-Plan</h1>
                 <p>The best startups generally come from somebody needing to scratch an itch. B-Plan is an event where participants have the perception to bring about a revolution in the business world. For this, you have to create a draft of your business plan and get a platform to bring out your idea in front of an esteemed panel of investors. <br />
-                  <b>Team Size:2 Cash Prize: 20k </b> 
-                </p>             
+                  <b>Team Size:2 Cash Prize: 20k </b>
+                </p>
               </li>
               <li>
                 <h1>Best Management Team</h1>
@@ -204,12 +210,16 @@ function Events() {
                 <p>Still remember Dust and Nuke? Or are you a professional? Doesn't matter, here you got to prove your worth. What counts is how fast you can take that crucial head shot or knife the bad guy! CT or Terrorist you decide</p>
               </li>
               <li>
-                <h1>Call of Duty (COD)</h1>
+                <h1>Call of Duty (COD) Mobile</h1>
                 <p>Strap on your armour, Pick up your Assault Rifles, load your magazine, fill up some grenades or even a knife will do. As you fight it out in an urban or a jungle scape.</p>
               </li>
               <li>
                 <h1>FIFA</h1>
                 <p>Let's bring out the baller in you, as you score more than your friends. We mean in the game though and also we got your food cravings covered!</p>
+              </li>
+              <li>
+                <h1>Need For Speed: Most Wanted</h1>
+                <p>Exhilarating. Thrilling. Memorable. Magical. These are the words you're going to describe the racing action of your Need For Speed.  So quit horsing around and come to our gaming event and become the MOST WANTED.</p>
               </li>
               <li>
                 <h1>Kalakriti</h1>
@@ -229,7 +239,7 @@ function Events() {
           </div>
         </div>
       </div>
-      
+
       {/* Haute Couture */}
       <div id="events-5" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
@@ -250,7 +260,7 @@ function Events() {
           </div>
         </div>
       </div>
-      
+
       {/* Sports Events */}
       <div id="events-6" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
@@ -264,8 +274,8 @@ function Events() {
               <li>
                 <h1>Slam Dunk</h1>
                 <p>Gear up as top basketball teams from across India compete for the coveted Slam Dunk Trophy! <br />
-                    Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
-                    Stay tuned for more updates.</p>
+                  Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
+                  Stay tuned for more updates.</p>
               </li>
               <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
 
@@ -323,7 +333,7 @@ function Events() {
       </div>
 
       {/* TechoBytes */}
-	<div id="events-9" className="w3-modal">
+      <div id="events-9" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
             <span onClick={events => onLeftiClose(events, 9)}
@@ -335,29 +345,29 @@ function Events() {
               <li>
                 <h1>Ethical Hacking</h1>
                 <p> Technical workshop events from nitk surathkal</p>
-		<p> Date: 15-16 Feb 2020 </p>
+                <p> Date: 15-16 Feb 2020 </p>
               </li>
               <li>
                 <h1>Android App Development</h1>
                 <p>Technical workshop events from nitk surathkal</p>
-		<p> Date: 15-16 Feb 2020 </p>
+                <p> Date: 15-16 Feb 2020 </p>
               </li>
-		<li>
-			<h1> Machine Learning With AI </h1>
-			<p>Technical workshop events from nitk surathkal</p>
-			<p> Date: 15-16 Feb 2020 </p>
-		</li>
-		<li>
-			<h1> Humanoid Robotics With IOT  </h1>
-			<p>Technical workshop events from nitk surathkal</p>
-			<p> Date: 15-16 Feb 2020 </p>
-		</li>
+              <li>
+                <h1> Machine Learning With AI </h1>
+                <p>Technical workshop events from nitk surathkal</p>
+                <p> Date: 15-16 Feb 2020 </p>
+              </li>
+              <li>
+                <h1> Humanoid Robotics With IOT  </h1>
+                <p>Technical workshop events from nitk surathkal</p>
+                <p> Date: 15-16 Feb 2020 </p>
+              </li>
               <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
             </ol>
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 }
