@@ -4,6 +4,7 @@ import Carousel from './Carousel';
 import Sidenav from '../Sidenav';
 import hamburger from '../static/hamburger.png';
 import Homeicon from '../homeicon';
+import Popup from '../Popup';
 
 function onLeftiClose(events, index) {
   document.getElementById('events-' + index).style.display = 'none';
@@ -13,11 +14,42 @@ function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
 }
 
+function ShowPopUp() {
+  document.getElementById("popup").style.display = "block";
+}
+
+function ClosePopUp() {
+  document.getElementById("popup").style.display = "none";
+  document.getElementById("register").style.display = "none";
+}
+
+function ShowToolTip(e) {
+  console.log("came here");
+  document.getElementById("pop-up").style.display = "block";
+  document.getElementById("pop-up").style.top = (e.pageY -80).toString() + 'px';
+  document.getElementById("pop-up").style.left = (e.pageX -50).toString() + 'px';
+}
+
+function CloseToolTip() {
+  document.getElementById("pop-up").style.display = "none";
+}
+
 function Events() {
   return (
     <div className="events-wrapper">
       <Homeicon />
       <Sidenav />
+      <div id="popup" style={{ display: 'none' }}>
+        <Popup />
+        <button className="closepop" onClick={ClosePopUp}>Close</button>
+      </div>
+
+      <div id="pop-up">
+        <p>
+          <b style={{ color: 'black' }}>Login in with your '<b style={{ color: 'rgb(96, 136, 35)' }}>nitk.edu.in</b>' account to access the forms</b>
+        </p>
+      </div>
+
       <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       <h1 className="events-heading">Events</h1>
       <div className="center events-bottom-carousel">
@@ -35,10 +67,6 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
-                <h1>Classical Solo</h1>
-                <p>Dancing in a group is a treat to audience but solo dancing is magic at play. The beautiful Indian classical forms only make it better. Spread your magic of grace, expressions and elegance with your dance at Incident's solo classical dance competition!</p>
-              </li>
-              <li>
                 <h1>Tandav</h1>
                 <p><b>Semi-professional Eastern and Contemporary Group Dance Competition</b><br />Diversity defines India. So get ready to define it with your dancing talent as we present to you the Indian classical dance competition, Tandav. Come, unite the East, West, North and the South on one stage with stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness.</p>
               </li>
@@ -54,8 +82,9 @@ function Events() {
                 <h1>Promenade</h1>
                 <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.</p>
               </li>
-
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+              <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
+              <a class="waves-effect waves-light btn center black reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-incident-2020-dance-event-rule-book_compressed.pdf  ">Rules</a>
             </ol>
           </div>
         </div>
@@ -73,9 +102,8 @@ function Events() {
             <ol>
               <li>
                 <h1>Unplugged: </h1>
-                <p>This Incident, experience the sensation of acoustic music, western and eastern, in the same event.</p><br />
-                <p><b>Western Acoustic Band Competition</b> <br />Let the strum of a guitar and the harmonies produce a peaceful ambience. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged.</p>
-                <p><b>Eastern Acoustic Band Competition</b> <br />Allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Unplug your heart and let the music take over!</p>
+                <p><b>Western Acoustic and A-cappella Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
+                <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more.</p>
               </li>
               <li>
                 <h1>Pulse</h1>
@@ -88,11 +116,12 @@ function Events() {
 
               <li>
                 <h1>Raaga-Rhapsody (Voice Of Inci)</h1>
-                <b>Solo vocals(western+eastern) competition</b>
                 <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"</p>
               </li>
 
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-inci-musicals-rulebook-(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -149,8 +178,8 @@ function Events() {
                 <h1>Online Events:</h1>
                 <p>The Online 'Lit'fest preceding Incident aims to provide a platform for literary enthusiasts to display their prowess in writing and creativity. Check the various categories out wherein there's something for every style you'd want to explore. Submit the most peculiar of poems and quirkiest of tales to win these battles of words. May the odds be ever in your favour!</p>
               </li>
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
-
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
             </ol>
           </div>
         </div>
@@ -184,8 +213,9 @@ function Events() {
                   <b> Team Size:2 Cash Prize: 20k </b><br />
                 </p>
               </li>
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
-
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf ">Register</a>
             </ol>
           </div>
         </div>
@@ -210,16 +240,12 @@ function Events() {
                 <p>Still remember Dust and Nuke? Or are you a professional? Doesn't matter, here you got to prove your worth. What counts is how fast you can take that crucial head shot or knife the bad guy! CT or Terrorist you decide</p>
               </li>
               <li>
-                <h1>Call of Duty (COD) Mobile</h1>
+                <h1>Call of Duty (COD)</h1>
                 <p>Strap on your armour, Pick up your Assault Rifles, load your magazine, fill up some grenades or even a knife will do. As you fight it out in an urban or a jungle scape.</p>
               </li>
               <li>
                 <h1>FIFA</h1>
                 <p>Let's bring out the baller in you, as you score more than your friends. We mean in the game though and also we got your food cravings covered!</p>
-              </li>
-              <li>
-                <h1>Need For Speed: Most Wanted</h1>
-                <p>Exhilarating. Thrilling. Memorable. Magical. These are the words you're going to describe the racing action of your Need For Speed.  So quit horsing around and come to our gaming event and become the MOST WANTED.</p>
               </li>
               <li>
                 <h1>Kalakriti</h1>
@@ -233,8 +259,8 @@ function Events() {
                 <h1>Body Painting</h1>
                 <p>Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme!</p>
               </li>
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
-
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
             </ol>
           </div>
         </div>
@@ -254,8 +280,9 @@ function Events() {
                 <h1>Haute Couture</h1>
                 <p>A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it!</p>
               </li>
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
-
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -277,8 +304,8 @@ function Events() {
                   Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
                   Stay tuned for more updates.</p>
               </li>
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a>
-
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
             </ol>
           </div>
         </div>
@@ -302,8 +329,6 @@ function Events() {
                 <h1>Beach Informalz</h1>
                 <p>Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse!</p>
               </li>
-              {/* <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">Register</a> */}
-
             </ol>
           </div>
         </div>
@@ -362,7 +387,7 @@ function Events() {
                 <p>Technical workshop events from nitk surathkal</p>
                 <p> Date: 15-16 Feb 2020 </p>
               </li>
-              <a class="waves-effect waves-light btn center black register-lin" target="_blank" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
+              <a class="waves-effect waves-light btn center black " target="_blank" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
             </ol>
           </div>
         </div>

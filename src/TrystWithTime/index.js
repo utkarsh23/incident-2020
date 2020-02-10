@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import VanillaTilt from 'vanilla-tilt';
 import VideoPlayer from './VideoPlayer';
 import NeonLogo from '../static/neon-logo.png';
+import RightProp from '../static/right-prop.png';
+import LeftProp from '../static/light-sabre.png';
 import './index.css'
 
 
@@ -32,6 +34,8 @@ class Tilt extends React.Component {
         >
           <VideoPlayer />
           <Link to="/"><img src={NeonLogo} className="neon-logo-tryst" alt="neon logo" /></Link>
+          <img className="rightprop" src={RightProp} alt="right-prop" />
+          {/* <img className="leftprop" src={LeftProp} alt="left-prop" /> */}
         </div>
 
     )

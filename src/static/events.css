@@ -36,11 +36,13 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 15vw;
+  overflow: hidden;
 }
 
 .events-wrapper {
   height: 100vh;
   background-image: url('eventsbg.png');
+  overflow:hidden !important;
 }
 
 .events-modal-heading {
@@ -77,11 +79,6 @@
   padding-top: 8vh;
   font-size: 8em;
   margin-top: 0px;
-}
-
-.register-link{
-  margin-top: 10px;
-  margin-left: 28vw;
 }
 
 #events-0 .events-modal-content {
@@ -122,6 +119,78 @@
 
 #events-9 .events-modal-content {
   background-image: url('techobytebg.jpg');
+}
+
+#popup{
+  position: absolute;
+  z-index: 9999;
+  background-color:white;
+  top: 8vh;
+  left: 7.5vw;
+  width: 70vw;
+  padding-left: 15px;
+}
+
+.popup{
+  position: absolute;
+  z-index: 9999;
+  background-color:white;
+  top: -4vh;
+  left: 7.5vw;
+  width: 70vw;
+  height: 95vh;
+  overflow-y: scroll;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.closepop{
+  position: absolute;
+  top: 0vh;
+  left: 100%;
+  z-index: 10000;
+  background-color:red;
+  font-weight: bold;
+  color:white;
+  border: solid 2px red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agree{
+  background-color: rgb(37, 194, 23);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border:solid 2px rgb(37, 194, 23);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.openpop{
+  /* margin-right: 100px; */
+}
+
+#register{
+  margin-right: 15px;
+}
+
+div#pop-up {
+  display: none;
+  position: absolute;
+  width: 280px;
+  padding: 10px;
+  background: #eeeeee;
+  color: #000000;
+  border: 1px solid #1a1a1a;
+  font-size: 100%;
+  z-index:10000000;
+}
+
+.reg-but{
+  position: relative;
+  margin-left: 100px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -166,8 +235,25 @@
     font-size: 3.5em;
   }
 
-  .register-link{
-    margin-top: 10px;
-    margin-left: 27vw;
+  .popup{
+    position: absolute;
+    z-index: 9999;
+    background-color:white;
+    top: -7vh;
+    left: 7.5vw;
+    width: 70vw;
+    height: 95vh;
+    overflow-y: scroll;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+
+  .openpop{
+    margin-right: 100px;
+  }
+
+  .reg-but{
+    margin-left:0px;
+    margin-right: 100px;
   }
 }

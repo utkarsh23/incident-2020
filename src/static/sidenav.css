@@ -10,7 +10,7 @@
   width: 30vw;
   /* background: url('./neon-bg.png'); */
   /* background-size: cover; */
-  background-color: rgb(39, 15, 61);
+  background-color: #0E1327;
   color: white;
   font-family: 'Kelly Slab', cursive;
 }
@@ -34,7 +34,7 @@
 }
 
 .w3-bar-item{
-  height: 8vh !important;
+  height: 7vh !important;
 }
 
 .w3-bar-item:hover{
@@ -51,7 +51,7 @@
 }
 
 .purpleLogo{
-  width: 10vw;
+  width: 9.5vw;
   margin-left: 10vw;
   border-radius: 50%;
 }
