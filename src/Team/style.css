@@ -254,4 +254,28 @@ p{
     text-align: left;
     padding-left: 10vw;
   }
+
+  .coming-soon{
+    position: absolute;
+    top: 90vh !important;
+    left: 12vw;
+    font-weight:bold;
+    font-size: 140px !important;
+    color:#660000;
+    font-family: 'TheGodfather';
+  }
+
+  .show-on-small{
+    margin: 0 !important;
+  }
+}
+
+.coming-soon{
+  position: absolute;
+  top: 55vh;
+  left: 12vw;
+  font-weight:bold;
+  font-size: 145px;
+  color:#660000;
+  font-family: 'TheGodfather';
 }
