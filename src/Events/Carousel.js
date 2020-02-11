@@ -60,7 +60,7 @@ function Carousel() {
               <br />
               <div className="event-card-img"><img className="event-category-img" src={event_images[i][1]} alt="event category" /></div>
               <br /><br />
-              <div><a class="waves-effect waves-light btn center black" onClick={event => onViewClick(event, i)}>View Events</a></div>
+              <div class="waves-effect waves-light btn center black" onClick={event => onViewClick(event, i)}>View Events</div>
             </div>
           )}
         </ItemsCarousel>
@@ -94,7 +94,7 @@ function Carousel() {
             <br />
             <div className="event-card-img"><img className="event-category-img" src={event_images[i][1]} alt="event category" /></div>
             <br /><br />
-            <div><a class="waves-effect waves-light btn center black" onClick={event => onViewClick(event, i)}>View Events</a></div>
+            <div class="waves-effect waves-light btn center black" onClick={event => onViewClick(event, i)}>View Events</div>
           </div>
         )}
       </ItemsCarousel>

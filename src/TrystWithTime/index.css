@@ -8,46 +8,20 @@
 	background-size: cover;
 }
 
-.coconut{
-  z-index: 50;
+.rightprop{
   position: absolute;
-  height: 300px;
-  width:250px;
-  top: 40%;
-  left: 65%;
+  top:55vh;
+  left: 70vw;
+  width: 18vw;
+  transform: translateZ(150px);
 }
 
-.coconut2{
-  z-index: 50;
+.leftprop{
   position: absolute;
-  height: 500px;
-  width:300px;
-  top: 0%;
-  left: 23%;
-}
-
-.coconut3{
-  z-index: 5;
-  position: absolute;
-  height: 600px;
-  width:250px;
-  top: 5%;
-  left: 30%;
-}
-
-.coconut4{
-  z-index: 50;
-  position: absolute;
-  height: 200px;
-  width:150px;
-  top: 40%;
-  left: 25%;
-}
-
-.stage{
-  margin-top: -8%;
-  width: 1900px;
-  height: 800px;
+  top:60vh;
+  left: 10vw;
+  width: 14vw;
+  transform: translateZ(150px);
 }
 
 .neon-logo-tryst {
@@ -56,6 +30,7 @@
   left: 5vw;
   width: 10vw;
   cursor: pointer;
+  /* transform: translateZ(300px); */
 }
 
 @media only screen and (max-width: 600px) {
@@ -65,5 +40,21 @@
 
   .neon-logo-tryst {
     width: 25vw;
+  }
+
+  .rightprop{
+    position: absolute;
+    top:60vh;
+    left: 70vw;
+    width: 25vw;
+    transform: translateZ(150px);
+  }
+  
+  .leftprop{
+    position: absolute;
+    top:65vh;
+    left: 15vw;
+    width: 16vw;
+    transform: translateZ(150px);
   }
 }

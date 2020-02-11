@@ -1,5 +1,6 @@
 import React from 'react';
 import './static/sidenav.css';
+import PurpleLogo from './static/inci_logo_purple_back.jpg';
 
 function closeRightMenu() {
   document.getElementById("rightMenu").style.display = "none";
@@ -8,7 +9,9 @@ function closeRightMenu() {
 function Sidenav() {
   return (
     <div className="w3-sidebar w3-bar-block w3-card w3-animate-right hide-on-med-and-up" style={{display: 'none', right:'0'}} id="rightMenu">
-      <button onClick={closeRightMenu} className="w3-bar-item w3-button w3-large">Close &times;</button>
+      <img className="purpleLogo" src={PurpleLogo} alt="purple_logo" />
+      <button onClick={closeRightMenu} className="w3-bar-item w3-button w3-large"> &times;</button>
+      <a href="/" className="w3-bar-item w3-button">Home</a>
       <a href="/about" className="w3-bar-item w3-button">About Us</a>
       <a href="/events" className="w3-bar-item w3-button">Events</a>
       <a href="/icare" className="w3-bar-item w3-button">I-Care</a>

@@ -94,6 +94,10 @@
   transform: scale(1.01);
 }
 
+.App-header .purpleLogo {
+  margin-left: 0px;
+}
+
 @media only screen and (max-width: 600px) {
   .App-header {
     background-image: url('./bg-m.png');

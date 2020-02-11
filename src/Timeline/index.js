@@ -49,8 +49,6 @@ class Timeline extends Component {
   render() {
     return (
       <div>
-        <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
-        <Homeicon />
         <Sidenav />
         <div className="timeline-wrapper">
           <div className="timeline-container" id="timeline-1">
@@ -79,6 +77,7 @@ class Timeline extends Component {
           </div>
         </div>
         <img src={hamburger} alt="ham-menu" className="hamburger" onClick={openRightMenu} />
+        <Homeicon />
       </div>
     );
   }
