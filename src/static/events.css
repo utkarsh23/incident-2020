@@ -41,7 +41,7 @@
 
 .events-wrapper {
   height: 100vh;
-  background-image: url('eventsbg.png');
+  background-image: url('eventsbg.jpg');
   overflow:hidden !important;
 }
 
@@ -82,31 +82,31 @@
 }
 
 #events-0 .events-modal-content {
-  background-image: url('dancebg.png');
+  background-image: url('dancebg.jpg');
 }
 
 #events-1 .events-modal-content {
-  background-image: url('musicbg.png');
+  background-image: url('musicbg.jpg');
 }
 
 #events-2 .events-modal-content {
-  background-image: url('litbg.png');
+  background-image: url('litbg.jpg');
 }
 
 #events-3 .events-modal-content {
-  background-image: url('bizbg.png');
+  background-image: url('bizbg.jpg');
 }
 
 #events-4 .events-modal-content {
-  background-image: url('fineartsbg.png');
+  background-image: url('fineartsbg.jpg');
 }
 
 #events-5 .events-modal-content {
-  background-image: url('hautebg.png');
+  background-image: url('hautebg.jpg');
 }
 
 #events-6 .events-modal-content {
-  background-image: url('sportsbg.png');
+  background-image: url('sportsbg.jpg');
 }
 
 #events-7 .events-modal-content {
@@ -114,7 +114,7 @@
 }
 
 #events-8 .events-modal-content {
-  background-image: url('multicitybg.png');
+  background-image: url('multicitybg.jpg');
 }
 
 #events-9 .events-modal-content {

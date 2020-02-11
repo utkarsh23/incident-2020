@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import Incident from "../static/campus/back2.jpg";
-import Symbol from "../static/i-symbol.png";
+import Symbol from "../static/i-symbol.jpg";
 import Festival from "../static/campus/festival.png";
 import Leadership from "../static/campus/leadership.png";
 import Travel from "../static/campus/travel.png";
