@@ -11,10 +11,6 @@ import Sidenav from '../Sidenav';
 import hamburger from '../static/hamburger.png';
 import Homeicon from '../homeicon';
 
-function onLeftiClose(events, index) {
-  document.getElementById('events-' + index).style.display='none';
-}
-
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
 }
@@ -38,9 +34,7 @@ export default function index() {
 
   return (
     <div className="wrapper">
-       <Homeicon />
       <Sidenav />
-      <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
       <div className="all">
         <div className="row">
           <div className="backimg col l12">
@@ -307,6 +301,8 @@ export default function index() {
           </h5>
         </div>
       </div>
+      <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />
+      <Homeicon />
     </div>
   );
 }

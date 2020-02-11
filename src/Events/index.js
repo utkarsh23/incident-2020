@@ -83,8 +83,8 @@ function Events() {
                 <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.</p>
               </li>
               <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
-              <a class="waves-effect waves-light btn center black reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-incident-2020-dance-event-rule-book_compressed.pdf  ">Rules</a>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
+              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-incident-2020-dance-event-rule-book_compressed.pdf  ">Rules</a>
             </ol>
           </div>
         </div>
@@ -120,8 +120,8 @@ function Events() {
               </li>
 
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-inci-musicals-rulebook-(1).pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-inci-musicals-rulebook-(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -179,7 +179,7 @@ function Events() {
                 <p>The Online 'Lit'fest preceding Incident aims to provide a platform for literary enthusiasts to display their prowess in writing and creativity. Check the various categories out wherein there's something for every style you'd want to explore. Submit the most peculiar of poems and quirkiest of tales to win these battles of words. May the odds be ever in your favour!</p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
             </ol>
           </div>
         </div>
@@ -214,8 +214,8 @@ function Events() {
                 </p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf ">Register</a>
+              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf ">Register</a>
             </ol>
           </div>
         </div>
@@ -260,7 +260,7 @@ function Events() {
                 <p>Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme!</p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
             </ol>
           </div>
         </div>
@@ -281,8 +281,8 @@ function Events() {
                 <p>A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it!</p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -305,7 +305,7 @@ function Events() {
                   Stay tuned for more updates.</p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
             </ol>
           </div>
         </div>
@@ -387,7 +387,7 @@ function Events() {
                 <p>Technical workshop events from nitk surathkal</p>
                 <p> Date: 15-16 Feb 2020 </p>
               </li>
-              <a class="waves-effect waves-light btn center black " target="_blank" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
+              <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
             </ol>
           </div>
         </div>
