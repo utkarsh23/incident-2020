@@ -240,8 +240,12 @@ function Events() {
                 <p>Still remember Dust and Nuke? Or are you a professional? Doesn't matter, here you got to prove your worth. What counts is how fast you can take that crucial head shot or knife the bad guy! CT or Terrorist you decide</p>
               </li>
               <li>
-                <h1>Call of Duty (COD)</h1>
+                <h1>Call of Duty Mobile (CODM)</h1>
                 <p>Strap on your armour, Pick up your Assault Rifles, load your magazine, fill up some grenades or even a knife will do. As you fight it out in an urban or a jungle scape.</p>
+              </li>
+              <li>
+                <h1>NFS: Most Wanted</h1>
+                <p>Exhilarating. Thrilling. Memorable. Magical. These are the words you're going to describe the racing action of your Need For Speed.  So quit horsing around and come to our gaming event and become the MOST WANTED.</p>
               </li>
               <li>
                 <h1>FIFA</h1>
