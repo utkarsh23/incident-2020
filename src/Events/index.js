@@ -215,7 +215,7 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf ">Register</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf ">Rules</a>
             </ol>
           </div>
         </div>

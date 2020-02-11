@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import hamburger from '../static/hamburger.png';
 import Sidenav from '../Sidenav';
 import PhoneSVG from './PhoneSVG';
@@ -55,11 +54,11 @@ function Contact() {
         </div>
       </div>
       <div className="social-contact-wrapper">
-        <Link to="#" className="social-contact fa fa-facebook"></Link>
-        <Link to="#" className="social-contact fa fa-twitter"></Link>
-        <Link to="#" className="social-contact fa fa-youtube-play"></Link>
-        <Link to="#" className="social-contact fa fa-instagram"></Link>
-        <Link to="#" className="social-contact fa fa-linkedin"></Link>
+        <a href="https://www.facebook.com/incidenttheofficialpage/" className="social-contact fa fa-facebook">&nbsp;</a>
+        <a href="https://twitter.com/incident_nitk" className="social-contact fa fa-twitter">&nbsp;</a>
+        <a href="https://www.youtube.com/channel/UC-_WeDFW_i7-GnGNJiun9_Q" className="social-contact fa fa-youtube-play">&nbsp;</a>
+        <a href="https://www.instagram.com/incident_nitk/" className="social-contact fa fa-instagram">&nbsp;</a>
+        <a href="https://www.linkedin.com/company/incident-nitk2020" className="social-contact fa fa-linkedin">&nbsp;</a>
       </div>
     </div>
   );

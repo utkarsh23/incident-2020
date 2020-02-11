@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'YouthTouchDEMO-Regular';
+  src: url(../static/youthtouch.ttf);
+}
+
+.proshows-bottom-carousel {
+  position: absolute;
+  bottom: 30vh;
+  height: 40vh;
+  padding: 0px;
+  width: 80vw;
+  left: 10vw;
+}
+
+.proshows-card-wrapper {
+  border-radius: 20px;
+  padding: 3vh 1vw;
+  margin-left: 5px;
+  min-height: 40vh;
+}
+
+.proshows-card-wrapper h1 {
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+  font-size: 6.5em;
+}
+
+.proshows-modal-content {
+  max-height: 82vh;
+  background-size: cover;
+  width: 70vw;
+  padding: 2vh;
+  padding-bottom: 4vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 15vw;
+  overflow: hidden;
+}
+
+.proshows-wrapper {
+  height: 100vh;
+  background-image: url('eventsbg.jpg');
+  overflow: hidden !important;
+}
+
+.proshows-modal-heading {
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+  font-size: 6.5em;
+  color: white;
+}
+
+.proshows-modal-wrapper {
+  font-size: 0.8em;
+  color: white;
+}
+
+.proshows-heading {
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+  color: white;
+  text-align: center;
+  padding-top: 8vh;
+  font-size: 8em;
+  margin-top: 0px;
+}
+
+#proshows-0 .proshows-modal-content {
+  background-image: url('dancebg.jpg');
+}
+
+#proshows-1 .proshows-modal-content {
+  background-image: url('musicbg.jpg');
+}
+
+#proshows-2 .proshows-modal-content {
+  background-image: url('litbg.jpg');
+}
+
+#proshows-3 .proshows-modal-content {
+  background-image: url('bizbg.jpg');
+}
+
+#proshows-card-wrapper-0 {
+  background-image: url('dancebg.jpg');
+}
+
+#proshows-card-wrapper-1 {
+  background-image: url('musicbg.jpg');
+}
+
+#proshows-card-wrapper-2 {
+  background-image: url('litbg.jpg');
+}
+
+#proshows-card-wrapper-3 {
+  background-image: url('bizbg.jpg');
+}
+
+@media only screen and (max-width: 600px) {
+  .proshows-bottom-carousel {
+    width: 90vw;
+    left: 5vw;
+  }
+
+  .proshows-card-wrapper {
+    margin: 0px;
+  }
+
+  .w3-modal-content {
+    width: 90vw !important;
+  }
+
+  .proshows-modal-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .proshows-modal-wrapper {
+    font-size: 0.6em;
+  }
+
+  .proshows-modal-heading {
+    font-size: 3.5em;
+  }
+}

@@ -10,6 +10,7 @@ import About from "./About";
 import Icare from "./Icare";
 import Team from "./Team";
 import TrystWithTime from "./TrystWithTime";
+import Proshows from './Proshows';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/icare" component={Icare} />
         <Route path="/team" component={Team} />
         <Route path="/tryst-with-time" component={TrystWithTime} />
+        <Route path="/proshows" component={Proshows} />
       </Switch>
     </BrowserRouter>
   );
