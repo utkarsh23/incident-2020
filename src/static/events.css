@@ -193,6 +193,51 @@ div#pop-up {
   margin-left: 100px;
 }
 
+.litpourri-wrapper {
+  background-color: #FAE6B9;
+  color: #263238;
+}
+
+.litpourri-wrapper h1 {
+  margin: 0;
+  padding-top: 7vh;
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+  font-size: 7em;
+  color: #263238;
+}
+
+.litpourri-wrapper p {
+  font-size: 2em;
+  color: #263238;
+}
+
+.litpourri-wrapper h2 {
+  font-size: 6em;
+  font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+}
+
+.litpourri-btn {
+  color: #FAE6B9;
+  cursor: pointer;
+}
+
+.litpourri-top {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.litpourri-modal-content {
+  background-color: #263238;
+  color: #FAE6B9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+.litpourri-modal-content li {
+  font-size: 2em;
+}
+
 @media only screen and (max-width: 600px) {
   .events-bottom-carousel {
     width: 90vw;
@@ -255,5 +300,17 @@ div#pop-up {
   .reg-but{
     margin-left:0px;
     margin-right: 100px;
+  }
+
+  .litpourri-wrapper p {
+    font-size: 1.5em;
+  }
+
+  .litpourri-btn {
+    margin-top: 2vh;
+  }
+
+  .litpourri-modal-content li {
+    font-size: 1.5em;
   }
 }
