@@ -98,7 +98,7 @@ function Events() {
               </li>
               <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
-              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-incident-2020-dance-event-rule-book_compressed.pdf  ">Rules</a>
+              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -195,7 +195,7 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-committee-rules-1.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-event-rules.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -231,7 +231,7 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-rule-book_inspire(1).pdf ">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-rule-book_inspire(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -323,7 +323,7 @@ function Events() {
                 <p>Gear up as top basketball teams from across India compete for the coveted Slam Dunk Trophy! <br />
                   Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
                   Stay tuned for more updates.</p>
-                  <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-null_compressed.pdf">Rules</a>
+                  <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-slamdunk_compressed.pdf">Rules</a>
               </li>
               <li>
                 <h1>Volley Ball</h1>
@@ -422,6 +422,7 @@ function Events() {
         </div>
       </div>
 
+    {/* Theatre Events */}
       <div id="events-10" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
@@ -439,7 +440,16 @@ function Events() {
                   <b> Prizes Worth : 25k </b> <br />
                 </p>
               </li>
-              <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
+              <li>
+                <h1>Nukkad:</h1>
+                <p>Deeply rooted in the Indian tradition,breaking the formal barriers and approaching the people directly. Both the performer and audience have always felt a deep connect through the message of the play! <br/>
+                    A passion for theatre and the zeal to act is all you need to set the stage on fire. The ultimate arena for actors, directors and script-writers alike, this is where the action happens. Incident’20 presents Nukkad,a street play competition.
+                  <b> Prizes Worth : 40k </b> <br />
+                </p>
+              </li>
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final.pdf">Rules</a>
             </ol>
           </div>
         </div>
