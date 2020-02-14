@@ -29,24 +29,18 @@ const back_images = [
 ]
 
 //this should contain image, its class and the parameter of movement
-const image_classes = [
-  ["aakash-gupta","blur-1","blur-2","comedy-night"]
-]
-
-const image_params = [
-  
-]
+// const image_classes = [
+//   ["aakash-gupta","blur-1","blur-2","comedy-night"]
+// ]
 
 function onViewClick(event, index) {
   document.getElementById('proshows-' + index).style.display='block';
 }
 
 function MoveImages(event,i){
-
-  // console.log(image_classes[i].length);
-  const window_width = window.innerWidth;
-  const mouse_posX = event.pageX;
-  const dispX = mouse_posX - window_width/2;
+  // const window_width = window.innerWidth;
+  // const mouse_posX = event.pageX;
+  // const dispX = mouse_posX - window_width/2;
 
   //move the elements
   // for(var ele=0;ele<proshow_classes[i].length;ele=ele+2){
@@ -131,14 +125,11 @@ function CarouselP() {
             style = {{backgroundColor:'transparent'}}
             onMouseMove = {event => MoveImages(event,i)}
           >
-
-            
             <img src={proshows_images[i][2]} alt="aakash-gupta" className="aakash-gupta" />
             <img src={back_images[i][0]} alt="aakash" className="aakash-1" />
             <img src={BigYSpeckle} alt="aakash" className="blur-1" />
             <img src={Layer1} alt="aakash" className="blur-2" />
             <img src={back_images[i][3]} alt="aakash" className="comedy-night" />
-            
           </div>
         )}
       </ItemsCarousel>
