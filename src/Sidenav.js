@@ -22,6 +22,7 @@ function Sidenav() {
       <a href="/campus" className="w3-bar-item w3-button">Campus Ambassador</a>
       <a href="/tryst-with-time" className="w3-bar-item w3-button">Tryst With Time</a>
       <a href="/contact" className="w3-bar-item w3-button">Contact</a>
+      <a href="http://incident.verzeo.in/" className="w3-bar-item w3-button">Internships</a>
     </div>
   );
 }
