@@ -10,7 +10,6 @@ import About from "./About";
 import Icare from "./Icare";
 import Team from "./Team";
 import TrystWithTime from "./TrystWithTime";
-import Proshows from './Proshows';
 import LitPourri from "./Events/LitPourri";
 
 function App() {

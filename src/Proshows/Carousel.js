@@ -11,7 +11,6 @@ import Blur2 from '../static/proshow/Blur2.png';
 import ComedyNight from '../static/proshow/ComedyNight.png';
 import PatternBlur from '../static/proshow/PatternBlur.png';
 import BigYSpeckle from '../static/proshow/big_y_speckle.png';
-import Layer0 from '../static/proshow/l0.png';
 import Layer1 from '../static/proshow/l1.png';
 
 const proshows_images = [
@@ -32,7 +31,7 @@ const back_images = [
 //   document.getElementById('proshows-' + index).style.display='block';
 // }
 
-function MoveImages(event,i){
+// function MoveImages(event,i){
   // const window_width = window.innerWidth;
   // const mouse_posX = event.pageX;
   // const dispX = mouse_posX - window_width/2;
@@ -41,9 +40,9 @@ function MoveImages(event,i){
   // for(var ele=0;ele<proshow_classes[i].length;ele=ele+2){
   //   document.getElementsByClassName(`proshow_classes[i][ele]`).style.transform = 'translateX()';
   // }
-}
+// }
 
-function image_loop(i){
+// function image_loop(i){
   // const ele_len = proshow_classes[i].length;
   // const img_arr = [];
 
@@ -55,7 +54,7 @@ function image_loop(i){
   // return(
   //   {img_arr}
   // )
-}
+// }
 
 function CarouselP() {
   const isMobile = window.innerWidth <= 600;
@@ -118,7 +117,7 @@ function CarouselP() {
             className="proshows-card-wrapper"
             key={i}
             style = {{backgroundColor:'transparent'}}
-            onMouseMove = {event => MoveImages(event,i)}
+            // onMouseMove = {event => MoveImages(event,i)}
           >
             <img src={proshows_images[i][2]} alt="aakash-gupta" className="aakash-gupta" />
             <img src={back_images[i][0]} alt="aakash" className="aakash-1" />

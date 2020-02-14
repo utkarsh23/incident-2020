@@ -1,9 +1,5 @@
 import React from 'react';
 
-function showRegister() {
-    document.getElementById("register").style.display = "block";
-}
-
 function Popup() {
     return (
         <div className='popup'>
