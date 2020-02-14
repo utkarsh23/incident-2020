@@ -28,14 +28,9 @@ const back_images = [
   [Aakash,Blur1,Blur2,ComedyNight,PatternBlur],
 ]
 
-//this should contain image, its class and the parameter of movement
-// const image_classes = [
-//   ["aakash-gupta","blur-1","blur-2","comedy-night"]
-// ]
-
-function onViewClick(event, index) {
-  document.getElementById('proshows-' + index).style.display='block';
-}
+// function onViewClick(event, index) {
+//   document.getElementById('proshows-' + index).style.display='block';
+// }
 
 function MoveImages(event,i){
   // const window_width = window.innerWidth;
