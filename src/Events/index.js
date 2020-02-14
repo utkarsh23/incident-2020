@@ -67,24 +67,38 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
+                <h1>Nritya</h1>
+                <p><b>Semi-professional Eastern and Contemporary Solo Dance Competition</b><br />A feeling of soltitude and being lost in the art, expressing one's inner side through Dance forms. Come witness these artists express their talent through the beauty of this art<br/>
+                  <b> Prizes Worth: 12k </b> <br />
+                </p>
+              </li>
+              <li>
                 <h1>Tandav</h1>
-                <p><b>Semi-professional Eastern and Contemporary Group Dance Competition</b><br />Diversity defines India. So get ready to define it with your dancing talent as we present to you the Indian classical dance competition, Tandav. Come, unite the East, West, North and the South on one stage with stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness.</p>
+                <p><b>Semi-professional Eastern and Contemporary Group Dance Competition</b><br />Diversity defines India. So get ready to define it with your dancing talent as we present to you the Indian classical dance competition, Tandav. Come, unite the East, West, North and the South on one stage with stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness.<br/>
+                  <b> Prizes Worth: 60k </b> <br />
+                </p>
               </li>
               <li>
                 <h1>Step Up Solo</h1>
-                <p>Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then.</p>
+                <p>Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then.<br/>
+                  <b> Prizes Worth: 10k </b> <br />
+                </p>
               </li>
               <li>
                 <h1>Step Up Duet</h1>
-                <p>What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across!</p>
+                <p>What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across!<br/>
+                  <b> Prizes Worth: 14k </b> <br />
+                </p>
               </li>
               <li>
                 <h1>Promenade</h1>
-                <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.</p>
+                <p><b>Western Group Dance Competition</b> <br />A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.<br/>
+                  <b>Prizes Worth: 60k </b> <br />  
+                </p>
               </li>
               <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
-              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-incident-2020-dance-event-rule-book_compressed.pdf  ">Rules</a>
+              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -103,20 +117,28 @@ function Events() {
               <li>
                 <h1>Unplugged: </h1>
                 <p><b>Western Acoustic and A-cappella Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
-                <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more.</p>
+                <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br/>
+                  <b> Prizes Worth: 35k </b> <br />  
+                </p>
               </li>
               <li>
                 <h1>Pulse</h1>
-                <p><b>Semi-Professional Western Rock Band Competition</b> <br />Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today!</p>
+                <p><b>Semi-Professional Western Rock Band Competition</b> <br />Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br />
+                  <b> Prize Worth: 65k + 4L worth Promotion Deal </b> <br />  
+                </p>
               </li>
               <li>
                 <h1>Bandish</h1>
-                <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br /> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?</p>
+                <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br /> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?<br/>
+                  <b> Cash Prize: 75k + 4L worth Music Promotion Deal </b> <br />
+                </p>
               </li>
 
               <li>
                 <h1>Raaga-Rhapsody (Voice Of Inci)</h1>
-                <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"</p>
+                <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"<br/>
+                  <b> Prizes Worth: 20k + 2L worth Promotional Deal</b> <br />
+                </p>
               </li>
 
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
@@ -156,13 +178,6 @@ function Events() {
                 </p>
               </li>
               <li>
-                <h1>Thespian:</h1>
-                <p>“All the world's a stage, And all the men and women merely players.” - Shakespeare
-                  Stage! Where dreams are born and come true, the place where the true essence of life can be felt within a small period of time. All you have to do is captivate the audience in a manner like never before! <br />
-                  It is said that the stage has an energy that takes us on a journey of imagination and creativity; energy that is ephemeral, leaving behind a stimulated conscience and a captivated audience. This Incident - Thespian - gives you the opportunity to immerse yourself in your emotions and actions. As you bring your characters to life, set the stage ablaze and soak yourself with the applause. The moment is yours for the taking.
-                </p>
-              </li>
-              <li>
                 <h1>Fandom MUN:</h1>
                 <p>From the team that brought you NITK-MUN, we've given the traditional MUN format a superhero twist, featuring an all marvel based crisis committee where delegates will represent characters from the Marvel universe and collaborate to solve an immediate crisis!</p>
               </li>
@@ -180,6 +195,8 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-event-rules.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="/litpourri">Lit Pourri</a>
             </ol>
           </div>
         </div>
@@ -204,18 +221,18 @@ function Events() {
               <li>
                 <h1>Best Management Team</h1>
                 <p>“Limitations live in our minds. But if we use our imaginations, our possibilities become limitless.” The purpose of this event is to surface the latent talents of creativity and initiation through comprehensive and rigorous management. In the world of corruption, scandals and unreliable disclosures, the ability to move mountains and adapt with changing tides have become the need of the hour. Between adrenaline rushes, managing people, your brand equity, finances and much more; this event will ultimately help you learn and polish your skills.
-                  <b>Team Size:2 Cash Prize: 20k </b> <br />
+                  <b>Team Size:2 Prizes Worth: 30k </b> <br />
                 </p>
               </li>
               <li>
                 <h1>Crisis Management </h1>
                 <p>“A time when a difficult or important decision must be made” One-of-a-kind event hosted for the managers of Industrial revolution 5.0. Crisis is a global phenomenon whose occurrence cannot be predicted even by the complex algorithms built by man. Crisis management is an essential skill to be equipped by all the people of the functional and management departments alike. At In-Spire 2020, we invite you to prove your crisis management mettle and emerge as the champions of spontaneous decision makers.
-                  <b> Team Size:2 Cash Prize: 20k </b><br />
+                  <b> Prizes Worth: 30k </b><br />
                 </p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf ">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-rule-book_inspire(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -307,6 +324,15 @@ function Events() {
                 <p>Gear up as top basketball teams from across India compete for the coveted Slam Dunk Trophy! <br />
                   Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
                   Stay tuned for more updates.</p>
+                  <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-slamdunk_compressed.pdf">Rules</a>
+              </li>
+              <li>
+                <h1>Volley Ball</h1>
+                <p>Pass. Set. Spike! <br />
+                  Get set to participate and witness adrenaline-filled fast-paced matches as teams from across India battle it out, point by point in the volleyball court. From neck-to-neck point tallies to unbelievable comebacks, this Incident is going to have it all! <br />
+                  Stay tuned for more updates.
+                </p>
+                <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-spikeit-brochure(4).pdf">Rules</a>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
@@ -392,6 +418,39 @@ function Events() {
                 <p> Date: 15-16 Feb 2020 </p>
               </li>
               <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+    {/* Theatre Events */}
+      <div id="events-10" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 10)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Theatre Events</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Thespian:</h1>
+                <p>“All the world's a stage, And all the men and women merely players.” - Shakespeare
+                  Stage! Where dreams are born and come true, the place where the true essence of life can be felt within a small period of time. All you have to do is captivate the audience in a manner like never before! <br />
+                  It is said that the stage has an energy that takes us on a journey of imagination and creativity; energy that is ephemeral, leaving behind a stimulated conscience and a captivated audience. This Incident - Thespian - gives you the opportunity to immerse yourself in your emotions and actions. As you bring your characters to life, set the stage ablaze and soak yourself with the applause. The moment is yours for the taking.
+                  <b> Prizes Worth : 25k </b> <br />
+                </p>
+              </li>
+              <li>
+                <h1>Nukkad:</h1>
+                <p>Deeply rooted in the Indian tradition,breaking the formal barriers and approaching the people directly. Both the performer and audience have always felt a deep connect through the message of the play! <br/>
+                    A passion for theatre and the zeal to act is all you need to set the stage on fire. The ultimate arena for actors, directors and script-writers alike, this is where the action happens. Incident’20 presents Nukkad,a street play competition.
+                  <b> Prizes Worth : 40k </b> <br />
+                </p>
+              </li>
+              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final.pdf">Rules</a>
             </ol>
           </div>
         </div>

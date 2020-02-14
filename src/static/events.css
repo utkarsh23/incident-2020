@@ -53,7 +53,7 @@
 
 .events-list-wrapper {
   height: 65vh;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .events-modal-content ol {
@@ -121,6 +121,10 @@
   background-image: url('techobytebg.jpg');
 }
 
+#events-10 .events-modal-content {
+  background-image: url('theatrebg.png');
+}
+
 #popup{
   position: absolute;
   z-index: 9999;
@@ -170,6 +174,10 @@
 
 .openpop{
   /* margin-right: 100px; */
+}
+
+.point{
+  margin-bottom: 10px;
 }
 
 #register{
