@@ -160,6 +160,11 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
+                <h1>Lit Pourri</h1>
+                <p>Litpourri is an online literary fest held by the Literary, Stage and Debating Society, NITK in collaboration with NITK’s Annual cultural extravaganza, Incident. The fest allows for diverse entries under the banner of four events.</p>
+                <a class="waves-effect waves-light btn center black" target="_blank" rel="noopener noreferrer" href="/litpourri">Lit Pourri registration</a>
+              </li>
+              <li>
                 <h1>Lone Wolf Quiz:</h1>
                 <p>Feel bogged down by your teammates all the time? <br />Do you wish to make your own mark in quizzing?
                   Put your skills to the test in this solo quiz where it’s all up to you to find out the right answer. A journey through trivia and facts you never knew, brought to you by our ex-convenor, this quiz is bound to be a battle of extreme wit and will pique your curiosity for sure!
@@ -196,7 +201,6 @@ function Events() {
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-event-rules.pdf">Rules</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="/litpourri">Lit Pourri</a>
             </ol>
           </div>
         </div>

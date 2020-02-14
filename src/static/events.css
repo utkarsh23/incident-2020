@@ -246,6 +246,10 @@ div#pop-up {
   font-size: 2em;
 }
 
+.litpourri-img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
   .events-bottom-carousel {
     width: 90vw;
@@ -320,5 +324,9 @@ div#pop-up {
 
   .litpourri-modal-content li {
     font-size: 1.5em;
+  }
+
+  .litpourri-img {
+    margin-top: 0vh;
   }
 }
