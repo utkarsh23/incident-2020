@@ -34,8 +34,8 @@ function LitPourri() {
       <br /><br /><br /><br /><br />
       <div className="container">
         <div className="row">
-          <div className="col s12 m5 l5"><img alt="Synopsis" src={SynopsisImg} className="litpourri-img" /></div>
-          <div className="col s12 m7 l7">
+          <div className="col s12 m8 l8 offset-m2 offset-l2"><img alt="Synopsis" src={SynopsisImg} className="litpourri-img" /></div>
+          <div className="col s12 m12 l12">
             <h2 className="center">Sy(nope)sis</h2>
             <p className="center"><i>"Misunderstood wizard chap just wants to kill an annoying kid for seven books. He dies."</i></p>
             <p className="center"><i>- Harry Potter</i></p><br />
@@ -50,8 +50,8 @@ function LitPourri() {
       <br /><br /><br /><br /><br />
       <div className="container">
         <div className="row">
-          <div className="col s12 m5 l5"><img alt="News" src={NewsImg} className="litpourri-img" /></div>
-          <div className="col s12 m7 l7">
+          <div className="col s12 m8 l8 offset-m2 offset-l2"><img alt="News" src={NewsImg} className="litpourri-img" /></div>
+          <div className="col s12 m12 l12">
             <h2 className="center">The News that wasn’t</h2>
             <p className="center"><i>"Donald Trump wins the Nobel Peace Prize"</i></p>
             <p className="center"><i>"Queen Elizabeth steps down and abolishes the British Monarchy"</i></p>
@@ -67,8 +67,8 @@ function LitPourri() {
       <br /><br /><br /><br /><br />
       <div className="container">
         <div className="row">
-          <div className="col s12 m5 l5"><img alt="Mirage" src={MirageImg} className="litpourri-img" /></div>
-          <div className="col s12 m7 l7">
+          <div className="col s12 m8 l8 offset-m2 offset-l2"><img alt="Mirage" src={MirageImg} className="litpourri-img" /></div>
+          <div className="col s12 m12 l12">
             <h2 className="center">Mirage</h2>
             <p>Oxymoron. Two contradicting ideas. A single effect.<br /><br />This is precisely what we want you to achieve in this long piece. We want you to explore two contradicting ideas and combine them together in a seamless manner to produce a single magnificent piece.<br /><br />Maybe you’re going to spin a tale of a couple that was lonely together or describe the melancholy merriment of a woman who gave birth at her father’s funeral. Whatever it is that you have in store for us, we are so excited to be taken through your illusionary lens.</p>
           </div>
@@ -81,8 +81,8 @@ function LitPourri() {
       <br /><br /><br /><br /><br />
       <div className="container">
         <div className="row">
-          <div className="col s12 m5 l5"><img alt="Ripples" src={RipplesImg} className="litpourri-img" /></div>
-          <div className="col s12 m7 l7">
+          <div className="col s12 m8 l8 offset-m2 offset-l2"><img alt="Ripples" src={RipplesImg} className="litpourri-img" /></div>
+          <div className="col s12 m12 l12">
             <h2 className="center">Ripples across Time</h2>
             <p className="center"><i>"A butterfly flaps its wings and a typhoon occurs across the world."</i></p><br />
             <p>The Butterfly Effect is a famous idea that large impactful incidents are often caused by small, seemingly insignificant events.<br /><br />Choose one of the two prompts for your piece:<br /><br /><ol><li>Twenty years ago you did something - something insignificant (painting a picture, washing the dishes). Today, twenty years later, you can’t comprehend the role it played in the way your life played out.</li><li>A trivial action today leads to a startling repercussions fifteen years later. What is going to happen in the future?</li></ol><br />Take us through time as you explore decisions and the phenomena of small actions and large consequences.</p>
@@ -91,6 +91,12 @@ function LitPourri() {
         <div className="row litpourri-top">
           <div className="col s8 m2 l2 offset-s2 offset-m3 offset-l3"><a rel="noopener noreferrer" href="https://forms.gle/gduYDz6pQGSAE6fB8" target="_blank" className="waves-effect waves-light btn-large blue-grey darken-4 litpourri-btn"><i class="material-icons left">person_add</i>Register</a></div>
           <div className="col s8 m2 l2 offset-s2 offset-m2 offset-l2"><div onClick={event => onViewClick(event, 4)} className="waves-effect waves-light btn-large blue-grey darken-4 litpourri-btn"><i class="material-icons left">format_list_bulleted</i>Rules</div></div>
+        </div>
+        <br /><br />
+        <div className="center">
+          <p>Sitara - +91 83173 99288</p>
+          <p>Amal - +91 90351 87857</p>
+          <a href="mailto:lsd@nitk.edu.in"><p>lsd@nitk.edu.in</p></a>
         </div>
       </div>
       <img src={hamburger} alt="ham-menu" onClick={openRightMenu} className="hamburger" />

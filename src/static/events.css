@@ -217,6 +217,11 @@ div#pop-up {
 .litpourri-wrapper p {
   font-size: 2em;
   color: #263238;
+  font-family: 'Bree Serif', serif;
+}
+
+.litpourri-wrapper p i {
+  font-weight: 400;
 }
 
 .litpourri-wrapper h2 {
