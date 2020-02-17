@@ -11,6 +11,7 @@ import EventBeach from '../static/eventbeach.png';
 import EventMulticity from '../static/eventmulticity.png';
 import EventTechobyte from '../static/eventstechobyte.png';
 import EventTheatre from '../static/eventstheatre.png';
+import EventOnline from '../static/eventsonline.png';
 
 // import EventPhoto from '../static/eventphoto.png';
 
@@ -25,7 +26,8 @@ const event_images = [
   ["Beach Events", EventBeach],
   ["Multicity Events", EventMulticity],
   ["TechoBytes Events", EventTechobyte],
-  ["Theatre Events", EventTheatre]
+  ["Theatre Events", EventTheatre],
+  ["Online Evenrts", EventOnline]
 ];
 
 function onViewClick(event, index) {
@@ -54,7 +56,7 @@ function Carousel() {
           rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
           leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
         >
-          {Array.from(new Array(11)).map((_, i) =>
+          {Array.from(new Array(12)).map((_, i) =>
             <div
               className="event-card-wrapper"
               key={i}
@@ -88,7 +90,7 @@ function Carousel() {
         rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
         leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
       >
-        {Array.from(new Array(11)).map((_, i) =>
+        {Array.from(new Array(12)).map((_, i) =>
           <div
             className="event-card-wrapper"
             key={i}

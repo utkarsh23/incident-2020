@@ -125,7 +125,21 @@
   background-image: url('theatrebg.png');
 }
 
+#events-11 .events-modal-content {
+  background-image: url('litbg.jpg');
+}
+
 #popup{
+  position: absolute;
+  z-index: 9999;
+  background-color:white;
+  top: 8vh;
+  left: 7.5vw;
+  width: 70vw;
+  padding-left: 15px;
+}
+
+#popup2{
   position: absolute;
   z-index: 9999;
   background-color:white;
@@ -172,10 +186,6 @@
   margin-bottom: 10px;
 }
 
-.openpop{
-  /* margin-right: 100px; */
-}
-
 .point{
   margin-bottom: 10px;
 }
@@ -199,6 +209,11 @@ div#pop-up {
 .reg-but{
   position: relative;
   margin-left: 100px;
+}
+
+.reg-but2{
+  position: relative;
+  margin-left: 15px;
 }
 
 @media only screen and (max-width: 600px) {

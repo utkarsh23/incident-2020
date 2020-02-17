@@ -4,11 +4,10 @@ import Sidenav from '../Sidenav';
 import Homeicon from '../homeicon';
 import hamburger from '../static/hamburger.png';
 import CarouselP from './Carousel';
-import AakashGupta from '../static/Aakash-Gupta.png';
 
-function onLeftiCloseP(events, index) {
-  document.getElementById('proshows-' + index).style.display='none';
-}
+// function onLeftiCloseP(events, index) {
+//   document.getElementById('proshows-' + index).style.display='none';
+// }
 
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
