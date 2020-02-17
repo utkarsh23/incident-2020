@@ -21,8 +21,7 @@ function Popup() {
 
                     We hope you complete the registration process smoothly and have a great time at Incident 2020. Team Incident looks forward to hosting you this year!
                 </p>
-                {/* <button class="agree" onClick={showRegister}>I Agree</button> */}
-                <a rel="noopener noreferrer" class="waves-effect waves-light btn center black register-lin" id="register" style={{ display: 'block' }} target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">I Agree</a>
+                <a rel="noopener noreferrer" class="waves-effect waves-light btn center black register-lin" id="register" style={{ display: 'block !important' }} target="_blank" href="https://www.townscript.com/e/incident-2020-nitk-surathkal-323431">I Agree</a>
             </div>
         </div>
     )

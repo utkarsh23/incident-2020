@@ -17,7 +17,7 @@
   padding: 3vh 1vw;
   margin-left: 5px;
   min-height: 75vh;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   perspective: 1000px;
   overflow: hidden;
 }
@@ -82,60 +82,58 @@
 }
 
 #proshows-card-wrapper-0 {
-  /* background-image: url('dancebg.jpg'); */
   background-color: transparent;
 }
 
 #proshows-card-wrapper-1 {
-  /* background-image: url('musicbg.jpg'); */
   background-color: transparent;
 }
 
 #proshows-card-wrapper-2 {
-  /* background-image: url('litbg.jpg'); */
   background-color: transparent;
 }
 
 #proshows-card-wrapper-3 {
-  /* background-image: url('bizbg.jpg'); */
   background-color: transparent;
 }
 
-.aakash-gupta{
+#aakash-gupta{
   position: relative;
-  top: 5vh;
+  top: 0vh;
   left: 0vw;
-  height: 50vh; 
+  height: 60vh; 
   z-index: 10000;
-  -webkit-transform: translateZ(200px) !important;
-  -moz-transform: translateZ(200px) !important;
 }
 
-.comedy-night{
+#comedy-night{
   position: absolute;
-  top:-30vh;
-  left: -18vw;
+  top:0vh;
+  left: 0vw;
+  width: 13vw;
+  height: 25vh;
+  border-radius: 50%;
 }
 
-.blur-1{
+#blur-1{
   position: absolute;
   top:34vh;
   left: 20vw;
-  transform: translateZ(450px);
+  z-index: 10000;
 }
 
-.blur-2{
+#blur-2{
   position: absolute;
   top:5vh;
   left: 0vw;
   width: 1000px;
 }
 
-.aakash-1{
+#aakash-1{
   position: absolute;
-  top:0vh;
-  left: 15vw;
-  transform: translateZ(200px);
+  top:47vh;
+  left: 48vw;
+  width: 23vw;
+  height: 23vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -166,5 +164,44 @@
 
   .proshows-modal-heading {
     font-size: 3.5em;
+  }
+
+  #aakash-gupta{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    height: 60vh; 
+    z-index: 10000;
+  }
+
+  #comedy-night{
+    position: absolute;
+    top:0vh;
+    left: 0vw;
+    width: 13vw;
+    height: 25vh;
+    border-radius: 50%;
+  }
+
+  #blur-1{
+    position: absolute;
+    top:34vh;
+    left: 20vw;
+    z-index: 10000;
+  }
+
+  #blur-2{
+    position: absolute;
+    top:5vh;
+    left: 0vw;
+    width: 1000px;
+  }
+
+  #aakash-1{
+    position: absolute;
+    top:47vh;
+    left: 48vw;
+    width: 23vw;
+    height: 23vh;
   }
 }

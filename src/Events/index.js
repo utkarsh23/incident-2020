@@ -5,6 +5,7 @@ import Sidenav from '../Sidenav';
 import hamburger from '../static/hamburger.png';
 import Homeicon from '../homeicon';
 import Popup from '../Popup';
+import Popup2 from '../PopUp2';
 
 function onLeftiClose(events, index) {
   document.getElementById('events-' + index).style.display = 'none';
@@ -16,10 +17,21 @@ function openRightMenu() {
 
 function ShowPopUp() {
   document.getElementById("popup").style.display = "block";
+  document.getElementById("register").style.display = "block";
+}
+
+function ShowPopUp2(){
+  document.getElementById("popup2").style.display = "block";
+  document.getElementById("register").style.display = "block";
 }
 
 function ClosePopUp() {
   document.getElementById("popup").style.display = "none";
+  document.getElementById("register").style.display = "none";
+}
+
+function ClosePopUp2(){
+  document.getElementById("popup2").style.display = "none";
   document.getElementById("register").style.display = "none";
 }
 
@@ -42,6 +54,11 @@ function Events() {
       <div id="popup" style={{ display: 'none' }}>
         <Popup />
         <button className="closepop" onClick={ClosePopUp}>Close</button>
+      </div>
+
+      <div id="popup2" style={{display: 'none'}}>
+        <Popup2 />
+        <button className="closepop" onClick={ClosePopUp2}>Close</button>
       </div>
 
       <div id="pop-up">
@@ -98,7 +115,7 @@ function Events() {
               </li>
               <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
-              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event-final-(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -143,7 +160,7 @@ function Events() {
 
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-inci-musicals-rulebook-(1).pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-music-events.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -167,40 +184,47 @@ function Events() {
               <li>
                 <h1>Lone Wolf Quiz:</h1>
                 <p>Feel bogged down by your teammates all the time? <br />Do you wish to make your own mark in quizzing?
-                  Put your skills to the test in this solo quiz where it’s all up to you to find out the right answer. A journey through trivia and facts you never knew, brought to you by our ex-convenor, this quiz is bound to be a battle of extreme wit and will pique your curiosity for sure!
+                  Put your skills to the test in this solo quiz where it’s all up to you to find out the right answer. A journey through trivia and facts you never knew, brought to you by our ex-convenor, this quiz is bound to be a battle of extreme wit and will pique your curiosity for sure! <br/>
+                  <b> Prizes Worth: 10k</b> <br />
                 </p>
               </li>
               <li>
                 <h1>General Quiz:</h1>
                 <p>Get ready for the biggest quiz of Incident 2020 with the General quiz by none other than Major Chandrakant Nair <br />
-                  A quizmaster who needs no introduction, the General Quiz is the best opportunity to put your brains against the best in the business. Come in teams of three or less and attempt to take home the trophy in one of the best quizzes in a South India that is sure to leave you astounded yet entertained throughout!
+                  A quizmaster who needs no introduction, the General Quiz is the best opportunity to put your brains against the best in the business. Come in teams of three or less and attempt to take home the trophy in one of the best quizzes in a South India that is sure to leave you astounded yet entertained throughout! <br/>
+                  <b> Prizes Worth: 15k</b> <br />
                 </p>
               </li>
               <li>
                 <h1>Theme Quiz:</h1>
                 <p>Another quiz by Major Chandrakant Nair, the theme quiz is based on the overall theme of Incident 2020- ‘A Tryst With Time’ <br />
-                  The quiz is an enigmatic journey through time itself, as one flows through the chronology of the universe hoping to uncover it in the form of trivia and unknown tidbits of information that will be a pleasant surprise for us all
+                  The quiz is an enigmatic journey through time itself, as one flows through the chronology of the universe hoping to uncover it in the form of trivia and unknown tidbits of information that will be a pleasant surprise for us all <br/>
+                  <b> Prizes Worth: 15k</b> <br />
                 </p>
               </li>
               <li>
                 <h1>Fandom MUN:</h1>
-                <p>From the team that brought you NITK-MUN, we've given the traditional MUN format a superhero twist, featuring an all marvel based crisis committee where delegates will represent characters from the Marvel universe and collaborate to solve an immediate crisis!</p>
+                <p>From the team that brought you NITK-MUN, we've given the traditional MUN format a superhero twist, featuring an all marvel based crisis committee where delegates will represent characters from the Marvel universe and collaborate to solve an immediate crisis! <br/>
+                  <b> Cash Prize: 6k</b> <br />
+                </p>
               </li>
               <li>
                 <h1>JAM:</h1>
-                <p>Calling all chatterboxes! Are you ready to put your oratory prowess to the ultimate test? See if you can hold your ground talking for Just A Minute without pauses, grammatical errors or redundancies. Sounds simple? It is!</p>
+                <p>Calling all chatterboxes! Are you ready to put your oratory prowess to the ultimate test? See if you can hold your ground talking for Just A Minute without pauses, grammatical errors or redundancies. Sounds simple? It is! <br/>
+                <b> Prizes Worth: 14k</b> <br />
+                </p>
               </li>
               <li>
                 <h1>Change My Mind:</h1>
-                <p>A free for all debate, come by our Change My Mind stall and take your shot at changing our contender's mind on the topic we put up below. Debate for 5 minutes to an hour, no format, have a one on one discussion to debate to your heart's content.</p>
+                <p>A free for all debate, come by our Change My Mind stall and take your shot at changing our contender's mind on the topic we put up below. Debate for 5 minutes to an hour, no format, have a one on one discussion to debate to your heart's content.</p> <br/>
               </li>
               <li>
                 <h1>Online Events:</h1>
-                <p>The Online 'Lit'fest preceding Incident aims to provide a platform for literary enthusiasts to display their prowess in writing and creativity. Check the various categories out wherein there's something for every style you'd want to explore. Submit the most peculiar of poems and quirkiest of tales to win these battles of words. May the odds be ever in your favour!</p>
+                <p>The Online 'Lit'fest preceding Incident aims to provide a platform for literary enthusiasts to display their prowess in writing and creativity. Check the various categories out wherein there's something for every style you'd want to explore. Submit the most peculiar of poems and quirkiest of tales to win these battles of words. May the odds be ever in your favour!</p> <br/>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-event-rules.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-event-final.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -307,7 +331,7 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture-final.pdf">Rules</a>
             </ol>
           </div>
         </div>
@@ -328,15 +352,15 @@ function Events() {
                 <p>Gear up as top basketball teams from across India compete for the coveted Slam Dunk Trophy! <br />
                   Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
                   Stay tuned for more updates.</p>
-                  <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-slamdunk_compressed.pdf">Rules</a>
+                  <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-slamdunk_compressed.pdf">Rules</a>
               </li>
               <li>
-                <h1>Volley Ball</h1>
+                <h1>Spike It</h1>
                 <p>Pass. Set. Spike! <br />
                   Get set to participate and witness adrenaline-filled fast-paced matches as teams from across India battle it out, point by point in the volleyball court. From neck-to-neck point tallies to unbelievable comebacks, this Incident is going to have it all! <br />
                   Stay tuned for more updates.
                 </p>
-                <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-spikeit-brochure(4).pdf">Rules</a>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-volleyboll.pdf">Rules</a>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
@@ -454,7 +478,31 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final.pdf">Rules</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final-(1).pdf">Rules</a>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+    {/* Online Events */}
+      <div id="events-11" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 11)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Online Events</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Frames</h1>
+                <p> What is photography but freezing a moment in time forever. <br/>At  “Frames”, Incident NITK, in association with the Photography Club NITK, presents you an opportunity to display your photography skills for everyone to feast their eyes on. <br/>
+                  <b> Prizes Worth : 30k </b> <br />
+                </p>
+              </li>
+              <button class="openpop btn center black " onClick={ShowPopUp2}>Event Rules</button>
+              {/* <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final.pdf">Rules</a> */}
             </ol>
           </div>
         </div>

@@ -5,6 +5,10 @@ import Homeicon from '../homeicon';
 import hamburger from '../static/hamburger.png';
 import CarouselP from './Carousel';
 
+// function onLeftiCloseP(events, index) {
+//   document.getElementById('proshows-' + index).style.display='none';
+// }
+
 function openRightMenu() {
   document.getElementById("rightMenu").style.display = "block";
 }
