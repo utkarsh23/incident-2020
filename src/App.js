@@ -26,7 +26,7 @@ function App() {
         <Route path="/icare" component={Icare} />
         <Route path="/team" component={Team} />
         <Route path="/tryst-with-time" component={TrystWithTime} />
-        {/* <Route path="/proshows" component={Proshows} /> */}
+        <Route path="/proshows" component={Proshows} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,61 +1,52 @@
 import React, { useState } from 'react';
 import ItemsCarousel from 'react-items-carousel';
-import AakashGupta from '../static/proshow/AG.png';
-import Aakash from '../static/proshow/AG1.png';
-import ComedyNight from '../static/proshow/comedynight1.png';
-import BigYSpeckle from '../static/proshow/big_y_speckle.png';
-import Layer1 from '../static/proshow/l1.png';
-
-// const proshows_images = [
-//   ["Comedy Night", ProshowsComedy, AakashGupta],
-//   ["Fusion Night", ProshowsFusion, AakashGupta],
-//   ["DJ Night", ProshowsDJ, AakashGupta],
-//   ["Bollywood Night", ProshowsBollywood, AakashGupta],
-// ];
+import AakashGupta from '../static/proshow/AG/AG.png';
+import Aakash from '../static/proshow/AG/AG1.png';
+import ComedyNight from '../static/proshow/AG/comedynight1.png';
+import BigYSpeckle from '../static/proshow/AG/big_y_speckle.png';
+import Layer1 from '../static/proshow/AG/l1.png';
+import TB1 from '../static/proshow/TB/tb1.png';
+import TB2 from '../static/proshow/TB/tb2.png';
+import TB3 from '../static/proshow/TB/tb3.png';
+import TBLogo from '../static/proshow/TB/logo.jpg';
+import TBEmblem from '../static/proshow/TB/emblm.png';
 
 const back_images = [
   [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
-  [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
-  [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
-  [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
+  [TB1,TB2,TB3,TBLogo,TBEmblem]
 ]
 
-const image_classes = [
+const image_ids = [
   ["aakash-gupta","aakash-1","blur-1","blur-2","comedy-night"],
-  ["aakash-gupta1","aakash-11","blur-11","blur-21","comedy-night1"],
-  ["aakash-gupta2","aakash-12","blur-12","blur-22","comedy-night2"],
-  ["aakash-gupta3","aakash-13","blur-13","blur-23","comedy-night3"]
+  ["tb1","tb2","tb3","tblogo","tbemblem"]
 ]
 
 const move_params = [
   [0.05,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
-  [0,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
-  [0,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
-  [0,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0]
 ]
 
 function MoveImages(event,i){
   const window_width = window.innerWidth;
   const mouse_posX = event.pageX;
   const dispX = mouse_posX - window_width/2;
+  const dispY = event.pageY - window.innerHeight/2;
 
-  for(var ele=0;ele<image_classes[i].length;ele++){
+  for(var ele=0;ele<image_ids[i].length;ele++){
     var param_var = 3* ele;
-    document.getElementById(image_classes[i][ele]).style.transform = "translate3d("+ move_params[i][param_var] * dispX +"px,"+ move_params[i][param_var+1] +"px,"+move_params[i][param_var+2]+"px)";
+    document.getElementById(image_ids[i][ele]).style.transform = "translate3d("+ move_params[i][param_var] * dispX +"px,"+ move_params[i][param_var+1] * dispY +"px,"+move_params[i][param_var+2]+"px)";
   }
 }
 
 function image_loop(i){
-  const ele_len = image_classes[i].length;
+  const ele_len = image_ids[i].length;
   const img_arr = [];
 
   for(var j=0;j<ele_len;j++){
     img_arr.push(
-      <img src={back_images[i][j]} id={image_classes[i][j]} />
+      <img src={back_images[i][j]} id={image_ids[i][j]} />
     )
   }
-
-  console.log("loop ended");
   
   return(
     img_arr
@@ -84,11 +75,10 @@ function CarouselP() {
           rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
           leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
         >
-          {Array.from(new Array(4)).map((_, i) =>
+          {Array.from(new Array(2)).map((_, i) =>
             <div
               className="proshows-card-wrapper"
               key={i}
-              style = {{backgroundColor: 'transparent'}}
             >
               {image_loop(i)}
             </div>
@@ -115,12 +105,11 @@ function CarouselP() {
         rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
         leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
       >
-        {Array.from(new Array(4)).map((_, i) =>
+        {Array.from(new Array(2)).map((_, i) =>
           <div
             className="proshows-card-wrapper"
             key={i}
-            style = {{backgroundColor:'transparent'}}
-            // onMouseMove = {event => MoveImages(event,i)}
+            onMouseMove = {event => MoveImages(event,i)}
           >
             {image_loop(i)}
           </div>
