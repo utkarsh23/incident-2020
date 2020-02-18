@@ -25,7 +25,7 @@ const event_images = [
   ["Sports Events", EventSports],
   ["Beach Events", EventBeach],
   ["Multicity Events", EventMulticity],
-  ["TechoBytes Events", EventTechobyte],
+  ["TechoByte Workshop", EventTechobyte],
   ["Theatre Events", EventTheatre],
   ["Online Events", EventOnline]
 ];
@@ -61,7 +61,7 @@ function Carousel() {
               className="event-card-wrapper"
               key={i}
             >
-              <h1 className="center">{event_images[i][0]}</h1>
+              <h2 className="center">{event_images[i][0]}</h2>
               <br />
               <div className="event-card-img"><img className="event-category-img" src={event_images[i][1]} alt="event category" /></div>
               <br /><br />
@@ -95,7 +95,7 @@ function Carousel() {
             className="event-card-wrapper"
             key={i}
           >
-            <h1 className="center">{event_images[i][0]}</h1>
+            <h2 className="center">{event_images[i][0]}</h2>
             <br />
             <div className="event-card-img"><img className="event-category-img" src={event_images[i][1]} alt="event category" /></div>
             <br /><br />

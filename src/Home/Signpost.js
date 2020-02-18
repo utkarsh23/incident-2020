@@ -283,8 +283,8 @@ function Signpost() {
         <Link to="/timeline">
           <text className="cls-32" transform="translate(426.82 190.15)">Timeline</text>
         </Link>
-        <Link to="/campus">
-          <text className="cls-36" transform="translate(257.97 302.4)">i-CAP</text>
+        <Link to="/proshows">
+          <text className="cls-36" transform="translate(257.97 302.4)">Proshows</text>
         </Link>
         <Link to="/sponsors">
           <text className="cls-37" transform="translate(476.71 418.14) scale(1.01 1)">Sponsors</text>

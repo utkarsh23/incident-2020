@@ -10,20 +10,21 @@ import TB2 from '../static/proshow/TB/tb2.png';
 import TB3 from '../static/proshow/TB/tb3.png';
 import TBLogo from '../static/proshow/TB/logo.jpg';
 import TBEmblem from '../static/proshow/TB/emblm.png';
+import FusionNight from '../static/proshow/TB/fusion-night.png';
 
 const back_images = [
   [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
-  [TB1,TB2,TB3,TBLogo,TBEmblem]
+  [TB1,TB2,TB3,TBLogo,TBEmblem,FusionNight]
 ]
 
 const image_ids = [
   ["aakash-gupta","aakash-1","blur-1","blur-2","comedy-night"],
-  ["tb1","tb2","tb3","tblogo","tbemblem"]
+  ["tb1","tb2","tb3","tblogo","tbemblem","fusion-night"]
 ]
 
 const move_params = [
   [0.05,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
-  [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0]
+  [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0,0,0,0]
 ]
 
 function MoveImages(event,i){
