@@ -27,7 +27,7 @@ const event_images = [
   ["Multicity Events", EventMulticity],
   ["TechoBytes Events", EventTechobyte],
   ["Theatre Events", EventTheatre],
-  ["Online Evenrts", EventOnline]
+  ["Online Events", EventOnline]
 ];
 
 function onViewClick(event, index) {

@@ -11,6 +11,7 @@ import Icare from "./Icare";
 import Team from "./Team";
 import TrystWithTime from "./TrystWithTime";
 import LitPourri from "./Events/LitPourri";
+import Proshows from "./Proshows"
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Route path="/icare" component={Icare} />
         <Route path="/team" component={Team} />
         <Route path="/tryst-with-time" component={TrystWithTime} />
-        {/* <Route path="/proshows" component={Proshows} /> */}
+        <Route path="/proshows" component={Proshows} />
         <Route path="/litpourri" component={LitPourri} />
       </Switch>
     </BrowserRouter>

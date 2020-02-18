@@ -65,42 +65,26 @@
   margin-top: 0px;
 }
 
-#proshows-0 .proshows-modal-content {
-  background-image: url('dancebg.jpg');
+/* .proshows-card-wrapper:nth-child(1) {
+  background-color: black;
 }
 
-#proshows-1 .proshows-modal-content {
-  background-image: url('musicbg.jpg');
-}
-
-#proshows-2 .proshows-modal-content {
-  background-image: url('litbg.jpg');
-}
-
-#proshows-3 .proshows-modal-content {
-  background-image: url('bizbg.jpg');
-}
-
-#proshows-card-wrapper-0 {
+.proshows-card-wrapper:nth-child(2) {
   background-color: transparent;
 }
 
-#proshows-card-wrapper-1 {
+.proshows-card-wrapper:nth-child(3) {
   background-color: transparent;
 }
 
-#proshows-card-wrapper-2 {
+.proshows-card-wrapper:nth-child(4) {
   background-color: transparent;
-}
-
-#proshows-card-wrapper-3 {
-  background-color: transparent;
-}
+} */
 
 #aakash-gupta{
   position: relative;
   top: 0vh;
-  left: 0vw;
+  left: -2vw;
   height: 60vh; 
   z-index: 10000;
 }
@@ -136,6 +120,48 @@
   height: 23vh;
 }
 
+#tb1{
+  position: absolute;
+  top:6vh;
+  left:0;
+  width:39vw;
+  height: 45vh;
+  z-index: 1000;
+}
+
+#tb2{
+  position: absolute;
+  top:8vh;
+  left:36vw;
+  width:41vw;
+  height: 49vh;
+  z-index: 1000;
+}
+
+#tb3{
+  position: absolute;
+  top:29vh;
+  left:29vw;
+  width:23vw;
+  height: 45vh;
+  z-index: 1010;
+}
+
+#tblogo{
+  position: absolute;
+  top:46vh;
+  left:57vw;
+  height: 25vh;
+}
+
+#tbemblem{
+  position: absolute;
+  top:0;
+  left:29.5vw;
+  height: 35vh;
+  z-index:100;
+}
+
 @media only screen and (max-width: 600px) {
   .proshows-bottom-carousel {
     width: 90vw;
@@ -144,6 +170,15 @@
 
   .proshows-card-wrapper {
     margin: 0px;
+  }
+
+  .proshows-heading {
+    font-family: YouthTouchDEMO-Regular, Youth Touch DEMO;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 8em;
+    margin-top: 0px;
   }
 
   .w3-modal-content {
@@ -167,19 +202,19 @@
   }
 
   #aakash-gupta{
-    position: relative;
-    top: 0vh;
-    left: 0vw;
-    height: 60vh; 
+    position: absolute;
+    top: 18vh;
+    left: -10vw;
+    height: 42vh; 
     z-index: 10000;
   }
 
   #comedy-night{
     position: absolute;
-    top:0vh;
+    top:8vh;
     left: 0vw;
-    width: 13vw;
-    height: 25vh;
+    width: 28vw;
+    height: 13vh;
     border-radius: 50%;
   }
 
@@ -199,9 +234,9 @@
 
   #aakash-1{
     position: absolute;
-    top:47vh;
-    left: 48vw;
-    width: 23vw;
-    height: 23vh;
+    top:63vh;
+    left: 18vw;
+    width: 47vw;
+    height: 12vh;
   }
 }

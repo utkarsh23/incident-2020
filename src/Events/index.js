@@ -178,7 +178,9 @@ function Events() {
             <ol>
               <li>
                 <h1>Lit Pourri</h1>
-                <p>Litpourri is an online literary fest held by the Literary, Stage and Debating Society, NITK in collaboration with NITK’s Annual cultural extravaganza, Incident. The fest allows for diverse entries under the banner of four events.</p>
+                <p>Litpourri is an online literary fest held by the Literary, Stage and Debating Society, NITK in collaboration with NITK’s Annual cultural extravaganza, Incident. The fest allows for diverse entries under the banner of four events.
+                  <b> Prizes Worth: 15k</b> <br />
+                </p>
                 <a class="waves-effect waves-light btn center black" target="_blank" rel="noopener noreferrer" href="/litpourri">Lit Pourri registration</a>
               </li>
               <li>
@@ -217,10 +219,6 @@ function Events() {
               <li>
                 <h1>Change My Mind:</h1>
                 <p>A free for all debate, come by our Change My Mind stall and take your shot at changing our contender's mind on the topic we put up below. Debate for 5 minutes to an hour, no format, have a one on one discussion to debate to your heart's content.</p> <br/>
-              </li>
-              <li>
-                <h1>Online Events:</h1>
-                <p>The Online 'Lit'fest preceding Incident aims to provide a platform for literary enthusiasts to display their prowess in writing and creativity. Check the various categories out wherein there's something for every style you'd want to explore. Submit the most peculiar of poems and quirkiest of tales to win these battles of words. May the odds be ever in your favour!</p> <br/>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
@@ -351,7 +349,9 @@ function Events() {
                 <h1>Slam Dunk</h1>
                 <p>Gear up as top basketball teams from across India compete for the coveted Slam Dunk Trophy! <br />
                   Nail biting finishes, Adrenaline boosts, last minute surprises we have seen it all over the previous years. This time we can’t wait to get lost in the crowd and support our favourite teams! <br />
-                  Stay tuned for more updates.</p>
+                  Stay tuned for more updates.
+                  <b>Prizes Worth: 100k </b>  
+                </p>
                   <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-slamdunk_compressed.pdf">Rules</a>
               </li>
               <li>
@@ -359,8 +359,17 @@ function Events() {
                 <p>Pass. Set. Spike! <br />
                   Get set to participate and witness adrenaline-filled fast-paced matches as teams from across India battle it out, point by point in the volleyball court. From neck-to-neck point tallies to unbelievable comebacks, this Incident is going to have it all! <br />
                   Stay tuned for more updates.
+                  <b> Prizes Worth: 75k </b>
                 </p>
-                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-volleyboll.pdf">Rules</a>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-volleyboll-(1).pdf">Rules</a>
+              </li>
+              <li>
+                <h1>Spin Shock</h1>
+                <p>
+                  Watch the ball whiz past your eyes and create tension in the air with the blend of spin, precision and grace being fueled by healthy competitive spirit. Come grab this unique opportunity to etch your name in the sand of winning INCIDENT 's fourth edition of inter-collegiate women Throwball competition! <br/> STAY TUNED!!<br/>
+                  <b>Prizes Worth: 20k</b>
+                </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-throwball-(2).pdf">Rules</a>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
@@ -445,7 +454,7 @@ function Events() {
                 <p>Technical workshop events from nitk surathkal</p>
                 <p> Date: 15-16 Feb 2020 </p>
               </li>
-              <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-15th/">Register</a>
+              <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="Imojo.in/nitksw">Register</a>
             </ol>
           </div>
         </div>
