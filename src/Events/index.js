@@ -177,6 +177,13 @@ function Events() {
           <div className="events-list-wrapper">
             <ol>
               <li>
+                <h1>Lit Pourri</h1>
+                <p>Litpourri is an online literary fest held by the Literary, Stage and Debating Society, NITK in collaboration with NITK’s Annual cultural extravaganza, Incident. The fest allows for diverse entries under the banner of four events.
+                  <b> Prizes Worth: 15k</b> <br />
+                </p>
+                <a class="waves-effect waves-light btn center black" target="_blank" rel="noopener noreferrer" href="/litpourri">Lit Pourri registration</a>
+              </li>
+              <li>
                 <h1>Lone Wolf Quiz:</h1>
                 <p>Feel bogged down by your teammates all the time? <br />Do you wish to make your own mark in quizzing?
                   Put your skills to the test in this solo quiz where it’s all up to you to find out the right answer. A journey through trivia and facts you never knew, brought to you by our ex-convenor, this quiz is bound to be a battle of extreme wit and will pique your curiosity for sure! <br/>
