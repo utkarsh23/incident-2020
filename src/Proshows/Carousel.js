@@ -45,7 +45,7 @@ function image_loop(i){
 
   for(var j=0;j<ele_len;j++){
     img_arr.push(
-      <img src={back_images[i][j]} id={image_ids[i][j]} />
+      <img alt="looping" src={back_images[i][j]} id={image_ids[i][j]} />
     )
   }
   
