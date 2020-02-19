@@ -133,7 +133,7 @@ function Events() {
             <ol>
               <li>
                 <h1>Unplugged: </h1>
-                <p><b>Western Acoustic and A-cappella Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
+                <p><b>Western Acoustic Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
                 <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br/>
                   <b> Prizes Worth: 35k </b> <br />  
                 </p>
@@ -205,7 +205,7 @@ function Events() {
                 </p>
               </li>
               <li>
-                <h1>Fandom MUN:</h1>
+                <h1>NITK-MUN: MARVEL CRISIS COMMITTEE</h1>
                 <p>From the team that brought you NITK-MUN, we've given the traditional MUN format a superhero twist, featuring an all marvel based crisis committee where delegates will represent characters from the Marvel universe and collaborate to solve an immediate crisis! <br/>
                   <b> Cash Prize: 6k</b> <br />
                 </p>
@@ -308,6 +308,7 @@ function Events() {
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-gaming-events.pdf">Rules</a>
             </ol>
           </div>
         </div>

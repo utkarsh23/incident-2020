@@ -11,6 +11,14 @@ import TB3 from '../static/proshow/TB/tb3.png';
 import TBLogo from '../static/proshow/TB/logo.jpg';
 import TBEmblem from '../static/proshow/TB/emblm.png';
 import FusionNight from '../static/proshow/TB/fusion-night.png';
+import SampleAudio from '../static/audio.mp3';
+import TBAudio1 from '../static/proshow/TB/tb-aud-1.mp3';
+import TBAudio2 from '../static/proshow/TB/tb-aud-2.mp3';
+
+const audio1 = new Audio(SampleAudio);
+const audio2 = new Audio(SampleAudio);
+const audio3 = new Audio(TBAudio1);
+const audio4 = new Audio(TBAudio2);
 
 const back_images = [
   [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
@@ -27,6 +35,16 @@ const move_params = [
   [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0,0,0,0]
 ]
 
+const audio_available = [
+  [1,0,0,0,1],
+  [1,1,0,0,0,0]
+]
+
+const audio_files = [
+  [audio1, 0, 0,0, audio2],
+  [audio3, audio4, 0, 0, 0, 0]
+]
+
 function MoveImages(event,i){
   const window_width = window.innerWidth;
   const mouse_posX = event.pageX;
@@ -34,7 +52,7 @@ function MoveImages(event,i){
   const dispY = event.pageY - window.innerHeight/2;
 
   for(var ele=0;ele<image_ids[i].length;ele++){
-    var param_var = 3* ele;
+    var param_var = 3 * ele;
     document.getElementById(image_ids[i][ele]).style.transform = "translate3d("+ move_params[i][param_var] * dispX +"px,"+ move_params[i][param_var+1] * dispY +"px,"+move_params[i][param_var+2]+"px)";
   }
 }
@@ -44,14 +62,36 @@ function image_loop(i){
   const img_arr = [];
 
   for(var j=0;j<ele_len;j++){
-    img_arr.push(
-      <img src={back_images[i][j]} id={image_ids[i][j]} />
-    )
+    if(audio_available[i][j]){
+      img_arr.push(
+        <img src={back_images[i][j]} id={image_ids[i][j]} />
+      )
+    }else{
+      img_arr.push(
+        <img src={back_images[i][j]} id={image_ids[i][j]}/>
+      )
+    }
   }
   
   return(
     img_arr
   )
+}
+
+function play_audio(x,y){
+  console.log("playing audio"+x+y);
+  // for(var i=0;i<audio_files.length;++i){
+  //   for(var j=0;j<audio_files[i].length;++j){
+  //     if(audio_files[i][j] != 0)
+  //       audio_files[i][j].pause();
+  //   }
+  // }
+  audio_files[x][y].play();
+}
+
+function stop_audio(x,y){
+  console.log("stopped audio");
+  audio_files[x][y].pause();
 }
 
 function CarouselP() {
@@ -82,6 +122,7 @@ function CarouselP() {
               key={i}
             >
               {image_loop(i)}
+              <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Register </a>
             </div>
           )}
         </ItemsCarousel>
@@ -113,6 +154,7 @@ function CarouselP() {
             onMouseMove = {event => MoveImages(event,i)}
           >
             {image_loop(i)}
+            <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Register </a>
           </div>
         )}
       </ItemsCarousel>
