@@ -369,7 +369,7 @@ function Events() {
                   Watch the ball whiz past your eyes and create tension in the air with the blend of spin, precision and grace being fueled by healthy competitive spirit. Come grab this unique opportunity to etch your name in the sand of winning INCIDENT 's fourth edition of inter-collegiate women Throwball competition! <br/> STAY TUNED!!<br/>
                   <b>Prizes Worth: 20k</b>
                 </p>
-                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-throwball-(2).pdf">Rules</a>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-throwball.pdf">Rules</a>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>

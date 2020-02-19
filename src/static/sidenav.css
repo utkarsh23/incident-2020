@@ -8,8 +8,6 @@
   animation-duration: 1.4s;
   overflow: hidden;
   width: 30vw;
-  /* background: url('./neon-bg.png'); */
-  /* background-size: cover; */
   background-color: #0E1327;
   color: white;
   font-family: 'Kelly Slab', cursive;
@@ -34,7 +32,7 @@
 }
 
 .w3-bar-item{
-  height: 7vh !important;
+  height: 6vh !important;
 }
 
 .w3-bar-item:hover{
@@ -43,7 +41,7 @@
 
 .w3-button{
   background-color: transparent;
-  padding: 20px !important;
+  padding: 12px !important;
 }
 
 .w3-button:hover{

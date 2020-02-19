@@ -162,6 +162,14 @@
   z-index:100;
 }
 
+#fusion-night{
+  width: 25vw;
+  position: absolute;
+  top:51vh;
+  left: 4vw;
+  transform: rotateY(50deg) !important;
+}
+
 @media only screen and (max-width: 600px) {
   .proshows-bottom-carousel {
     width: 90vw;
@@ -238,5 +246,58 @@
     left: 18vw;
     width: 47vw;
     height: 12vh;
+  }
+
+  #tb1{
+    position: absolute;
+    top:18vh;
+    left:-6vw;
+    width:90vw;
+    height: 33vh;
+    z-index: 1000;
+  }
+  
+  #tb2{
+    position: absolute;
+    top:34vh;
+    left:-6vw;
+    width:90vw;
+    height: 31vh;
+    z-index: 1000;
+  }
+  
+  #tb3{
+    position: absolute;
+    top:48vh;
+    left:22vw;
+    width:44vw;
+    height: 24vh;
+    z-index: 1010;
+  }
+  
+  #tblogo{
+    position: absolute;
+    top:11vh;
+    left:52vw;
+    height: 13vh;
+    z-index: 110;
+  }
+  
+  #tbemblem{
+    position: absolute;
+    top:7vh;
+    width:30vw;
+    left:25vw;
+    height: 20vh;
+    z-index:100;
+  }
+  
+  #fusion-night{
+    width: 45vw;
+    position: absolute;
+    top:13vh;
+    left: -3vw;
+    transform: rotateY(50deg) !important;
+    z-index: 110;
   }
 }

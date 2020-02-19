@@ -15,6 +15,7 @@ function Sidenav() {
       <a href="/" className="w3-bar-item w3-button">Home</a>
       <a href="/about" className="w3-bar-item w3-button">About Us</a>
       <a href="/events" className="w3-bar-item w3-button">Events</a>
+      <a href="/proshows" className="w3-bar-item w3-button">Proshows</a>
       <a href="/icare" className="w3-bar-item w3-button">I-Care</a>
       <a href="/timeline" className="w3-bar-item w3-button">Timeline</a>
       <a href="/team" className="w3-bar-item w3-button">Team</a>
