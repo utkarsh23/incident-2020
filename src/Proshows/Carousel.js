@@ -72,7 +72,7 @@ function image_loop(i){
       )
     }
   }
-  
+
   return(
     img_arr
   )
