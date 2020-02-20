@@ -65,6 +65,32 @@
   margin-top: 0px;
 }
 
+.register_eve{
+  position: absolute;
+  top: 67vh;
+  left: 32vw;
+  width: 12vw;
+  border-radius: 10vw;
+  color:white;
+  font-weight: bold;
+  background-color:#34aa23;
+  border: solid 2px #34aa23;
+  height: 7vh;
+  padding-top: 1.3vh;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.register_eve:hover{
+  background-color: white;
+  color: #34aa23;
+  border: solid 2px white;
+}
+
+.material-icons{
+  color: white !important;
+}
+
 /* .proshows-card-wrapper:nth-child(1) {
   background-color: black;
 }
@@ -118,6 +144,7 @@
   left: 48vw;
   width: 23vw;
   height: 23vh;
+  z-index: 10000;
 }
 
 #tb1{
@@ -170,6 +197,12 @@
   transform: rotateY(50deg) !important;
 }
 
+#output{
+  border: solid 2px red;
+  color: white;
+  height: 50px;
+}
+
 @media only screen and (max-width: 600px) {
   .proshows-bottom-carousel {
     width: 90vw;
@@ -211,7 +244,7 @@
 
   #aakash-gupta{
     position: absolute;
-    top: 18vh;
+    top: 15vh;
     left: -10vw;
     height: 42vh; 
     z-index: 10000;
@@ -242,7 +275,7 @@
 
   #aakash-1{
     position: absolute;
-    top:63vh;
+    top:57vh;
     left: 18vw;
     width: 47vw;
     height: 12vh;
@@ -300,4 +333,27 @@
     transform: rotateY(50deg) !important;
     z-index: 110;
   }
+
+  .register_eve{
+    position: absolute;
+    top: 67vh;
+    left: 30vw;
+    width: 22vw;
+    border-radius: 10vw;
+    color:white;
+    font-weight: bold;
+    background-color:#34aa23;
+    border: solid 2px #34aa23;
+    height: 7vh;
+    padding-top: 1.9vh;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  
+  .register_eve:hover{
+    background-color: white;
+    color: #34aa23;
+    border: solid 2px white;
+  }
+  
 }
