@@ -120,7 +120,7 @@ function CarouselP() {
               key={i}
             >
               {image_loop(i)}
-              <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Register </a>
+              <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Book Tickets </a>
             </div>
           )}
         </ItemsCarousel>
@@ -153,7 +153,7 @@ function CarouselP() {
             onMouseLeave = {stop_audio(i)}
           >
             {image_loop(i)}
-            <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Register </a>
+            <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Book Tickets </a>
           </div>
         )}
       </ItemsCarousel>
