@@ -136,6 +136,8 @@ function Events() {
                 <p><b>Western Acoustic Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
                 <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br/>
                   <b> Prizes Worth: 35k </b> <br />  
+                  <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+                  <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
                 </p>
               </li>
               <li>
@@ -143,12 +145,14 @@ function Events() {
                 <p><b>Semi-Professional Western Rock Band Competition</b> <br />Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br />
                   <b> Prize Worth: 65k + 4L worth Promotion Deal </b> <br />  
                 </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="http://bit.ly/2HC0lVH">Register</a>
               </li>
               <li>
                 <h1>Bandish</h1>
                 <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br /> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?<br/>
                   <b> Cash Prize: 75k + 4L worth Music Promotion Deal </b> <br />
                 </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="http://bit.ly/3bKebU1">Register</a>
               </li>
 
               <li>
@@ -156,11 +160,10 @@ function Events() {
                 <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"<br/>
                   <b> Prizes Worth: 20k + 2L worth Promotional Deal</b> <br />
                 </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href=" http://bit.ly/2uTDEJV">Register</a>
               </li>
-
-              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-music-events.pdf">Rules</a>
+              
+              <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-music-events.pdf">Rules (All Events)</a>
             </ol>
           </div>
         </div>

@@ -12,38 +12,37 @@ import TBLogo from '../static/proshow/TB/logo.jpg';
 import TBEmblem from '../static/proshow/TB/emblm.png';
 import FusionNight from '../static/proshow/TB/fusion-night.png';
 import SampleAudio from '../static/audio.mp3';
-import TBAudio1 from '../static/proshow/TB/tb-aud-1.mp3';
 import TBAudio2 from '../static/proshow/TB/tb-aud-2.mp3';
+import SSAudio from '../static/proshow/SS/ssaudio.mp3';
+import SS from '../static/proshow/SS/ss.png';
+import SSGif from '../static/proshow/SS/SSgif.gif';
+import BollyNight from '../static/proshow/SS/Bollywood-night.png';
+import spotlight1 from '../static/proshow/SS/spotlite1.png';
+import spotlight2 from '../static/proshow/SS/spotlite2.png';
 
 const audio1 = new Audio(SampleAudio);
-const audio2 = new Audio(SampleAudio);
-const audio3 = new Audio(TBAudio1);
-const audio4 = new Audio(TBAudio2);
+const audio2 = new Audio(TBAudio2);
+const audio3 = new Audio(SSAudio);
 
 const back_images = [
   [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
-  [TB1,TB2,TB3,TBLogo,TBEmblem,FusionNight]
+  [TB1,TB2,TB3,TBLogo,TBEmblem,FusionNight],
+  [SS,SSGif,BollyNight,spotlight1,spotlight2]
 ]
 
 const image_ids = [
   ["aakash-gupta","aakash-1","blur-1","blur-2","comedy-night"],
-  ["tb1","tb2","tb3","tblogo","tbemblem","fusion-night"]
+  ["tb1","tb2","tb3","tblogo","tbemblem","fusion-night"],
+  ["SS","SSgif","bolly","spot1","spot2"]
 ]
 
 const move_params = [
   [0.05,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
-  [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0,0,0,0]
+  [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 ]
 
-const audio_available = [
-  [1,0,0,0,1],
-  [1,1,0,0,0,0]
-]
-
-const audio_files = [
-  [audio1, 0, 0,0, audio2],
-  [audio3, audio4, 0, 0, 0, 0]
-]
+const audio_files = [audio1, audio2, audio3]
 
 function MoveImages(event,i){
   const window_width = window.innerWidth;
@@ -51,9 +50,25 @@ function MoveImages(event,i){
   const dispX = mouse_posX - window_width/2;
   const dispY = event.pageY - window.innerHeight/2;
 
+  const rotate_left = dispX/15;
+  const rotate_right = dispY/8 * -1;
+
   for(var ele=0;ele<image_ids[i].length;ele++){
     var param_var = 3 * ele;
     document.getElementById(image_ids[i][ele]).style.transform = "translate3d("+ move_params[i][param_var] * dispX +"px,"+ move_params[i][param_var+1] * dispY +"px,"+move_params[i][param_var+2]+"px)";
+    if(i==2 && ele >=3){
+      if(ele == 3){
+        document.getElementById(image_ids[i][ele]).style.transform = "rotateZ("+ rotate_left +"deg)"
+        document.getElementById(image_ids[i][ele]).style.transformOrigin = "top right";
+      }if(ele == 4){
+        document.getElementById(image_ids[i][ele]).style.transform = "rotateZ("+ rotate_right +"deg)"
+        document.getElementById(image_ids[i][ele]).style.transformOrigin = "top left";
+      }
+    }
+  }
+
+  if(i){
+    audio_files[i].play();
   }
 }
 
@@ -62,36 +77,19 @@ function image_loop(i){
   const img_arr = [];
 
   for(var j=0;j<ele_len;j++){
-    if(audio_available[i][j]){
       img_arr.push(
-        <img src={back_images[i][j]} id={image_ids[i][j]} />
-      )
-    }else{
-      img_arr.push(
-        <img src={back_images[i][j]} id={image_ids[i][j]}/>
+        <img src={back_images[i][j]} id={image_ids[i][j]} alt="proshow-pics" />
       )
     }
-  }
   
   return(
     img_arr
   )
 }
 
-function play_audio(x,y){
-  console.log("playing audio"+x+y);
-  // for(var i=0;i<audio_files.length;++i){
-  //   for(var j=0;j<audio_files[i].length;++j){
-  //     if(audio_files[i][j] != 0)
-  //       audio_files[i][j].pause();
-  //   }
-  // }
-  audio_files[x][y].play();
-}
-
-function stop_audio(x,y){
-  console.log("stopped audio");
-  audio_files[x][y].pause();
+function stop_audio(x){
+  audio_files[x].pause();
+  audio_files[x].currentTime = 0;
 }
 
 function CarouselP() {
@@ -116,7 +114,7 @@ function CarouselP() {
           rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
           leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
         >
-          {Array.from(new Array(2)).map((_, i) =>
+          {Array.from(new Array(3)).map((_, i) =>
             <div
               className="proshows-card-wrapper"
               key={i}
@@ -147,11 +145,12 @@ function CarouselP() {
         rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
         leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
       >
-        {Array.from(new Array(2)).map((_, i) =>
+        {Array.from(new Array(3)).map((_, i) =>
           <div
             className="proshows-card-wrapper"
             key={i}
             onMouseMove = {event => MoveImages(event,i)}
+            onMouseLeave = {stop_audio(i)}
           >
             {image_loop(i)}
             <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Register </a>

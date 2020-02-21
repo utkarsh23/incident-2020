@@ -5,7 +5,7 @@ import Signpost from './Signpost';
 import Ladder from './Ladder';
 import SocialTab from './SocialTab';
 import InciText from '../static/inci_name.png';
-import Tv from '../static/tv.gif';
+import Tv from '../static/tv2.gif';
 import CloudM from '../static/cloud_m.png';
 import CloudF from '../static/cloud_f.png';
 import Sidenav from '../Sidenav-m';
