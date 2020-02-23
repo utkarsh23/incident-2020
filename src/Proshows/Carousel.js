@@ -19,30 +19,44 @@ import SSGif from '../static/proshow/SS/SSgif.gif';
 import BollyNight from '../static/proshow/SS/Bollywood-night.png';
 import spotlight1 from '../static/proshow/SS/spotlite1.png';
 import spotlight2 from '../static/proshow/SS/spotlite2.png';
+import SeekBody from '../static/proshow/Seek/DJSeek1.png';
+import Seek from '../static/proshow/Seek/DJSeek2.png';
+import SeekHand from '../static/proshow/Seek/DJSeek3.png';
+import SeekGif from '../static/proshow/Seek/seek.gif';
+import SeekAud from '../static/proshow/Seek/seek-aud.mp3';
+import SeekBack from '../static/proshow/Seek/SeekBack.png';
+import EDM from '../static/proshow/Seek/EDM.png';
+import Night from '../static/proshow/Seek/Night.png';
+import Tri1 from '../static/proshow/Seek/Tri1.png';
+import Tri2 from '../static/proshow/Seek/Tri2.png';
 
 const audio1 = new Audio(SampleAudio);
 const audio2 = new Audio(TBAudio2);
 const audio3 = new Audio(SSAudio);
+const audio4 = new Audio(SeekAud);
 
 const back_images = [
   [AakashGupta,Aakash,BigYSpeckle,Layer1,ComedyNight],
   [TB1,TB2,TB3,TBLogo,TBEmblem,FusionNight],
-  [SS,SSGif,BollyNight,spotlight1,spotlight2]
+  [SS,SSGif,BollyNight,spotlight1,spotlight2],
+  [SeekBody,Seek,SeekHand,SeekGif,SeekBack,EDM, Night, Tri1, Tri2]
 ]
 
 const image_ids = [
   ["aakash-gupta","aakash-1","blur-1","blur-2","comedy-night"],
   ["tb1","tb2","tb3","tblogo","tbemblem","fusion-night"],
-  ["SS","SSgif","bolly","spot1","spot2"]
+  ["SS","SSgif","bolly","spot1","spot2"],
+  ["seek1","seek2","seek3","seek-gif","seek-back","edm","night","tri1","tri2"],
 ]
 
 const move_params = [
   [0.05,0,0,0,0,0,-0.08,0,450,0.15,0,0,0,0,0],
   [0,0,0,0,0,0,0,0,0,0,0,0,-0.1,-0.03,0,0,0,0],
-  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+  [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0.08,-0.08,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.07,-0.05,0,0.07,-0.05,0]
 ]
 
-const audio_files = [audio1, audio2, audio3]
+const audio_files = [audio1, audio2, audio3, audio4]
 
 function MoveImages(event,i){
   const window_width = window.innerWidth;
@@ -114,13 +128,13 @@ function CarouselP() {
           rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
           leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
         >
-          {Array.from(new Array(3)).map((_, i) =>
+          {Array.from(new Array(4)).map((_, i) =>
             <div
               className="proshows-card-wrapper"
               key={i}
             >
               {image_loop(i)}
-              <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Book Tickets </a>
+              <a className="register_eve" target="_blank" rel="noopener noreferrer" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Book Tickets </a>
             </div>
           )}
         </ItemsCarousel>
@@ -145,7 +159,7 @@ function CarouselP() {
         rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
         leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
       >
-        {Array.from(new Array(3)).map((_, i) =>
+        {Array.from(new Array(4)).map((_, i) =>
           <div
             className="proshows-card-wrapper"
             key={i}
@@ -153,7 +167,7 @@ function CarouselP() {
             onMouseLeave = {stop_audio(i)}
           >
             {image_loop(i)}
-            <a className="register_eve" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Book Tickets </a>
+            <a className="register_eve" target="_blank" rel="noopener noreferrer" href="https://www.townscript.com/v1/e/incident-2020-nitk-surathkal-323431/booking"> Book Tickets </a>
           </div>
         )}
       </ItemsCarousel>

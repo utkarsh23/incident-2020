@@ -1,0 +1,85 @@
+.wrapper{
+    background: black;
+    width: 100vw !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden !important;
+}
+
+.loader{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden !important;
+}
+
+.loading-animation__path{
+    stroke: white;
+    stroke-width: 3;
+    fill: none;
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+    animation: stroke 3s linear infinite;
+}
+
+@keyframes stroke {
+    from {
+        stroke-dashoffset: 600;
+    }
+    to {
+        stroke-dashoffset: 0;
+        
+    }
+}
+
+.loading-gif{
+    position: absolute;
+    top: 14vh;
+    left: 58vw;
+}
+
+.loading-gif-desktop{
+    width: 33vw;
+}
+
+.tdm{
+    position: absolute;
+    top:42vh;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.tdm-i{
+    left: 0vw;
+}
+
+.tdm-n{
+    left: 7vw;
+}
+
+.tdm-c{
+    left: 15vw;
+}
+
+.tdm-i2{
+    left: 20vw;
+}
+
+.tdm-d{
+    left: 27vw;
+}
+
+.tdm-e{
+    left: 35vw;
+}
+
+.tdm-n2{
+    left: 43vw;
+}
+
+.tdm-t{
+    left: 49vw;
+}
