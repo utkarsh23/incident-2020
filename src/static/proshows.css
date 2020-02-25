@@ -17,7 +17,6 @@
   padding: 3vh 1vw;
   margin-left: 5px;
   min-height: 75vh;
-  /* border: solid 2px red; */
   perspective: 1000px;
   overflow: hidden;
 }
@@ -89,6 +88,46 @@
 
 .material-icons{
   color: rgb(131, 128, 128) !important;
+}
+
+#proshows-0 .proshows-modal-content {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+#proshows-1 .proshows-modal-content {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+#proshows-2 .proshows-modal-content {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+#proshows-3 .proshows-modal-content {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+#proshows-4 .proshows-modal-content {
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.rule-heading{
+  font-size: 20px;
+}
+
+.point-pro{
+  margin-bottom: 20px !important;
+  text-align: left !important;
+  font-size: 15px;
+}
+
+.register-lin-pro{
+  margin-top: 2vh;
+  margin-bottom: -1vh;
 }
 
 #aakash-gupta{
@@ -190,9 +229,9 @@
 
 #SSgif{
   position: absolute;
-  top:20vh;
-  left: 51vw;
-  width: 25vw;
+  top:30vh;
+  left: 52vw;
+  width: 20vw;
 }
 
 #bolly{
@@ -294,6 +333,41 @@
   z-index: 100;
 }
 
+#Danika{
+  position: absolute;
+  top: -2vh;
+  left: 23vw;
+  width: 40vw;
+  z-index: 110;
+}
+
+#note1{
+  position: absolute;
+  top: 8vh;
+  left: 18vw;
+  width: 53vw;
+  z-index: 120;
+  transform: rotate(30deg) translate3d(0px,0px,0px) !important;
+}
+
+#note2{
+  position: absolute;
+  top: 6vh;
+  left: 47vw;
+  width: 6vw;
+  z-index: 120;
+  transform: rotate(20deg) translate3d(0px,0px,0px) !important
+}
+
+#note3{
+  position: absolute;
+  top: 3vh;
+  left: 20vw;
+  width: 21vw;
+  z-index: 100;
+  transform: rotate(-27deg) translate3d(0px,0px,0px) !important
+}
+
 @media only screen and (max-width: 600px) {
   .proshows-bottom-carousel {
     width: 90vw;
@@ -331,6 +405,16 @@
 
   .proshows-modal-heading {
     font-size: 3.5em;
+  }
+  
+  .rule-heading{
+    font-size: 18px;
+  }
+
+  .point-pro{
+    margin-bottom: 20px !important;
+    text-align: left !important;
+    font-size: 15px;
   }
 
   #aakash-gupta{
@@ -436,7 +520,7 @@
     background-color:#34aa23;
     border: solid 2px #34aa23;
     height: 7vh;
-    padding-top: 1.5vh;
+    padding-top: 2vh;
     cursor: pointer;
     z-index: 10000;
   }
@@ -457,9 +541,9 @@
 
   #SSgif{
     position: absolute;
-    top:0vh;
-    left: 30vw;
-    width: 60vw;
+    top:6vh;
+    left: 33vw;
+    width: 52vw;
   }
 
   #bolly{
@@ -483,5 +567,111 @@
     left: 0vw;
     width: 45vw;
     display: none;
+  }
+
+  #seek1{
+    position: absolute;
+    top:5vh;
+    left: 6.5vw;
+    width: 78vw;
+    height: 60vh;
+    z-index: 1000;
+  }
+  
+  #seek2{
+    position: absolute;
+    top:1vh;
+    left: 10vw;
+    width: 67vw;
+    height: 65vh;
+    z-index: 1000;
+  }
+  
+  #seek3{
+    position: absolute;
+    top:-0.5vh;
+    left: 6vw;
+    width: 77vw;
+    height: 72vh;
+    z-index: 1000;
+  }
+  
+  #seek-gif{
+    position: absolute;
+    top:10vh;
+    left:10.5vw;
+    width: 57vw;
+    height: 28vh;
+    z-index: 100;
+    border-radius: 80%;
+  }
+  
+  #seek-back{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #edm{
+    position: absolute;
+    top: 5vh;
+    left: 0vw;
+    width: 22vw;
+    z-index: 100;
+  }
+  
+  #night{
+    position: absolute;
+    top: 5vh;
+    left: 16vw;
+    width: 27vw;
+    z-index: 110;
+  }
+  
+  #tri1{
+    position: absolute;
+    top: 2.2vh;
+    left: 11.4vw;
+    width: 17vw;
+    z-index: 100;
+  }
+  
+  #tri2{
+    position: absolute;
+    top: 4.5vh;
+    left: 2vw;
+    width: 27vw;
+    z-index: 100;
+  }
+
+  #Danika{
+    position: absolute;
+    top: 15vh;
+    left: 3vw;
+    width: 95vw;
+  }
+  
+  #note1{
+    position: absolute;
+    top: 21vh;
+    left: 50vw;
+    width: 32vw;
+  }
+  
+  #note2{
+    position: absolute;
+    top: 22vh;
+    left: 46vw;
+    width: 8vw;
+  }
+  
+  #note3{
+    position: absolute;
+    top: 5vh;
+    left: 42vw;
+    width: 4vw;
   }
 }
