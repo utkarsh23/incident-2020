@@ -129,6 +129,14 @@
   background-image: url('multicitybg.jpg');
 }
 
+#events-12 .events-modal-content {
+  background-image: url('specialbg.png');
+}
+
+#events-13 .events-modal-content {
+  background-image: url('litbg.jpg');
+}
+
 #popup{
   position: absolute;
   z-index: 9999;
