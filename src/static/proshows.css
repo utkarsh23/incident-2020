@@ -88,24 +88,8 @@
 }
 
 .material-icons{
-  color: white !important;
+  color: rgb(131, 128, 128) !important;
 }
-
-/* .proshows-card-wrapper:nth-child(1) {
-  background-color: black;
-}
-
-.proshows-card-wrapper:nth-child(2) {
-  background-color: transparent;
-}
-
-.proshows-card-wrapper:nth-child(3) {
-  background-color: transparent;
-}
-
-.proshows-card-wrapper:nth-child(4) {
-  background-color: transparent;
-} */
 
 #aakash-gupta{
   position: relative;
@@ -197,10 +181,117 @@
   transform: rotateY(50deg) !important;
 }
 
-#output{
-  border: solid 2px red;
-  color: white;
-  height: 50px;
+#SS{
+  position: absolute;
+  top:-6vh;
+  left: 18vw;
+  width: 35vw;
+}
+
+#SSgif{
+  position: absolute;
+  top:20vh;
+  left: 51vw;
+  width: 25vw;
+}
+
+#bolly{
+  position: absolute;
+  top:40vh;
+  left: 4vw;
+  width: 16vw;
+}
+
+#spot1{
+  position: absolute;
+  top: -2vh;
+  left: 31vw;
+  width: 45vw;
+}
+
+#spot2{
+  position: absolute;
+  top: -2vh;
+  left: 0vw;
+  width: 45vw;
+}
+
+#seek1{
+  position: absolute;
+  top:-6vh;
+  left: 27vw;
+  width: 24vw;
+  height: 72vh;
+  z-index: 1000;
+}
+
+#seek2{
+  position: absolute;
+  top:-5vh;
+  left: 26.5vw;
+  width: 25vw;
+  height: 71vh;
+  z-index: 1000;
+}
+
+#seek3{
+  position: absolute;
+  top:-6vh;
+  left: 27vw;
+  width: 24vw;
+  height: 72vh;
+  z-index: 1000;
+}
+
+#seek-gif{
+  position: absolute;
+  top:-1vh;
+  left:28.5vw;
+  width: 18vw;
+  height: 33vh;
+  z-index: 100;
+  border-radius: 80%;
+}
+
+#seek-back{
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+#edm{
+  position: absolute;
+  top: 13vh;
+  left: 2vw;
+  width: 10vw;
+  z-index: 100;
+}
+
+#night{
+  position: absolute;
+  top: 12.8vh;
+  left: 9vw;
+  width: 13vw;
+  z-index: 110;
+}
+
+#tri1{
+  position: absolute;
+  top: 2.7vh;
+  left: 8.4vw;
+  width: 11vw;
+  z-index: 100;
+}
+
+#tri2{
+  position: absolute;
+  top: 8.4vh;
+  left: 3vw;
+  width: 17vw;
+  z-index: 100;
 }
 
 @media only screen and (max-width: 600px) {
@@ -326,10 +417,10 @@
   }
   
   #fusion-night{
-    width: 45vw;
+    width: 42vw;
     position: absolute;
     top:13vh;
-    left: -3vw;
+    left: -5vw;
     transform: rotateY(50deg) !important;
     z-index: 110;
   }
@@ -337,15 +428,15 @@
   .register_eve{
     position: absolute;
     top: 67vh;
-    left: 30vw;
-    width: 22vw;
+    left: 25vw;
+    width: 30vw;
     border-radius: 10vw;
     color:white;
     font-weight: bold;
     background-color:#34aa23;
     border: solid 2px #34aa23;
     height: 7vh;
-    padding-top: 1.9vh;
+    padding-top: 1.5vh;
     cursor: pointer;
     z-index: 10000;
   }
@@ -356,4 +447,41 @@
     border: solid 2px white;
   }
   
+  
+  #SS{
+    position: absolute;
+    top:25vh;
+    left: -14vw;
+    width: 90vw;
+  }
+
+  #SSgif{
+    position: absolute;
+    top:0vh;
+    left: 30vw;
+    width: 60vw;
+  }
+
+  #bolly{
+    position: absolute;
+    top:12vh;
+    left: 0vw;
+    width: 37vw;
+  }
+
+  #spot1{
+    position: absolute;
+    top: -2vh;
+    left: 31vw;
+    width: 45vw;
+    display: none;
+  }
+
+  #spot2{
+    position: absolute;
+    top: -2vh;
+    left: 0vw;
+    width: 45vw;
+    display: none;
+  }
 }

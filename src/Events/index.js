@@ -38,7 +38,7 @@ function ClosePopUp2(){
 function ShowToolTip(e) {
   console.log("came here");
   document.getElementById("pop-up").style.display = "block";
-  document.getElementById("pop-up").style.top = (e.pageY -80).toString() + 'px';
+  document.getElementById("pop-up").style.top = (e.pageY -125).toString() + 'px';
   document.getElementById("pop-up").style.left = (e.pageX -50).toString() + 'px';
 }
 
@@ -64,6 +64,8 @@ function Events() {
       <div id="pop-up">
         <p>
           <b style={{ color: 'black' }}>Login in with your '<b style={{ color: 'rgb(96, 136, 35)' }}>nitk.edu.in</b>' account to access the forms</b>
+          <a className="btn center black reg-but" href="https://forms.gle/eeBsYPXqjzdia7jN7" target="_blank" rel="noopener noreferrer"> OK </a>
+          <button className="closepop2" onClick={CloseToolTip}> X </button>
         </p>
       </div>
 
@@ -113,8 +115,15 @@ function Events() {
                   <b>Prizes Worth: 60k </b> <br />  
                 </p>
               </li>
+              <li>
+                <h1>Dance Workshop</h1>
+                <p><b>By Sushant Pujari</b> <br /> Date: 29Feb , Time: 10am - 12pm <br />
+                <b> Entry Fee per Person: 500/- </b> <br />
+                </p>
+                <br />
+              </li>
               <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK) </a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event-final-(1).pdf">Rules</a>
             </ol>
           </div>
@@ -136,6 +145,8 @@ function Events() {
                 <p><b>Western Acoustic Band Competition</b> <br />A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new 				music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an 			Acapella wonder, unplug your heart and let the music take over!</p>
                 <p><b>Eastern Acoustic Band Competition</b> <br />This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br/>
                   <b> Prizes Worth: 35k </b> <br />  
+                  <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
+                  <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
                 </p>
               </li>
               <li>
@@ -143,12 +154,14 @@ function Events() {
                 <p><b>Semi-Professional Western Rock Band Competition</b> <br />Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br />
                   <b> Prize Worth: 65k + 4L worth Promotion Deal </b> <br />  
                 </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="http://bit.ly/2HC0lVH">Register</a>
               </li>
               <li>
                 <h1>Bandish</h1>
                 <p><b>Semi-Professional Hindustani and Carnatic Rock Band Competition</b><br /> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?<br/>
                   <b> Cash Prize: 75k + 4L worth Music Promotion Deal </b> <br />
                 </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="http://bit.ly/3bKebU1">Register</a>
               </li>
 
               <li>
@@ -156,11 +169,10 @@ function Events() {
                 <p>Pure, Raw, Strong and moving. INCIDENT 2020 Musicals brings to you, Raaga-Rhapsody, the solo vocals competition. From Ballads to Alaaps, this event gives you a stage to wow us with your 			singing and a chance to win the title of "Voice of Inci"<br/>
                   <b> Prizes Worth: 20k + 2L worth Promotional Deal</b> <br />
                 </p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href=" http://bit.ly/2uTDEJV">Register</a>
               </li>
-
-              <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
-              <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-music-events.pdf">Rules</a>
+              
+              <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-music-events.pdf">Rules (All Events)</a>
             </ol>
           </div>
         </div>
@@ -221,7 +233,7 @@ function Events() {
                 <p>A free for all debate, come by our Change My Mind stall and take your shot at changing our contender's mind on the topic we put up below. Debate for 5 minutes to an hour, no format, have a one on one discussion to debate to your heart's content.</p> <br/>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-lit-event-final.pdf">Rules</a>
             </ol>
           </div>
@@ -257,7 +269,7 @@ function Events() {
                 </p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITk)</a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-rule-book_inspire(1).pdf">Rules</a>
             </ol>
           </div>
@@ -307,7 +319,7 @@ function Events() {
                 <p>Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme!</p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-gaming-events.pdf">Rules</a>
             </ol>
           </div>
@@ -329,7 +341,7 @@ function Events() {
                 <p>A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it!</p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-haute-couture-final.pdf">Rules</a>
             </ol>
           </div>
@@ -373,99 +385,17 @@ function Events() {
                 <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-throwball.pdf">Rules</a>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
             </ol>
           </div>
         </div>
       </div>
 
-      {/* Beach Eve */}
+      {/* Theatre Events */}
       <div id="events-7" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
             <span onClick={events => onLeftiClose(events, 7)}
-              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
-            <h2 className="center events-modal-heading">Beach Events</h2>
-          </header>
-          <div className="events-list-wrapper">
-            <ol>
-              <li>
-                <h1>Kite Festival</h1>
-                <p>Kite flying is a sport that brings out the little child in each one of us and lights up a smile on our face. As the kites fly higher and higher so does our spirit and cheerfulness. This Incident, join us as these colourful creative kites take to the air and paint the sky with joy! Come, fly a kite and travel back to your childhood!</p>
-              </li>
-              <li>
-                <h1>Beach Informalz</h1>
-                <p>Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse!</p>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      {/* Multicity */}
-      <div id="events-8" className="w3-modal">
-        <div className="w3-animate-bottom events-modal-content">
-          <header className="">
-            <span onClick={events => onLeftiClose(events, 8)}
-              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
-            <h2 className="center events-modal-heading">Inci Spotlight Events</h2>
-          </header>
-          <div className="events-list-wrapper">
-            <ol>
-              <li>
-                <h1>Multicity</h1>
-                <p>For the first time ever, Incident at your door step. A multicity Audition not only giving you an opportunity to showcase your talent but also win exciting prizes worth INR 1.2 lakhs.<br /> Come grab the spotlight when we come to your city and avail free travel and accommodation to Incident.</p>
-                <p>Hyderabad - Feb 1st and 2nd</p>
-                <p>Bengaluru - Feb 15th</p>
-                <p>Manipal - Feb 16th</p>
-                <p>Kochi - Feb 21st</p>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      {/* TechoBytes */}
-      <div id="events-9" className="w3-modal">
-        <div className="w3-animate-bottom events-modal-content">
-          <header className="">
-            <span onClick={events => onLeftiClose(events, 9)}
-              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
-            <h2 className="center events-modal-heading">Techobyte Workshop</h2>
-          </header>
-          <div className="events-list-wrapper">
-            <ol>
-              <li>
-                <h1>Ethical Hacking</h1>
-                <p> Technical workshop events from nitk surathkal</p>
-                <p> Date: 15-16 Feb 2020 </p>
-              </li>
-              <li>
-                <h1>Android App Development</h1>
-                <p>Technical workshop events from nitk surathkal</p>
-                <p> Date: 15-16 Feb 2020 </p>
-              </li>
-              <li>
-                <h1> Machine Learning With AI </h1>
-                <p>Technical workshop events from nitk surathkal</p>
-                <p> Date: 15-16 Feb 2020 </p>
-              </li>
-              <li>
-                <h1> Humanoid Robotics With IOT  </h1>
-                <p>Technical workshop events from nitk surathkal</p>
-                <p> Date: 15-16 Feb 2020 </p>
-              </li>
-              <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="Imojo.in/nitksw">Register</a>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-    {/* Theatre Events */}
-      <div id="events-10" className="w3-modal">
-        <div className="w3-animate-bottom events-modal-content">
-          <header className="">
-            <span onClick={events => onLeftiClose(events, 10)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Theatre Events</h2>
           </header>
@@ -487,18 +417,41 @@ function Events() {
                 </p>
               </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
-              <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final-(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
       </div>
 
-    {/* Online Events */}
-      <div id="events-11" className="w3-modal">
+      {/* Beach Eve */}
+      <div id="events-8" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 11)}
+            <span onClick={events => onLeftiClose(events, 8)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Beach Events</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Kite Festival</h1>
+                <p>Kite flying is a sport that brings out the little child in each one of us and lights up a smile on our face. As the kites fly higher and higher so does our spirit and cheerfulness. This Incident, join us as these colourful creative kites take to the air and paint the sky with joy! Come, fly a kite and travel back to your childhood!</p>
+              </li>
+              <li>
+                <h1>Beach Informalz</h1>
+                <p>Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse!</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      {/* Online Events */}
+      <div id="events-9" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 9)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Online Events</h2>
           </header>
@@ -513,6 +466,65 @@ function Events() {
               <button class="openpop btn center black " onClick={ShowPopUp2}>Event Rules</button>
               {/* <a class="waves-effect waves-light btn center black  reg-but" onMouseEnter={ShowToolTip} onMouseLeave={CloseToolTip} target="_blank" rel="noopener noreferrer" href="https://forms.gle/eeBsYPXqjzdia7jN7">Register(NITK)</a>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-theater-final.pdf">Rules</a> */}
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      {/* TechoBytes */}
+      <div id="events-10" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 10)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Techobyte Workshop</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Ethical Hacking</h1>
+                <p> Technical workshop events from nitk surathkal</p>
+                <p> Date: 29 Feb-1 Mar 2020 </p>
+              </li>
+              <li>
+                <h1>Android App Development</h1>
+                <p>Technical workshop events from nitk surathkal</p>
+                <p> Date: 29 Feb-1 Mar  2020 </p>
+              </li>
+              <li>
+                <h1> Machine Learning With AI </h1>
+                <p>Technical workshop events from nitk surathkal</p>
+                <p> Date: 29 Feb-1 Mar 2020 </p>
+              </li>
+              <li>
+                <h1> Humanoid Robotics With IOT  </h1>
+                <p>Technical workshop events from nitk surathkal</p>
+                <p> Date: 29 Feb-1 Mar 2020 </p>
+              </li>
+              <a class="waves-effect waves-light btn center black " target="_blank" rel="noopener noreferrer" href="https://www.instamojo.com/techo/techo-workshop-series-at-nitk-surathkal-29th/">Register</a>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      {/* Multicity */}
+      <div id="events-11" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 11)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Inci Spotlight Events</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
+              <li>
+                <h1>Multicity</h1>
+                <p>For the first time ever, Incident at your door step. A multicity Audition not only giving you an opportunity to showcase your talent but also win exciting prizes worth INR 1.2 lakhs.<br /> Come grab the spotlight when we come to your city and avail free travel and accommodation to Incident.</p>
+                <p>Hyderabad - Feb 1st and 2nd</p>
+                <p>Bengaluru - Feb 15th</p>
+                <p>Manipal - Feb 16th</p>
+                <p>Kochi - Feb 21st</p>
+              </li>
             </ol>
           </div>
         </div>

@@ -23,11 +23,11 @@ const event_images = [
   ["Gaming & Fine Arts", EventGaming],
   ["Haute Couture", EventHaute],
   ["Sports Events", EventSports],
-  ["Beach Events", EventBeach],
-  ["Multicity Events", EventMulticity],
-  ["TechoByte Workshop", EventTechobyte],
   ["Theatre Events", EventTheatre],
-  ["Online Events", EventOnline]
+  ["Beach Events", EventBeach],
+  ["Online Events", EventOnline],
+  ["TechoByte Workshop", EventTechobyte],
+  ["Multicity Events", EventMulticity]
 ];
 
 function onViewClick(event, index) {
