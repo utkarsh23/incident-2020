@@ -68,6 +68,19 @@
 }
 
 .sp-img {
+  height: 180px;
+  width: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sp-img img{
+  height: 90%;
+  width: 90%;
+}
+
+.sp-img-tdm {
   height: 150px;
   width: 270px;
   background-position: center;

@@ -14,47 +14,35 @@ function Sponsors() {
     <div>
       <Homeicon />
       <Sidenav />
-      <div className="sponsors-wrapper">
+      <div className="sponsor-wrapper">
         <img src={hamburger} alt="ham-menu" className="hamburger" onClick={openRightMenu} />
-        <br /><br />
-        <h1 className="sponsors-heading center">Sponsors Page</h1>
-        <br /><br /><br /><br />
-        <h3 className="sponsors-coming-soon center">Coming Soon.</h3>
+        <div className="sponsors">
+          <div className="sp-head">
+            <h1>Our Sponsors</h1>
+          </div>
+          <div className="sp-main">
+            {spList.map(sponsor => {
+              const pic_path = sponsor.path
+              const pic_link = "https://www.facebook.com"
+
+              return (
+                <div className="sp-item">
+                  <div className="sp-img">
+                    <a href={pic_link} target="_blank"  rel="noopener noreferrer">
+                    <img alt="sponsor" className="sp-img-tdm" src={require(`../static/sponsors/${pic_path}`)} />
+                    </a> 
+                  </div>
+                  <div className="sp-line" />
+                  <p>{sponsor.title}</p>
+                </div>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
-// function Sponsors() {
-//   return (
-//     <div>
-//       <Homeicon />
-//       <Sidenav />
-//       <div className="sponsor-wrapper">
-//         <img src={hamburger} alt="ham-menu" className="hamburger" onClick={openRightMenu} />
-//         <div className="sponsors">
-//           <div className="sp-head">
-//             <h1>Our Sponsors</h1>
-//           </div>
-//           <div className="sp-main">
-//             {spList.map(sponsor => {
-//               const inlStyle = {
-//                 backgroundImage: "url(" + sponsor.link + ")"
-//               };
-//               return (
-//                 <div className="sp-item">
-//                   <div className="sp-img" style={inlStyle} />
-//                   <div className="sp-line" />
-//                   <p>{sponsor.title}</p>
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 export default Sponsors;
 
