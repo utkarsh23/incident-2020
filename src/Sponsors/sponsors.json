@@ -1,176 +1,403 @@
 [
     {
         "name": "TribeVibe",
-        "link": "https://logodownload.org/wp-content/uploads/2019/10/reliance-industries-logo.png",
-        "title": "Title-Sponsor"
+        "path": "tribevibe.png",
+        "title": "Title-Sponsor",
+        "link": ""
     },
     {
         "name": "Reliance",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Co-Sponsor"
+        "path": "reliance.jpg",
+        "title": "Co-Sponsor",
+        "link": "https://www.ril.com/"
     },
     {
         "name": "Techobytes",
-        "link": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Hexagon_AB_Logo_Color.svg/1280px-Hexagon_AB_Logo_Color.svg.png",
-        "title": "Workshop Partners"
+        "path": "techobyte-min.png",
+        "title": "Workshop Partners",
+        "link": "https://techobytes.com/"
     },
     {
         "name": "LIC",
-        "link": "https://logodownload.org/wp-content/uploads/2019/10/reliance-industries-logo.png",
-        "title": "Stationery Partner"
-    },
-    {
-        "name": "VeerBus",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
+        "path": "lic-min.png",
+        "title": "Insurance Partners",
+        "link": "http://www.licindia.in/"
     },
     {
         "name": "NMDC",
-        "link": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Hexagon_AB_Logo_Color.svg/1280px-Hexagon_AB_Logo_Color.svg.png",
-        "title": "Talent Supporting Partners"
+        "path": "nmdc.jpg",
+        "title": "Talent Supporting Partners",
+        "link": "https://www.nmdc.co.in/"
     },
     {
-        "name": "Ideal",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
+        "name": "Hutti Gold Mines",
+        "path": "hutti.jpg",
+        "title": "Gold Sponsor",
+        "link": ""
     },
     {
-        "name": "Tequip",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
+        "name": "LUXOR",
+        "path": "luxor.jpg",
+        "title": "Stationery Partner",
+        "link": "https://www.luxor.in/"
     },
     {
-        "name": "IAS Baba",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "IAS Coaching Partners"
+        "name": "VeerBus",
+        "path": "veera.jpg",
+        "title": "Sponsor",
+        "link": ""
     },
     {
-        "name": "Talent 2 Success",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Multicity Title Sponsor"
+        "name": "Peps",
+        "path": "peps-min.png",
+        "title": "Sponsor",
+        "link": "Gifting Partner"
     },
     {
-        "name": "BPCL",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Talent Fuelling Partners"
-    },
-    {
-        "name": "Corporation Bank",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Hexagon",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Technology Partner"
-    },
-    {
-        "name": "Verzeo",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Canara",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Wildstone",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Hip Hop International",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Nivea",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Skin Care Partners"
-    },
-    {
-        "name": "Mysore Paints",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Pizza Hut",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "KDCC",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "ICICI Bank",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "KMC",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "T.I.M.E",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Education Partners"
-    },
-    {
-        "name": "July Ventures",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Studio 6 Partners",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Fitness Partners"
-    },
-    {
-        "name": "KMF",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Unibrain",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Titan Eye Plus",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Heaven Ice Bar",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Kalbavi Cashews",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },{
-        "name": "B Plus",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
-    },
-    {
-        "name": "Verb Studio",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Dance Partners"
+        "name": "Verda Saffron",
+        "path": "saffron.png",
+        "title": "Sponsor",
+        "link": "Hospitality Partner"
     },
     {
         "name": "Vodafone",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Connecting Partners"
+        "path": "vodafone-min.png",
+        "title": "Sponsor",
+        "link": "https://www.vodafone.in/"
     },
     {
-        "name": "Wonderla",
-        "link": "https://www.verzeo.in/new/images/test/logohi.png",
-        "title": "Sponsor"
+        "name": "Social Nation",
+        "path": "social-nation.jpg",
+        "title": "Sponsor",
+        "link": "https://www.socialnationow.com/"
+    },
+    {
+        "name": "Oh Campus",
+        "path": "oh-campus.png",
+        "title": "Sponsor",
+        "link": "https://www.socialnationow.com/"
+    },
+    {
+        "name": "Teqip 3",
+        "path": "teqip.png",
+        "title": "Sponsor",
+        "link": "https://www.teqip.in/"
+    },
+    {
+        "name": "Ideal",
+        "path": "ideal.jpg",
+        "title": "Sponsor",
+        "link": "https://www.idealicecream.com/"
+    },
+    {
+        "name": "Talent 2 Success",
+        "path": "talent2success.jpg",
+        "title": "Multicity Title Sponsor",
+        "link": "http://www.t2slearning.com/"
+    },
+    {
+        "name": "IAS Baba",
+        "path": "iasbaba.jpg",
+        "title": "IAS Coaching Partners",
+        "link": "https://iasbaba.com/"
+    },
+    {
+        "name": "MSEZ",
+        "path": "msez-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "BPCL",
+        "path": "bp-min.png",
+        "title": "Talent Fuelling Partners",
+        "link": "https://www.bharatpetroleum.com/"
+    },
+    {
+        "name": "Corporation Bank",
+        "path": "corporation-min.png",
+        "title": "Sponsor",
+        "link": "https://www.corpbank.com/"
+    },
+    {
+        "name": "Hexagon",
+        "path": "hexagon-min.png",
+        "title": "Technology Partner",
+        "link": "https://hexagon.com/"
+    },
+    {
+        "name": "Verzeo",
+        "path": "verzeo.jpg",
+        "title": "Sponsor",
+        "link": "https://www.verzeo.in/"
+    },
+    {
+        "name": "Canara",
+        "path": "canara-min.png",
+        "title": "Sponsor",
+        "link": "https://www.canarabank.com/english/"
+    },
+    {
+        "name": "ICICI Bank",
+        "path": "icici-min.png",
+        "title": "Sponsor",
+        "link": "https://www.icicibank.com/"
+    },
+    {
+        "name": "Wildstone",
+        "path": "wildstone.png",
+        "title": "Sponsor",
+        "link": "https://www.wildstone.in/"
+    },
+    {
+        "name": "Yuva Pay",
+        "path": "yuvapay-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Nestle",
+        "path": "nestle-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "belgian waffle",
+        "path": "belgianwaffle-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Nivea",
+        "path": "nivea-min.png",
+        "title": "Skin Care Partners",
+        "link": "https://www.nivea.in/"
+    },
+    {
+        "name": "IDP",
+        "path": "idp.png",
+        "title": "Skin Care Partners",
+        "link": "https://www.nivea.in/"
+    },
+    {
+        "name": "KMC",
+        "path": "kmc-min.png",
+        "title": "Sponsor",
+        "link": "https://manipal.edu/kmc-mangalore.html"
+    },
+    {
+        "name": "Karnataka Bank",
+        "path": "karnataka_bank-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "KIOCL",
+        "path": "kiocl.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "July Ventures",
+        "path": "july.png",
+        "title": "Sponsor",
+        "link": "https://www.julyventures.com/"
+    },
+    {
+        "name": "T.I.M.E",
+        "path": "time.jpg",
+        "title": "Education Partners",
+        "link": "https://www.time4education.com/"
+    },
+    {
+        "name": "KITPLY",
+        "path": "kitply.jpg",
+        "title": "Education Partners",
+        "link": "https://www.time4education.com/"
+    },
+    {
+        "name": "LICO Bank",
+        "path": "lico.jpg",
+        "title": "Fitness Partners",
+        "link": ""
+    },
+    {
+        "name": "Kavaata Valves",
+        "path": "kavaata-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "TSS Ltd",
+        "path": "tsst.jpg",
+        "title": "Sponsor",
+        "link": "https://www.tssindia.in/"
+    },
+    {
+        "name": "Studio 6 Ventures",
+        "path": "studio_6-min.png",
+        "title": "Sponsor",
+        "link": "https://studio6fitness.com/"
+    },
+    {
+        "name": "SBC",
+        "path": "sbc-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Nandini",
+        "path": "nandini-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Maroor's",
+        "path": "maroors-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Swarna",
+        "path": "swarna-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Bharat Gas",
+        "path": "bharatgas.jpg",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Kalbavi Cashews",
+        "path": "kalbavi.jpg",
+        "title": "Sponsor",
+        "link": "http://kalbavicashews.com/"
+    },{
+        "name": "B Plus",
+        "path": "bplus-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Bangalore Open air",
+        "path": "blore_open_air-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Beardo",
+        "path": "beardo-min.png",
+        "title": "Dance Partners",
+        "link": "https://www.beardo.in/"
+    },
+    {
+        "name": "Brew House",
+        "path": "brew_house-min.png",
+        "title": "Connecting Partners",
+        "link": ""
+    },
+    {
+        "name": "Olympic Sports",
+        "path": "os-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Peta",
+        "path": "peta-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Songdew",
+        "path": "songdew.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Verb Studio",
+        "path": "verb-min.png",
+        "title": "Sponsor",
+        "link": "https://www.theverbstudio.com/"
+    },
+    {
+        "name": "Around Mangalore",
+        "path": "around-mlore-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "MMJ",
+        "path": "mmj-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Deccan Herald",
+        "path": "dh.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Eleanor",
+        "path": "eleanor-studios-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Snapchat",
+        "path": "snapchat-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Vish U Money",
+        "path": "vish.jpg",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "Wiley",
+        "path": "wiley.jpg",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "wonderla",
+        "path": "wonderla-min.png",
+        "title": "Sponsor",
+        "link": "https://www.wonderla.com/"
+    },
+    {
+        "name": "iB Cricket",
+        "path": "ib_cricket-min.png",
+        "title": "Sponsor",
+        "link": ""
+    },
+    {
+        "name": "GATSBY",
+        "path": "gatsby-min.png",
+        "title": "Sponsor",
+        "link": "https://www.gatsbyjs.org/"
+    },
+    {
+        "name": "Red Bus",
+        "path": "redbus.png",
+        "title": "Sponsor",
+        "link": "https://www.redbus.in/"
+    },
+    {
+        "name": "Zebronics",
+        "path": "zebronics.png",
+        "title": "Sponsor",
+        "link": "https://zebronics.com/"
+    },
+    {
+        "name": "Moster",
+        "path": "monster-min.png",
+        "title": "Sponsor",
+        "link": "https://www.monsterindia.com/"
     }
 ]

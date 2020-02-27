@@ -75,7 +75,7 @@
   background-color:#34aa23;
   border: solid 2px #34aa23;
   height: 7vh;
-  padding-top: 1.3vh;
+  padding-top: 0vh;
   cursor: pointer;
   z-index: 10000;
 }
@@ -229,15 +229,15 @@
 
 #SSgif{
   position: absolute;
-  top:30vh;
-  left: 52vw;
+  top:-8vh;
+  left: 51vw;
   width: 20vw;
 }
 
 #bolly{
   position: absolute;
-  top:40vh;
-  left: 4vw;
+  top:0vh;
+  left: 6vw;
   width: 16vw;
 }
 
@@ -341,13 +341,51 @@
   z-index: 110;
 }
 
+#edm2{
+  position: absolute;
+  top: 13vh;
+  left: 2vw;
+  width: 10vw;
+  z-index: 100;
+}
+
+#night2{
+  position: absolute;
+  top: 12.8vh;
+  left: 9vw;
+  width: 13vw;
+  z-index: 110;
+}
+
+#tri12{
+  position: absolute;
+  top: 2.7vh;
+  left: 8.4vw;
+  width: 11vw;
+  z-index: 100;
+}
+
+#tri22{
+  position: absolute;
+  top: 8.4vh;
+  left: 3vw;
+  width: 17vw;
+  z-index: 100;
+}
+
+#d-name{
+  position: absolute;
+  top: 45vh;
+  left: 54vw;
+  width: 22vw;
+}
+
 #note1{
   position: absolute;
   top: 8vh;
   left: 18vw;
   width: 53vw;
   z-index: 120;
-  transform: rotate(30deg) translate3d(0px,0px,0px) !important;
 }
 
 #note2{
@@ -356,17 +394,70 @@
   left: 47vw;
   width: 6vw;
   z-index: 120;
-  transform: rotate(20deg) translate3d(0px,0px,0px) !important
 }
 
 #note3{
   position: absolute;
-  top: 3vh;
-  left: 20vw;
+  top: -1vh;
+  left: 17vw;
   width: 21vw;
   z-index: 100;
-  transform: rotate(-27deg) translate3d(0px,0px,0px) !important
 }
+
+#RD{
+  position: absolute;
+  top: 0vh;
+  left: 27vw;
+  width: 20vw;
+  height: 75vh;
+}
+
+#RDName{
+  position: absolute;
+  top: 50vh;
+  left: 48vw;
+  width: 20vw;
+}
+
+#f1{
+  position: absolute;
+  top: 34vh;
+  left: 4vw;
+  width: 20vw;
+}
+#f2{
+  position: absolute;
+  top: 29vh;
+  left: 48vw;
+  width: 20vw;
+}
+#f3{
+  position: absolute;
+  top: 40vh;
+  left: 24vw;
+  width: 20vw;
+}
+#b1{
+  position: absolute;
+  top: 43vh;
+  left: 22vw;
+  width: 28vw;
+}
+
+#b2{
+  position: absolute;
+  top: 42vh;
+  left: 6vw;
+  width: 26vw;
+}
+
+#b3{
+  position: absolute;
+  top: 46vh;
+  left: 43vw;
+  width: 20vw;
+}
+
 
 @media only screen and (max-width: 600px) {
   .proshows-bottom-carousel {
@@ -647,31 +738,133 @@
     z-index: 100;
   }
 
-  #Danika{
+  #edm2{
     position: absolute;
-    top: 15vh;
-    left: 3vw;
-    width: 95vw;
+    top: 5vh;
+    left: 0vw;
+    width: 22vw;
+    z-index: 100;
   }
   
+  #night2{
+    position: absolute;
+    top: 5vh;
+    left: 16vw;
+    width: 27vw;
+    z-index: 110;
+  }
+  
+  #tri12{
+    position: absolute;
+    top: 2.2vh;
+    left: 11.4vw;
+    width: 17vw;
+    z-index: 100;
+  }
+  
+  #tri22{
+    position: absolute;
+    top: 4.5vh;
+    left: 2vw;
+    width: 27vw;
+    z-index: 100;
+  }
+
+  #d-name{
+    position: absolute;
+    top: 55vh;
+    left: 22vw;
+    width: 42vw;
+  }
+
+  #Danika{
+    position: absolute;
+    top: 10vh;
+    left: 3vw;
+    width: 95vw;
+    height: 45vh;
+  }
+
   #note1{
     position: absolute;
-    top: 21vh;
-    left: 50vw;
-    width: 32vw;
+    top: 29vh;
+    left: 5vw;
+    width: 100vw;
+    z-index: 120;
+    transform: rotate(30deg);
   }
   
   #note2{
     position: absolute;
-    top: 22vh;
-    left: 46vw;
-    width: 8vw;
+    top: 16vh;
+    left: 54vw;
+    width: 16vw;
+    z-index: 120;
+    transform: rotate(20deg);
   }
   
   #note3{
     position: absolute;
-    top: 5vh;
-    left: 42vw;
-    width: 4vw;
+    top: 15vh;
+    left: -5vw;
+    width: 51vw;
+    z-index: 100;
+    transform: rotate(-27deg);
+  }
+
+  #RD{
+    position: absolute;
+    top: 20vh;
+    left: 12vw;
+    width: 55vw;
+    height: 50vh;
+  }
+  
+  #RDName{
+    position: absolute;
+    top: 14vh;
+    left: 40vw;
+    width: 30vw;
+  }
+
+  #f1{
+    position: absolute;
+    top: 48vh;
+    left: -3vw;
+    width: 47vw;
+  }
+  #f2{
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+    width: 35vw;
+  }
+  #f3{
+    position: absolute;
+    top: 50vh;
+    left: 24vw;
+    width: 40vw;
+    display: none;
+  }
+  #b1{
+    position: absolute;
+    top: 55vh;
+    left: 28vw;
+    width: 45vw;
+    display: none;
+  }
+  
+  #b2{
+    position: absolute;
+    top: 55vh;
+    left: 0vw;
+    width: 45vw;
+  }
+  
+  #b3{
+    position: absolute;
+    top: 55vh;
+    left: 35vw;
+    width: 40vw;
   }
 }

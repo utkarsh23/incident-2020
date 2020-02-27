@@ -17,6 +17,7 @@ import EventTalk from '../static/eventstalks.png';
 
 const event_images = [
   ["Dance Events", EventDance],
+  ["Dance Workshop", EventDance],
   ["Music Events", EventMusic],
   ["Lit Events", EventLit],
   ["Biz Events", EventBiz],
@@ -58,7 +59,7 @@ function Carousel() {
           rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
           leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
         >
-          {Array.from(new Array(13)).map((_, i) =>
+          {Array.from(new Array(15)).map((_, i) =>
             <div
               className="event-card-wrapper"
               key={i}
@@ -92,7 +93,7 @@ function Carousel() {
         rightChevron={<i className="material-icons large">keyboard_arrow_right</i>}
         leftChevron={<i className="material-icons large">keyboard_arrow_left</i>}
       >
-        {Array.from(new Array(13)).map((_, i) =>
+        {Array.from(new Array(15)).map((_, i) =>
           <div
             className="event-card-wrapper"
             key={i}

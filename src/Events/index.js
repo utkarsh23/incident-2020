@@ -120,6 +120,23 @@ function Events() {
                   <p><b>Date: 1st Mar </b></p>
                 </p>
               </li>
+              <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
+              <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
+              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event-final-(1).pdf">Rules</a>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div id="events-1" className="w3-modal">
+        <div className="w3-animate-bottom events-modal-content">
+          <header className="">
+            <span onClick={events => onLeftiClose(events, 1)}
+              className="w3-display-topright"><i className="material-icons white-text">close</i></span>
+            <h2 className="center events-modal-heading">Dance Workshop</h2>
+          </header>
+          <div className="events-list-wrapper">
+            <ol>
               <li>
                 <h1>Dance Workshop</h1>
                 <p><b>By Sushant Pujari</b> <br /> Date: 29Feb , Time: 10am - 12pm <br />
@@ -130,17 +147,16 @@ function Events() {
               </li>
               <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
               <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
-              <a class="waves-effect waves-light btn center black reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-dance-event-final-(1).pdf">Rules</a>
             </ol>
           </div>
         </div>
       </div>
 
       {/* Music Events */}
-      <div id="events-1" className="w3-modal">
+      <div id="events-2" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 1)}
+            <span onClick={events => onLeftiClose(events, 2)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Music Events</h2>
           </header>
@@ -189,10 +205,10 @@ function Events() {
       </div>
 
       {/* Lit Events */}
-      <div id="events-2" className="w3-modal">
+      <div id="events-3" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 2)}
+            <span onClick={events => onLeftiClose(events, 3)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Lit Events</h2>
           </header>
@@ -257,10 +273,10 @@ function Events() {
       </div>
 
       {/* Biz Events */}
-      <div id="events-3" className="w3-modal">
+      <div id="events-4" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 3)}
+            <span onClick={events => onLeftiClose(events, 4)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Biz Events</h2>
           </header>
@@ -296,10 +312,10 @@ function Events() {
       </div>
 
       {/* Gaming and Arts */}
-      <div id="events-4" className="w3-modal">
+      <div id="events-5" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 4)}
+            <span onClick={events => onLeftiClose(events, 5)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Gaming &amp; Fine Arts</h2>
           </header>
@@ -342,6 +358,12 @@ function Events() {
                 <h1>Body Painting</h1>
                 <p>Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme!</p>
               </li>
+              <li>
+                <h1> T-Shirt Panting</h1>
+                <p>Turn a plain drab tshirt into an eye-catching colourful piece that you can flaunt with pride! <br/> T-shirts and paint will be provided on the spot, just come in with loads of entusiasm! </p>
+                <p><b> Venue: Pavilion</b></p>
+                <p><b>Date: 28th Feb - 10am to 1:30pm</b></p>
+              </li>
               <button class="openpop btn center black " onClick={ShowPopUp}>Register(Non-NITK)</button>
               <button class="waves-effect waves-light btn center black reg-but" onClick={ShowToolTip} >Register(NITK) </button>
               <a class="waves-effect waves-light btn center black  reg-but" target="_blank" rel="noopener noreferrer" href="https://s3.ap-south-1.amazonaws.com/townscript-production/event-files/175527-gaming-events.pdf">Rules</a>
@@ -351,10 +373,10 @@ function Events() {
       </div>
 
       {/* Haute Couture */}
-      <div id="events-5" className="w3-modal">
+      <div id="events-6" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 5)}
+            <span onClick={events => onLeftiClose(events, 6)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Haute Couture</h2>
           </header>
@@ -374,10 +396,10 @@ function Events() {
       </div>
 
       {/* Sports Events */}
-      <div id="events-6" className="w3-modal">
+      <div id="events-7" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 6)}
+            <span onClick={events => onLeftiClose(events, 7)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Sports Events</h2>
           </header>
@@ -420,10 +442,10 @@ function Events() {
       </div>
 
       {/* Theatre Events */}
-      <div id="events-7" className="w3-modal">
+      <div id="events-8" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 7)}
+            <span onClick={events => onLeftiClose(events, 8)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Theatre Events</h2>
           </header>
@@ -455,10 +477,10 @@ function Events() {
       </div>
 
       {/* Beach Eve */}
-      <div id="events-8" className="w3-modal">
+      <div id="events-9" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 8)}
+            <span onClick={events => onLeftiClose(events, 9)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Beach Events</h2>
           </header>
@@ -480,10 +502,10 @@ function Events() {
       </div>
 
       {/* Online Events */}
-      <div id="events-9" className="w3-modal">
+      <div id="events-10" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 9)}
+            <span onClick={events => onLeftiClose(events, 10)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Online Events</h2>
           </header>
@@ -504,10 +526,10 @@ function Events() {
       </div>
 
       {/* TechoBytes */}
-      <div id="events-10" className="w3-modal">
+      <div id="events-11" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 10)}
+            <span onClick={events => onLeftiClose(events, 11)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Techobyte Workshop</h2>
           </header>
@@ -540,10 +562,10 @@ function Events() {
       </div>
 
       {/* Multicity */}
-      <div id="events-11" className="w3-modal">
+      <div id="events-12" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 11)}
+            <span onClick={events => onLeftiClose(events, 12)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Inci Spotlight Events</h2>
           </header>
@@ -563,10 +585,10 @@ function Events() {
       </div>
 
       {/* Inci Special */}
-      <div id="events-12" className="w3-modal">
+      <div id="events-13" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 12)}
+            <span onClick={events => onLeftiClose(events, 13)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Inci Specials</h2>
           </header>
@@ -598,36 +620,44 @@ function Events() {
         </div>
       </div>
 
-      <div id="events-13" className="w3-modal">
+      <div id="events-14" className="w3-modal">
         <div className="w3-animate-bottom events-modal-content">
           <header className="">
-            <span onClick={events => onLeftiClose(events, 13)}
+            <span onClick={events => onLeftiClose(events, 14)}
               className="w3-display-topright"><i className="material-icons white-text">close</i></span>
             <h2 className="center events-modal-heading">Inci Talks</h2>
           </header>
           <div className="events-list-wrapper">
             <ol>
               <li>
-                <h1>World Fest</h1>
-                <p> We have travelled across oceans to bring you, Messrs Emilio and Leandro Ponce from The Twin's Trip, all the way across the oceans from Argentina, to enthral us with their high energy performances complete with juggling, clowning and visual effects. </p>
-                <p><b>Date: 28Feb - 29Feb (Venue: SAC)</b></p>
+                <h1>Nikita sharma</h1>
+                <p> India's leading Instagram influencer and a brand ambassador. The face of various popular brands like Tanishq Mia, Bluestone, Paris De Boutique, Pantaloons, Daniel Wellington among many others, she has not only created wide fashion and style intelligence, but also advocated boundary-free beauty standards and body positivity. <br/> This multi-talented achiever illustrates a force to be reckoned with and proves that women can have it all. </p>
+                <p><b>Date: 29Feb (Venue: SJA)</b></p>
               </li>
               <li>
-                <h1> Stunt Show</h1>
-                <p> Watch team HellRyderz-Mysore as they burn their tyres and woo you with their jaw dropping stunts! We sure can't wait to see them in action during Incident’20 </p>
-                <p><b>Date: 1st Mar - 3pm </b></p>
+                <h1> Henna Jayanth</h1>
+                <p> She is quick, gritty, strong and certainly the role model everyone should aspire to be. <br/>Henna Jayanth, Race Driver of India’s first all-women F4 team- Team Ahura has come a long way from her roots in Gujarat to Kozhikode to Manchester.  <br/>
+                    From representing Kerala in Under-19 Cricket team in 2009 to car-racing in the LGB Formula 4 category in 2018, Henna has been a tough contender. She was the Opinion Leader for Redbull India and the only woman from Kerala in the field of motorsports. <br/>
+                    Breaking gender stereotypes in the world of Indian sports and motorsports comes easy to this fiesty all-rounder who ventures boldly into testing waters.</p>
+                <p><b>Date: 29Feb (Venue: SJA)</b></p>
               </li>
               <li>
-                <h1>Auto Expo</h1>
-                <p> Incident’20 presents youo Auto Expo! Buckle up your seat belts and head down to the Auto Expo to go back in time and relish these classic beauties. Lambretta to Jawa and Chetaks to Vijay Super. Come enjoy these lost treasure of motorcycles and cars as Incident'20 takes you back in time! </p>
-                <p><b>Date: 1st March - 10am to 1pm</b></p>
+                <h1>Prajakta Koli</h1>
+                <p> Mass media graduation to radio jockey to random meet-up with Hrithik Roshan to Youtuber to meeting President Obama, this zesty 26-year old has taking the Mostly Insane route to her success story. <br/>
+                    Her campaign <b> #iPledgeToBeMe </b> addresses mental health well-being and body shaming. She was also one of the four YouTube creators from India invited by the Obama Foundation to attend the town hall meeting by President Obama. <br/>
+                    "I realised that everything in life doesn’t go smoothly, but you have to get out of the rut!" she chimes, preaching pearls of wisdom indeed.                  
+                </p>
+                <p><b>Date: 29Feb (Venue: SJA)</b></p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/NITKxSNC">Register</a>
               </li>
               <li>
-                <h1>Ace Adventura</h1>
-                <p> Want to settle a score with a friend? Or want to show off the cow-boy in you? Soccer skills on point? <br/> Incident’20 presents you Ace Adventura! We have Mechanical Bull, Archery, Sumo Wrestling, Slip Soccer right here. </p>
-                <p> <b> Date: 28th and 29th Feb </b></p>
+                <h1>Aranya Johar</h1>
+                <p> A girl in black, confidence ebbing at the mic, spewing a hard-hitting poem on misogyny and patriarchy changed everything and became a sensation overnight. <br/>
+                    Aranya Johar, the fiesty rhapsodist began her poetic journey in her early teens. Open mics after open mics only saw her getting better and better at her craft, moving hundreds and inspiring thousands. </p>
+                <p><b>Date: 29Feb (Venue: SJA)</b></p>
+                <a class="waves-effect waves-light btn center black reg-but2" target="_blank" rel="noopener noreferrer" href="https://tinyurl.com/NITKxSNC">Register</a>
               </li>
-              <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button>
+              {/* <button class="openpop btn center black" onClick={ShowPopUp}>Register(Non-NITK)</button> */}
             </ol>
           </div>
         </div>

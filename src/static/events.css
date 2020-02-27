@@ -86,55 +86,59 @@
 }
 
 #events-1 .events-modal-content {
-  background-image: url('musicbg.jpg');
+  background-image: url('dancebg.jpg');
 }
 
 #events-2 .events-modal-content {
-  background-image: url('litbg.jpg');
+  background-image: url('musicbg.jpg');
 }
 
 #events-3 .events-modal-content {
-  background-image: url('bizbg.jpg');
+  background-image: url('litbg.jpg');
 }
 
 #events-4 .events-modal-content {
-  background-image: url('fineartsbg.jpg');
+  background-image: url('bizbg.jpg');
 }
 
 #events-5 .events-modal-content {
-  background-image: url('hautebg.jpg');
+  background-image: url('fineartsbg.jpg');
 }
 
 #events-6 .events-modal-content {
-  background-image: url('sportsbg.jpg');
+  background-image: url('hautebg.jpg');
 }
 
 #events-7 .events-modal-content {
-  background-image: url('theatrebg.png');
+  background-image: url('sportsbg.jpg');
 }
 
 #events-8 .events-modal-content {
-  background-image: url('beachbg.jpg');
+  background-image: url('theatrebg.png');
 }
 
 #events-9 .events-modal-content {
-  background-image: url('litbg.jpg');
+  background-image: url('beachbg.jpg');
 }
 
 #events-10 .events-modal-content {
-  background-image: url('techobytebg.jpg');
+  background-image: url('litbg.jpg');
 }
 
 #events-11 .events-modal-content {
-  background-image: url('multicitybg.jpg');
+  background-image: url('techobytebg.jpg');
 }
 
 #events-12 .events-modal-content {
-  background-image: url('specialbg.png');
+  background-image: url('multicitybg.jpg');
 }
 
 #events-13 .events-modal-content {
-  background-image: url('litbg.jpg');
+  background-image: url('specialbg.png');
+}
+
+#events-14 .events-modal-content {
+  background-image: url('talksbg.jpg');
 }
 
 #popup{
@@ -344,6 +348,11 @@ div#pop-up {
     overflow-y: scroll;
     padding-left: 15px;
     padding-top: 15px;
+  }
+
+  #register{
+    margin-right: 15px;
+    margin-bottom: 25px
   }
 
   .openpop{
