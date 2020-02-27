@@ -6,21 +6,21 @@
         "link": ""
     },
     {
-        "name": "Techobytes",
-        "path": "techobyte-min.png",
-        "title": "Workshop Partners",
-        "link": "https://techobytes.com/"
-    },
-    {
         "name": "Reliance",
         "path": "reliance.jpg",
         "title": "Co-Sponsor",
         "link": "https://www.ril.com/"
     },
     {
+        "name": "Techobytes",
+        "path": "techobyte-min.png",
+        "title": "Workshop Partners",
+        "link": "https://techobytes.com/"
+    },
+    {
         "name": "LIC",
         "path": "lic-min.png",
-        "title": "Sponsor",
+        "title": "Insurance Partners",
         "link": "http://www.licindia.in/"
     },
     {
@@ -32,7 +32,7 @@
     {
         "name": "Hutti Gold Mines",
         "path": "hutti.jpg",
-        "title": "Sponsor",
+        "title": "Gold Sponsor",
         "link": ""
     },
     {
@@ -48,16 +48,16 @@
         "link": ""
     },
     {
-        "name": "SuperMan Energy Drink",
-        "path": "superman.jpg",
-        "title": "Sponsor",
-        "link": ""
-    },
-    {
         "name": "Peps",
         "path": "peps-min.png",
         "title": "Sponsor",
-        "link": ""
+        "link": "Gifting Partner"
+    },
+    {
+        "name": "Verda Saffron",
+        "path": "saffron.png",
+        "title": "Sponsor",
+        "link": "Hospitality Partner"
     },
     {
         "name": "Vodafone",
